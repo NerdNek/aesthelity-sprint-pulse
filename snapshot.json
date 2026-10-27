@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-27T23:17:31.783911+00:00",
+  "capturedAt": "2026-10-27T23:30:55.649258+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -1098,8 +1098,8 @@
     {
       "name": "iOS CI",
       "branch": "main",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "failure",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40597602090",
       "createdAt": "2026-10-27T22:48:38Z"
     },
