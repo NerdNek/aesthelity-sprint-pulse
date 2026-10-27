@@ -1,5 +1,5 @@
 window.SPRINT_SNAPSHOT = {
-  "capturedAt": "2026-10-27T23:31:09.864020+00:00",
+  "capturedAt": "2026-10-27T23:41:24.287761+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -1151,5 +1151,826 @@ window.SPRINT_SNAPSHOT = {
       "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40428752200",
       "createdAt": "2026-10-27T00:48:48Z"
     }
-  ]
+  ],
+  "graph": {
+    "defaultBranch": "main",
+    "branches": [
+      {
+        "name": "1-curated-demo-product-set",
+        "sha": "212ccc5083adcc50058db9f0e263a5213e52e5cd",
+        "behind": 31,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/1-curated-demo-product-set"
+      },
+      {
+        "name": "10-rt-01-sample-am-pm-routines",
+        "sha": "19064b713badc0748d66ea501baf93b6fc2f9b9b",
+        "behind": 25,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/10-rt-01-sample-am-pm-routines"
+      },
+      {
+        "name": "23-an03-input-prep",
+        "sha": "2ec13553c74693002d333c9185930dc1636f4788",
+        "behind": 3,
+        "ahead": 1,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/23-an03-input-prep"
+      },
+      {
+        "name": "3-on-01-welcome-first-use",
+        "sha": "734741c14ecba313382e3d002020b0014e7e27c9",
+        "behind": 35,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/3-on-01-welcome-first-use"
+      },
+      {
+        "name": "82-firestore-catalog-setup",
+        "sha": "db44ffea14037cfe8c37a96f870fddd56ff9c553",
+        "behind": 1,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/82-firestore-catalog-setup"
+      },
+      {
+        "name": "Belleairr-DevNotes",
+        "sha": "d9412faa96d5bab242672bfd70a1a92ede88a2ee",
+        "behind": 57,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/Belleairr-DevNotes"
+      },
+      {
+        "name": "Belleairr-Unfinished-but-Updated-README",
+        "sha": "00dea3404e93f896754c15369371adcb6da79193",
+        "behind": 53,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/Belleairr-Unfinished-but-Updated-README"
+      },
+      {
+        "name": "Belleairr-updated-sprint-tabel",
+        "sha": "f1be2cfaedba6b5b250067e7de5c734b9dd0e8aa",
+        "behind": 55,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/Belleairr-updated-sprint-tabel"
+      },
+      {
+        "name": "codex/simplify-ios-ci",
+        "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
+        "behind": 3,
+        "ahead": 3,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/codex/simplify-ios-ci"
+      },
+      {
+        "name": "docs/update-sprint-table",
+        "sha": "07c24557ce36b22baacb9b24d631cd6329f59c91",
+        "behind": 58,
+        "ahead": 1,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/docs/update-sprint-table"
+      },
+      {
+        "name": "main",
+        "sha": "fee57c7c3edc4825facfb840afc2bf8c614f24b4",
+        "behind": 0,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/main"
+      },
+      {
+        "name": "PR #83 \u00b7 NerdNek/codex/19-ingredient-alias-mapping",
+        "sha": "76862b3cd99d7dab95dd4b92cddb07d5bc8d77d4",
+        "behind": 3,
+        "ahead": 3,
+        "kind": "pull-request",
+        "prNumber": 83,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/83"
+      },
+      {
+        "name": "PR #85 \u00b7 Aesthelity-Team/codex/simplify-ios-ci",
+        "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
+        "behind": 3,
+        "ahead": 3,
+        "kind": "pull-request",
+        "prNumber": 85,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/85"
+      },
+      {
+        "name": "PR #86 \u00b7 lizagrande/sprint-2",
+        "sha": "7fd7f24b5b4f844d3bacdb9f79958c61f783dc06",
+        "behind": 3,
+        "ahead": 1,
+        "kind": "pull-request",
+        "prNumber": 86,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/86"
+      },
+      {
+        "name": "PR #87 \u00b7 NerdNek/an-02-review-only",
+        "sha": "2dbef55820ca3dbbe1ed77213791e8b3391db9c9",
+        "behind": 3,
+        "ahead": 3,
+        "kind": "pull-request",
+        "prNumber": 87,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/87"
+      }
+    ],
+    "commits": [
+      {
+        "sha": "fee57c7c3edc4825facfb840afc2bf8c614f24b4",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c",
+          "db44ffea14037cfe8c37a96f870fddd56ff9c553"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-27T15:48:35-07:00",
+        "subject": "Merge pull request #88 from Aesthelity-Team/82-firestore-catalog-setup"
+      },
+      {
+        "sha": "db44ffea14037cfe8c37a96f870fddd56ff9c553",
+        "parents": [
+          "ecf501c13c39504e1a7853ae5a2f6fcf625f5549"
+        ],
+        "author": "Belleairr",
+        "date": "2026-10-27T14:48:18-07:00",
+        "subject": "Fixed bugs in BE-04: Establish Firestore database and import product catalog #82"
+      },
+      {
+        "sha": "ecf501c13c39504e1a7853ae5a2f6fcf625f5549",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Belleairr",
+        "date": "2026-10-26T18:15:27-07:00",
+        "subject": "Finished BE-04: Establish Firestore database and import product catalog #82"
+      },
+      {
+        "sha": "2dbef55820ca3dbbe1ed77213791e8b3391db9c9",
+        "parents": [
+          "17aada3ec7f501e4ef4ab05a3bcfb1e38701d73c"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-26T17:48:29-07:00",
+        "subject": "AN-02: Narrow tretinoin conflict and separate engine acceptance."
+      },
+      {
+        "sha": "17aada3ec7f501e4ef4ab05a3bcfb1e38701d73c",
+        "parents": [
+          "e067871d07b16ac88567e1a7dbb345ebe23ad0e6"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-25T23:47:49-07:00",
+        "subject": "AN-02: Label the version 3 catalog as the PD-03 snapshot."
+      },
+      {
+        "sha": "e067871d07b16ac88567e1a7dbb345ebe23ad0e6",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-25T23:41:35-07:00",
+        "subject": "AN-02: Propose analysis rules and result contract"
+      },
+      {
+        "sha": "2ec13553c74693002d333c9185930dc1636f4788",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-25T15:52:19-07:00",
+        "subject": "Analysis Engine draft - this prepares input for analysis"
+      },
+      {
+        "sha": "7fd7f24b5b4f844d3bacdb9f79958c61f783dc06",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-22T12:28:52-07:00",
+        "subject": "resolves RT-03: Routine persistence. Routine is saved and available when user leaves app."
+      },
+      {
+        "sha": "76862b3cd99d7dab95dd4b92cddb07d5bc8d77d4",
+        "parents": [
+          "2754b8fef7fb1b61a32d9c597dae40e320025a43"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-21T12:42:52-07:00",
+        "subject": "PD-03: Keep unresolved products out of analysis until IDs and catalog provenance check out."
+      },
+      {
+        "sha": "2754b8fef7fb1b61a32d9c597dae40e320025a43",
+        "parents": [
+          "1560884945c05740d688a406cf1a9e194cb65bc9"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-20T16:18:26-07:00",
+        "subject": "PD-03: Publish a stable ingredient mapping record for catalog and analysis handoff."
+      },
+      {
+        "sha": "1560884945c05740d688a406cf1a9e194cb65bc9",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-18T17:31:27-07:00",
+        "subject": "PD-03: Improve ingredient coverage and reject conflicting aliases"
+      },
+      {
+        "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
+        "parents": [
+          "9c2688fdeafa7ff6791250af3229ab561331eaee"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-19T19:14:56-07:00",
+        "subject": "Make automatic iOS CI build-only and retain manual test suites"
+      },
+      {
+        "sha": "9c2688fdeafa7ff6791250af3229ab561331eaee",
+        "parents": [
+          "b79b04be38bf8388efe05eaf3eaf7bab5a38b144"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-19T18:36:53-07:00",
+        "subject": "Boot CI simulator explicitly and run unit tests without clones"
+      },
+      {
+        "sha": "b79b04be38bf8388efe05eaf3eaf7bab5a38b144",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-19T18:19:36-07:00",
+        "subject": "Keep automatic iOS CI focused on build and unit tests"
+      },
+      {
+        "sha": "1984aa28faeb27b636bd88c78a7347478bc8f15c",
+        "parents": [
+          "90715a01a09a80272fd99fcb5cc419c602c7901c",
+          "0d274d22f259265cba2be2294a1b3be365d99658"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-15T00:45:07-07:00",
+        "subject": "Merge pull request #81 from NerdNek/codex/sprint1-final-clean-attribution"
+      },
+      {
+        "sha": "0d274d22f259265cba2be2294a1b3be365d99658",
+        "parents": [
+          "a05704b4d04da40bcf54643d587303e066e52144"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T14:06:50-07:00",
+        "subject": "UI tests: Reset portrait orientation after launch configuration checks"
+      },
+      {
+        "sha": "a05704b4d04da40bcf54643d587303e066e52144",
+        "parents": [
+          "7abfe5eeb4ca2066ee69fcc4aef8c408ef610fd0"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T14:05:36-07:00",
+        "subject": "ON-01: Use persisted-profile test isolation and stable setup identifiers"
+      },
+      {
+        "sha": "7abfe5eeb4ca2066ee69fcc4aef8c408ef610fd0",
+        "parents": [
+          "74c7b353cae818d3feac89c5759dc3cd25285791"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:55:16-07:00",
+        "subject": "Sprint 1: Verify tab navigation, Home AM/PM switching, and mocked analysis"
+      },
+      {
+        "sha": "74c7b353cae818d3feac89c5759dc3cd25285791",
+        "parents": [
+          "415704a35dd55e8042cc0587a8010bd35b6aa85a"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:54:51-07:00",
+        "subject": "Keep existing test formatting outside the profile integration changes"
+      },
+      {
+        "sha": "415704a35dd55e8042cc0587a8010bd35b6aa85a",
+        "parents": [
+          "bef2901ce07b50ba2c047acdc6ff252f98b3b124"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:54:39-07:00",
+        "subject": "PF-01: Adapt setup callback tests to the persisted profile store"
+      },
+      {
+        "sha": "bef2901ce07b50ba2c047acdc6ff252f98b3b124",
+        "parents": [
+          "786076a40fc31868042970d19cefdd22dfc9d5ce"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:53:42-07:00",
+        "subject": "PL-06: Run UI tests in CI"
+      },
+      {
+        "sha": "786076a40fc31868042970d19cefdd22dfc9d5ce",
+        "parents": [
+          "1ba7d5ddc7a1d1486e5649fa4e0bf08072716947",
+          "3080a5faeecd36566f69f278f3b76e36273ef764"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:53:42-07:00",
+        "subject": "Merge PF-01 persistence (#79) with shared setup, Home fix, and independent UI suites"
+      },
+      {
+        "sha": "3080a5faeecd36566f69f278f3b76e36273ef764",
+        "parents": [
+          "c2099499727767d4efd750461867088ca0f1d885"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-14T13:30:37-07:00",
+        "subject": "PF-01: Verify profile setup, relaunch, and rollback paths"
+      },
+      {
+        "sha": "c2099499727767d4efd750461867088ca0f1d885",
+        "parents": [
+          "21934b0bf4d80f981a26c9d32b9fb55cec61eaaa"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-14T13:30:37-07:00",
+        "subject": "PF-01: Connect optional setup and saved profile summaries"
+      },
+      {
+        "sha": "21934b0bf4d80f981a26c9d32b9fb55cec61eaaa",
+        "parents": [
+          "8700955763ab181c3cf5c641df694c9e0272df9e"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-14T13:12:27-07:00",
+        "subject": "PF-01: Persist profiles atomically through a shared store"
+      },
+      {
+        "sha": "1ba7d5ddc7a1d1486e5649fa4e0bf08072716947",
+        "parents": [
+          "0be00959ddbdad271878b9793cc27d2aeeec83b3"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:53:07-07:00",
+        "subject": "RT-01: Show an empty state on Home when the selected routine has no steps"
+      },
+      {
+        "sha": "0be00959ddbdad271878b9793cc27d2aeeec83b3",
+        "parents": [
+          "e17f81b4e4663b885716a5d75a31ae64098a11de"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:53:07-07:00",
+        "subject": "ON-01: Strengthen returning-user and repeated-tap UI tests"
+      },
+      {
+        "sha": "e17f81b4e4663b885716a5d75a31ae64098a11de",
+        "parents": [
+          "95a51ac7c4f1d1f9b1983cdc38d3479c83a6812b"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:53:07-07:00",
+        "subject": "ON-01: Match onboarding UI tests to the PF-01 setup heading"
+      },
+      {
+        "sha": "95a51ac7c4f1d1f9b1983cdc38d3479c83a6812b",
+        "parents": [
+          "e936a62accb59115b23ead83b90650363b888d5d"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:53:07-07:00",
+        "subject": "UI-01: Add accessibility identifiers to tab bar buttons"
+      },
+      {
+        "sha": "e936a62accb59115b23ead83b90650363b888d5d",
+        "parents": [
+          "5fa763b03bcb988ed80e2f842aabaf1849c7b573",
+          "734741c14ecba313382e3d002020b0014e7e27c9"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:53:07-07:00",
+        "subject": "Merge ON-01 (#75), preserving onboarding and routine test suites"
+      },
+      {
+        "sha": "734741c14ecba313382e3d002020b0014e7e27c9",
+        "parents": [
+          "bccea57d009f7db79e53e2fa7aeb0cffa003cf07"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-14T09:31:29-07:00",
+        "subject": "Added ON-01 onboarding UI tests"
+      },
+      {
+        "sha": "5fa763b03bcb988ed80e2f842aabaf1849c7b573",
+        "parents": [
+          "721d0a25f357c7f714d88efe917fe954f8885974",
+          "57c4a1c4b2391357133671b71de8ab083e0da9aa"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:52:47-07:00",
+        "subject": "Merge AN-01 mocked analysis findings (#76) for Sprint 1 integration"
+      },
+      {
+        "sha": "57c4a1c4b2391357133671b71de8ab083e0da9aa",
+        "parents": [
+          "8700955763ab181c3cf5c641df694c9e0272df9e"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T09:44:12-07:00",
+        "subject": "AN-01: Show DATA-01 sample findings on the analysis screen"
+      },
+      {
+        "sha": "721d0a25f357c7f714d88efe917fe954f8885974",
+        "parents": [
+          "90715a01a09a80272fd99fcb5cc419c602c7901c",
+          "b7bda8e8a2f2ae416d24e028ec0634aed43e50bd"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:52:47-07:00",
+        "subject": "Merge PF-01 profile setup (#74) for Sprint 1 integration"
+      },
+      {
+        "sha": "b7bda8e8a2f2ae416d24e028ec0634aed43e50bd",
+        "parents": [
+          "8700955763ab181c3cf5c641df694c9e0272df9e"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T04:10:18-07:00",
+        "subject": "PF-01: Connect skin profile setup to onboarding, profile, and settings"
+      },
+      {
+        "sha": "90715a01a09a80272fd99fcb5cc419c602c7901c",
+        "parents": [
+          "8700955763ab181c3cf5c641df694c9e0272df9e",
+          "19064b713badc0748d66ea501baf93b6fc2f9b9b"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T13:43:30-07:00",
+        "subject": "Merge pull request #78 from Aesthelity-Team/10-rt-01-sample-am-pm-routines"
+      },
+      {
+        "sha": "19064b713badc0748d66ea501baf93b6fc2f9b9b",
+        "parents": [
+          "8700955763ab181c3cf5c641df694c9e0272df9e"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-14T12:19:06-07:00",
+        "subject": "Added RT-01 routine UI tests"
+      },
+      {
+        "sha": "8700955763ab181c3cf5c641df694c9e0272df9e",
+        "parents": [
+          "f8db5228927f8797e161f4b60bdd911619b5230c",
+          "212ccc5083adcc50058db9f0e263a5213e52e5cd"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T03:41:23-07:00",
+        "subject": "Merge pull request #70 from Aesthelity-Team/1-curated-demo-product-set"
+      },
+      {
+        "sha": "212ccc5083adcc50058db9f0e263a5213e52e5cd",
+        "parents": [
+          "ca89429bffc75d391762999bdc41464f7128dd7d",
+          "84244bfebc6ca254029fcd72e37952f262e51a1f"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T00:37:33-07:00",
+        "subject": "Merge pull request #71 from NerdNek/1-demo-catalog-fixes"
+      },
+      {
+        "sha": "84244bfebc6ca254029fcd72e37952f262e51a1f",
+        "parents": [
+          "530ebbd87e1b0dede4d99181f38594177dadbc95"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-13T23:57:41-07:00",
+        "subject": "DATA-01: Decode demo data into enums and scope dataset CI"
+      },
+      {
+        "sha": "530ebbd87e1b0dede4d99181f38594177dadbc95",
+        "parents": [
+          "ca89429bffc75d391762999bdc41464f7128dd7d"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-13T23:42:52-07:00",
+        "subject": "DATA-01: Wire demo catalog into the app and add finding text"
+      },
+      {
+        "sha": "ca89429bffc75d391762999bdc41464f7128dd7d",
+        "parents": [
+          "a032c0a48093d49fcab6cda1e9b551143ea30c7d"
+        ],
+        "author": "Belleairr",
+        "date": "2026-10-13T22:27:57-07:00",
+        "subject": "Create data01.yml"
+      },
+      {
+        "sha": "a032c0a48093d49fcab6cda1e9b551143ea30c7d",
+        "parents": [
+          "bccea57d009f7db79e53e2fa7aeb0cffa003cf07"
+        ],
+        "author": "Belleairr",
+        "date": "2026-10-13T22:22:21-07:00",
+        "subject": "DATA-01: Build curated demo product set"
+      },
+      {
+        "sha": "f8db5228927f8797e161f4b60bdd911619b5230c",
+        "parents": [
+          "bccea57d009f7db79e53e2fa7aeb0cffa003cf07",
+          "1e06164584fd01f5198129ece65fe9d93781dbe1"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-14T01:34:19-07:00",
+        "subject": "Merge pull request #72 from najihsherif/pf-01-unfinished"
+      },
+      {
+        "sha": "1e06164584fd01f5198129ece65fe9d93781dbe1",
+        "parents": [
+          "33d647976004e888b8a1f84bc367b73725cfd69d"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-14T01:05:43-07:00",
+        "subject": "PF-01: Trim, dedupe, and harden ingredient input validation"
+      },
+      {
+        "sha": "33d647976004e888b8a1f84bc367b73725cfd69d",
+        "parents": [
+          "9626bfe861b975fa27dbff1df69288aa983ebce5"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-14T00:25:03-07:00",
+        "subject": "PF-01: Add profile draft validation and submission"
+      },
+      {
+        "sha": "9626bfe861b975fa27dbff1df69288aa983ebce5",
+        "parents": [
+          "bccea57d009f7db79e53e2fa7aeb0cffa003cf07"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-13T18:44:47-07:00",
+        "subject": "PF-01: Add skin profile model and serialization tests"
+      },
+      {
+        "sha": "bccea57d009f7db79e53e2fa7aeb0cffa003cf07",
+        "parents": [
+          "ddae3d09de631d25a861c8aef5718c851e4813e4",
+          "9576f69a58b94dda1418d66cec609961b84f4f7b"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-13T18:14:50-07:00",
+        "subject": "Merge pull request #66 from lizagrande/sprint-1"
+      },
+      {
+        "sha": "9576f69a58b94dda1418d66cec609961b84f4f7b",
+        "parents": [
+          "ddb30a34d7daa15dde3841e9c91afab4977d6ec8"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-12T13:48:13-07:00",
+        "subject": "Add product detail lookup by ID, update library navigation, and add unit tests"
+      },
+      {
+        "sha": "ddb30a34d7daa15dde3841e9c91afab4977d6ec8",
+        "parents": [
+          "8994c43ade99e15a1fb54318825cf22cb3ab2f31",
+          "ddae3d09de631d25a861c8aef5718c851e4813e4"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-11T22:58:11-07:00",
+        "subject": "Merge branch 'main' into sprint-1"
+      },
+      {
+        "sha": "ddae3d09de631d25a861c8aef5718c851e4813e4",
+        "parents": [
+          "2063e8e3ee444468735c6e035896be481a2ac614",
+          "5e0bf664db64af1e3ee1d40e637e77fd91b3d520"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-08T16:48:17-07:00",
+        "subject": "Merge pull request #64 from NerdNek/docs-fix-issue-numbers"
+      },
+      {
+        "sha": "5e0bf664db64af1e3ee1d40e637e77fd91b3d520",
+        "parents": [
+          "dcb544a3cd28fa0a1cbb45811c793e8823ac760e"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-08T16:39:57-07:00",
+        "subject": "Fix Sprint 1 issue numbers in docs"
+      },
+      {
+        "sha": "2063e8e3ee444468735c6e035896be481a2ac614",
+        "parents": [
+          "4b87aa89f289ccc600cc81ff1c94529845bf1b04",
+          "8f5e026ce6f8d5714f4424072e3d154d7e8f1d30"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-08T16:47:23-07:00",
+        "subject": "Merge pull request #63 from NerdNek/2-normalize-ingredients"
+      },
+      {
+        "sha": "8f5e026ce6f8d5714f4424072e3d154d7e8f1d30",
+        "parents": [
+          "dcb544a3cd28fa0a1cbb45811c793e8823ac760e"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-08T16:24:39-07:00",
+        "subject": "DATA-02: Normalize ingredient names"
+      },
+      {
+        "sha": "4b87aa89f289ccc600cc81ff1c94529845bf1b04",
+        "parents": [
+          "dcb544a3cd28fa0a1cbb45811c793e8823ac760e",
+          "34cb94f463eab2bb758d0874122f506a4171b409"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-08T16:46:55-07:00",
+        "subject": "Merge pull request #62 from NerdNek/61-ci-unit-tests"
+      },
+      {
+        "sha": "34cb94f463eab2bb758d0874122f506a4171b409",
+        "parents": [
+          "dcb544a3cd28fa0a1cbb45811c793e8823ac760e"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-08T16:24:59-07:00",
+        "subject": "PL-06: Build and unit test pull requests in CI"
+      },
+      {
+        "sha": "dcb544a3cd28fa0a1cbb45811c793e8823ac760e",
+        "parents": [
+          "c521332e872e9840bf28d5c3d0699151271aa79a",
+          "6c667e73e810ff77c84dda49174f3b37c484962b"
+        ],
+        "author": "Belleairr",
+        "date": "2026-10-07T15:11:10-07:00",
+        "subject": "Merge pull request #59 from lizagrande/sprint-1"
+      },
+      {
+        "sha": "c521332e872e9840bf28d5c3d0699151271aa79a",
+        "parents": [
+          "cf589116b314957ce4b33a58b4eed8eac5d9d0a6",
+          "00dea3404e93f896754c15369371adcb6da79193"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-07T14:44:08-07:00",
+        "subject": "Merge pull request #56 from Aesthelity-Team/Belleairr-Unfinished-but-Updated-README"
+      },
+      {
+        "sha": "00dea3404e93f896754c15369371adcb6da79193",
+        "parents": [
+          "a34499c8f2ce6041e3c59d76b8aa4c23384c0329"
+        ],
+        "author": "Belleairr",
+        "date": "2026-10-05T15:19:15-07:00",
+        "subject": "New README"
+      },
+      {
+        "sha": "cf589116b314957ce4b33a58b4eed8eac5d9d0a6",
+        "parents": [
+          "a34499c8f2ce6041e3c59d76b8aa4c23384c0329",
+          "53d15376b9a60b39adef9362f31f5f4a2912d51f"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-07T14:43:53-07:00",
+        "subject": "Merge pull request #58 from lizagrande/sprint-1"
+      },
+      {
+        "sha": "8994c43ade99e15a1fb54318825cf22cb3ab2f31",
+        "parents": [
+          "54299c13d3d7d6d25dfa143b31272c5d0da45312"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-11T22:43:29-07:00",
+        "subject": "Add startup screens: Welcome, Skin Priorities onboarding, and Auth Sign In with Invalid Form and Network Error states"
+      },
+      {
+        "sha": "54299c13d3d7d6d25dfa143b31272c5d0da45312",
+        "parents": [
+          "a86cb4ea93e7b013667771e3340fd1cdeb5a456a"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-11T16:31:07-07:00",
+        "subject": "confidence card setup"
+      },
+      {
+        "sha": "a86cb4ea93e7b013667771e3340fd1cdeb5a456a",
+        "parents": [
+          "6c667e73e810ff77c84dda49174f3b37c484962b"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-11T16:17:22-07:00",
+        "subject": "initial setup, font and color integraiton, home page built"
+      },
+      {
+        "sha": "6c667e73e810ff77c84dda49174f3b37c484962b",
+        "parents": [
+          "53d15376b9a60b39adef9362f31f5f4a2912d51f"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-07T15:06:37-07:00",
+        "subject": "initial setup"
+      },
+      {
+        "sha": "53d15376b9a60b39adef9362f31f5f4a2912d51f",
+        "parents": [
+          "a34499c8f2ce6041e3c59d76b8aa4c23384c0329"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-07T14:16:54-07:00",
+        "subject": "initial setup"
+      },
+      {
+        "sha": "a34499c8f2ce6041e3c59d76b8aa4c23384c0329",
+        "parents": [
+          "75f55c777a38fada4930c5f95d00a8971eeb59d6",
+          "f1be2cfaedba6b5b250067e7de5c734b9dd0e8aa"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-05T14:59:11-07:00",
+        "subject": "Merge pull request #55 from Aesthelity-Team/Belleairr-updated-sprint-tabel"
+      },
+      {
+        "sha": "f1be2cfaedba6b5b250067e7de5c734b9dd0e8aa",
+        "parents": [
+          "75f55c777a38fada4930c5f95d00a8971eeb59d6"
+        ],
+        "author": "Belleairr",
+        "date": "2026-10-05T14:57:38-07:00",
+        "subject": "updated sprint table for dev notes"
+      },
+      {
+        "sha": "75f55c777a38fada4930c5f95d00a8971eeb59d6",
+        "parents": [
+          "761bf0788690244904b3d2077a989508367245cb",
+          "d9412faa96d5bab242672bfd70a1a92ede88a2ee"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-05T14:55:51-07:00",
+        "subject": "Merge pull request #54 from Aesthelity-Team/Belleairr-DevNotes"
+      },
+      {
+        "sha": "d9412faa96d5bab242672bfd70a1a92ede88a2ee",
+        "parents": [
+          "761bf0788690244904b3d2077a989508367245cb"
+        ],
+        "author": "Belleairr",
+        "date": "2026-10-05T14:50:16-07:00",
+        "subject": "Creating project development notes for our reference"
+      },
+      {
+        "sha": "07c24557ce36b22baacb9b24d631cd6329f59c91",
+        "parents": [
+          "761bf0788690244904b3d2077a989508367245cb"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-05T01:49:39-07:00",
+        "subject": "Updated Sprint 1 table"
+      },
+      {
+        "sha": "761bf0788690244904b3d2077a989508367245cb",
+        "parents": [
+          "0c8a4778f5fe929c4c4f8b233eee4611e0709f8b"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-09-30T11:59:35-07:00",
+        "subject": "Documented branch naming convention instructions"
+      },
+      {
+        "sha": "0c8a4778f5fe929c4c4f8b233eee4611e0709f8b",
+        "parents": [
+          "f52b02f9f42d3e0cbd1b010bd4f3c79ecef8a059"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-09-30T11:45:22-07:00",
+        "subject": "Initial set up of project documentation and issue template"
+      },
+      {
+        "sha": "f52b02f9f42d3e0cbd1b010bd4f3c79ecef8a059",
+        "parents": [],
+        "author": "Belleairr",
+        "date": "2026-08-24T14:10:20-07:00",
+        "subject": "Initial commit"
+      }
+    ],
+    "limit": 140,
+    "fetchDepth": 300,
+    "order": "child-before-parent",
+    "partial": false
+  }
 };
