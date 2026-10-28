@@ -1,5 +1,5 @@
 window.SPRINT_SNAPSHOT = {
-  "capturedAt": "2026-10-28T06:23:28.600714+00:00",
+  "capturedAt": "2026-10-28T19:55:43.373887+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -384,7 +384,24 @@ window.SPRINT_SNAPSHOT = {
       "proposed": false,
       "closedAt": null,
       "updatedAt": "2026-10-21T21:29:22Z",
-      "prs": [],
+      "prs": [
+        {
+          "number": 95,
+          "title": "docs PL-04: draft API and data contract",
+          "state": "MERGED",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/95",
+          "review": "APPROVED",
+          "ci": "passed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "SUCCESS"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "miacarter04"
+        }
+      ],
       "module": "PL"
     },
     {
@@ -421,7 +438,7 @@ window.SPRINT_SNAPSHOT = {
         {
           "number": 89,
           "title": "User Story PD-01: Product Catalog Selection & Ingredient Guidance and RT-03 Updates",
-          "state": "OPEN",
+          "state": "MERGED",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/89",
           "review": "REVIEW_REQUIRED",
           "ci": "failed",
@@ -480,7 +497,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "PD-03: Ingredient alias mapping",
       "code": "PD-03",
       "sprint": "sprint-2",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/19",
       "owners": [
         "Belleairr",
@@ -489,15 +506,15 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 3,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-15T01:14:19Z",
+      "closedAt": "2026-10-28T16:44:45Z",
+      "updatedAt": "2026-10-28T16:44:45Z",
       "prs": [
         {
           "number": 83,
           "title": "PD-03: Map ingredient aliases and publish the integration contract",
-          "state": "OPEN",
+          "state": "MERGED",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/83",
-          "review": "REVIEW_REQUIRED",
+          "review": "APPROVED",
           "ci": "passed",
           "checks": [
             {
@@ -565,7 +582,7 @@ window.SPRINT_SNAPSHOT = {
         {
           "number": 89,
           "title": "User Story PD-01: Product Catalog Selection & Ingredient Guidance and RT-03 Updates",
-          "state": "OPEN",
+          "state": "MERGED",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/89",
           "review": "REVIEW_REQUIRED",
           "ci": "failed",
@@ -642,13 +659,9 @@ window.SPRINT_SNAPSHOT = {
           "title": "AN-02: Proposed analysis rules and result contract",
           "state": "OPEN",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/87",
-          "review": "APPROVED",
-          "ci": "failed",
+          "review": "REVIEW_REQUIRED",
+          "ci": "passed",
           "checks": [
-            {
-              "name": "Build and unit test",
-              "result": "FAILURE"
-            },
             {
               "name": "validate",
               "result": "SUCCESS"
@@ -1183,68 +1196,68 @@ window.SPRINT_SNAPSHOT = {
   ],
   "runs": [
     {
+      "name": "iOS CI",
+      "branch": "an-02-review-only",
+      "status": "pending",
+      "conclusion": null,
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40758485754",
+      "createdAt": "2026-10-28T19:54:25Z"
+    },
+    {
+      "name": "DATA-01 dataset checks",
+      "branch": "an-02-review-only",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40758485739",
+      "createdAt": "2026-10-28T19:54:25Z"
+    },
+    {
+      "name": "DATA-01 dataset checks",
+      "branch": "an-02-review-only",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40756540658",
+      "createdAt": "2026-10-28T19:41:23Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "an-02-review-only",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40756540448",
+      "createdAt": "2026-10-28T19:41:23Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "main",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40754858739",
+      "createdAt": "2026-10-28T19:30:09Z"
+    },
+    {
       "name": "DATA-01 dataset checks",
       "branch": "23-an03-input-prep",
       "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40639198242",
-      "createdAt": "2026-10-28T05:38:46Z"
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40749964977",
+      "createdAt": "2026-10-28T18:57:55Z"
     },
     {
       "name": "iOS CI",
       "branch": "23-an03-input-prep",
       "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40639198236",
-      "createdAt": "2026-10-28T05:38:46Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "an-02-approved-rules",
-      "status": "completed",
       "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40639152597",
-      "createdAt": "2026-10-28T05:38:17Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40749964927",
+      "createdAt": "2026-10-28T18:57:55Z"
     },
     {
       "name": "iOS CI",
-      "branch": "rt-02-routine-editor",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40637101720",
-      "createdAt": "2026-10-28T05:17:14Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "fresh-start-2026-10-19",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40636534397",
-      "createdAt": "2026-10-28T05:11:33Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "sprint-2",
-      "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40635882719",
-      "createdAt": "2026-10-28T05:04:47Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "fresh-start-2026-10-19",
+      "branch": "23-an03-input-prep",
       "status": "completed",
       "conclusion": "cancelled",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40635413734",
-      "createdAt": "2026-10-28T04:59:55Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "sprint-2",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40632190096",
-      "createdAt": "2026-10-28T04:24:56Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40747589364",
+      "createdAt": "2026-10-28T18:42:15Z"
     }
   ],
   "graph": {
@@ -1253,7 +1266,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "1-curated-demo-product-set",
         "sha": "212ccc5083adcc50058db9f0e263a5213e52e5cd",
-        "behind": 31,
+        "behind": 49,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1262,7 +1275,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "10-rt-01-sample-am-pm-routines",
         "sha": "19064b713badc0748d66ea501baf93b6fc2f9b9b",
-        "behind": 25,
+        "behind": 43,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1270,9 +1283,9 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "23-an03-input-prep",
-        "sha": "e48a0d7d9712a5b638e7a0f281686d4661a9d10c",
-        "behind": 3,
-        "ahead": 2,
+        "sha": "d239fe316510ae8ce634344a51ae5da6347c3735",
+        "behind": 2,
+        "ahead": 5,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/23-an03-input-prep"
@@ -1280,7 +1293,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "3-on-01-welcome-first-use",
         "sha": "734741c14ecba313382e3d002020b0014e7e27c9",
-        "behind": 35,
+        "behind": 53,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1289,7 +1302,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "82-firestore-catalog-setup",
         "sha": "db44ffea14037cfe8c37a96f870fddd56ff9c553",
-        "behind": 1,
+        "behind": 19,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1298,7 +1311,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-DevNotes",
         "sha": "d9412faa96d5bab242672bfd70a1a92ede88a2ee",
-        "behind": 57,
+        "behind": 75,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1307,7 +1320,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-Unfinished-but-Updated-README",
         "sha": "00dea3404e93f896754c15369371adcb6da79193",
-        "behind": 53,
+        "behind": 71,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1316,7 +1329,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-updated-sprint-tabel",
         "sha": "f1be2cfaedba6b5b250067e7de5c734b9dd0e8aa",
-        "behind": 55,
+        "behind": 73,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1325,7 +1338,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "an-02-approved-rules",
         "sha": "4c1871455e36708d12ff222dbded998d200a0856",
-        "behind": 0,
+        "behind": 18,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1334,7 +1347,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
-        "behind": 3,
+        "behind": 21,
         "ahead": 3,
         "kind": "branch",
         "prNumber": null,
@@ -1343,7 +1356,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "docs/update-sprint-table",
         "sha": "07c24557ce36b22baacb9b24d631cd6329f59c91",
-        "behind": 58,
+        "behind": 76,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1351,7 +1364,7 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "main",
-        "sha": "fee57c7c3edc4825facfb840afc2bf8c614f24b4",
+        "sha": "06e37fcf2ec8b0c69ee37b3d8cc5d5c4b6610fb9",
         "behind": 0,
         "ahead": 0,
         "kind": "branch",
@@ -1359,18 +1372,18 @@ window.SPRINT_SNAPSHOT = {
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/main"
       },
       {
-        "name": "PR #83 \u00b7 NerdNek/codex/19-ingredient-alias-mapping",
-        "sha": "76862b3cd99d7dab95dd4b92cddb07d5bc8d77d4",
-        "behind": 3,
-        "ahead": 3,
-        "kind": "pull-request",
-        "prNumber": 83,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/83"
+        "name": "pl-04-api-data-contract",
+        "sha": "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5",
+        "behind": 17,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/pl-04-api-data-contract"
       },
       {
         "name": "PR #85 \u00b7 Aesthelity-Team/codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
-        "behind": 3,
+        "behind": 21,
         "ahead": 3,
         "kind": "pull-request",
         "prNumber": 85,
@@ -1378,44 +1391,26 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "PR #87 \u00b7 NerdNek/an-02-review-only",
-        "sha": "2dbef55820ca3dbbe1ed77213791e8b3391db9c9",
-        "behind": 3,
-        "ahead": 3,
+        "sha": "1141c9c5c22722de6c58393544e3cb6fa8629589",
+        "behind": 0,
+        "ahead": 6,
         "kind": "pull-request",
         "prNumber": 87,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/87"
       },
       {
-        "name": "PR #89 \u00b7 Aesthelity-Team/sprint-2",
-        "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
-        "behind": 0,
-        "ahead": 4,
-        "kind": "pull-request",
-        "prNumber": 89,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/89"
-      },
-      {
         "name": "PR #90 \u00b7 najihsherif/fresh-start-2026-10-19",
         "sha": "9ddc53ecbed58b31c8dbb9f3a6c6a509b8e8b798",
-        "behind": 0,
+        "behind": 18,
         "ahead": 6,
         "kind": "pull-request",
         "prNumber": 90,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/90"
       },
       {
-        "name": "PR #91 \u00b7 lizagrande/sprint-2",
-        "sha": "9b291dfe0612814992e79fb47517ba25af708e03",
-        "behind": 0,
-        "ahead": 5,
-        "kind": "pull-request",
-        "prNumber": 91,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/91"
-      },
-      {
         "name": "PR #92 \u00b7 najihsherif/rt-02-routine-editor",
         "sha": "793b3039de47e7612eda3f0d7b598b7cd2e0e345",
-        "behind": 0,
+        "behind": 18,
         "ahead": 7,
         "kind": "pull-request",
         "prNumber": 92,
@@ -1424,7 +1419,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "PR #93 \u00b7 Aesthelity-Team/an-02-approved-rules",
         "sha": "4c1871455e36708d12ff222dbded998d200a0856",
-        "behind": 0,
+        "behind": 18,
         "ahead": 1,
         "kind": "pull-request",
         "prNumber": 93,
@@ -1432,9 +1427,9 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "PR #94 \u00b7 Aesthelity-Team/23-an03-input-prep",
-        "sha": "e48a0d7d9712a5b638e7a0f281686d4661a9d10c",
-        "behind": 3,
-        "ahead": 2,
+        "sha": "d239fe316510ae8ce634344a51ae5da6347c3735",
+        "behind": 2,
+        "ahead": 5,
         "kind": "pull-request",
         "prNumber": 94,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/94"
@@ -1442,14 +1437,264 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "sprint-2",
         "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
-        "behind": 0,
-        "ahead": 4,
+        "behind": 14,
+        "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/sprint-2"
       }
     ],
     "commits": [
+      {
+        "sha": "1141c9c5c22722de6c58393544e3cb6fa8629589",
+        "parents": [
+          "5697829bd55f375695ed1b541523119b5dbb2640"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T12:54:07-07:00",
+        "subject": "AN-02: Fix DATA-01 catalog path and retarget fixtures to v3."
+      },
+      {
+        "sha": "5697829bd55f375695ed1b541523119b5dbb2640",
+        "parents": [
+          "39b25c2990bbf1c6271c5ce9c749e33985caa58f",
+          "06e37fcf2ec8b0c69ee37b3d8cc5d5c4b6610fb9"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T12:53:41-07:00",
+        "subject": "Merge branch 'main' into an-02-review-only"
+      },
+      {
+        "sha": "06e37fcf2ec8b0c69ee37b3d8cc5d5c4b6610fb9",
+        "parents": [
+          "b5b14213e6d4190a2d369da7fa6d9125b4f92bb8",
+          "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T12:30:06-07:00",
+        "subject": "Merge pull request #95 from Aesthelity-Team/pl-04-api-data-contract"
+      },
+      {
+        "sha": "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5",
+        "parents": [
+          "fee57c7c3edc4825facfb840afc2bf8c614f24b4"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-28T00:46:31-07:00",
+        "subject": "docs PL-04: draft API and data contract"
+      },
+      {
+        "sha": "39b25c2990bbf1c6271c5ce9c749e33985caa58f",
+        "parents": [
+          "2dbef55820ca3dbbe1ed77213791e8b3391db9c9"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T12:41:14-07:00",
+        "subject": "Align AN-02 empty result wording with review"
+      },
+      {
+        "sha": "2dbef55820ca3dbbe1ed77213791e8b3391db9c9",
+        "parents": [
+          "17aada3ec7f501e4ef4ab05a3bcfb1e38701d73c"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-26T17:48:29-07:00",
+        "subject": "AN-02: Narrow tretinoin conflict and separate engine acceptance."
+      },
+      {
+        "sha": "17aada3ec7f501e4ef4ab05a3bcfb1e38701d73c",
+        "parents": [
+          "e067871d07b16ac88567e1a7dbb345ebe23ad0e6"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-25T23:47:49-07:00",
+        "subject": "AN-02: Label the version 3 catalog as the PD-03 snapshot."
+      },
+      {
+        "sha": "e067871d07b16ac88567e1a7dbb345ebe23ad0e6",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-25T23:41:35-07:00",
+        "subject": "AN-02: Propose analysis rules and result contract"
+      },
+      {
+        "sha": "d239fe316510ae8ce634344a51ae5da6347c3735",
+        "parents": [
+          "21a6f5b390da9e06cf3b691b0f71d7bdfcdbeba0"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-28T11:57:42-07:00",
+        "subject": "Fix DATA-01 validator path after catalog move"
+      },
+      {
+        "sha": "21a6f5b390da9e06cf3b691b0f71d7bdfcdbeba0",
+        "parents": [
+          "eb32d0b96287ac739856974bd889bd3317f07382"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-28T11:41:20-07:00",
+        "subject": "AN-03: connect live analysis UI to backend API"
+      },
+      {
+        "sha": "eb32d0b96287ac739856974bd889bd3317f07382",
+        "parents": [
+          "e48a0d7d9712a5b638e7a0f281686d4661a9d10c",
+          "b5b14213e6d4190a2d369da7fa6d9125b4f92bb8"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-28T10:54:48-07:00",
+        "subject": "Merge remote-tracking branch 'origin/main' into 23-an03-input-prep # Please enter a commit message to explain why this merge is necessary, # especially if it merges an updated upstream into a topic branch. # # Lines starting with '#' will be ignored, and an empty message aborts # the commit."
+      },
+      {
+        "sha": "b5b14213e6d4190a2d369da7fa6d9125b4f92bb8",
+        "parents": [
+          "a6539e0c80fbe8d8e6a3cd6eaa60c5594e6c522e",
+          "3818ddd2c06640a85b3a2c76893894593e34dab5"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T10:36:33-07:00",
+        "subject": "Merge pull request #91 from lizagrande/sprint-2"
+      },
+      {
+        "sha": "3818ddd2c06640a85b3a2c76893894593e34dab5",
+        "parents": [
+          "f47ed2189c2763598a8a8a39908b9fce2af6a9aa",
+          "a6539e0c80fbe8d8e6a3cd6eaa60c5594e6c522e"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T10:12:54-07:00",
+        "subject": "Merge main into sprint 2 and preserve catalog status conformance"
+      },
+      {
+        "sha": "a6539e0c80fbe8d8e6a3cd6eaa60c5594e6c522e",
+        "parents": [
+          "fee57c7c3edc4825facfb840afc2bf8c614f24b4",
+          "76862b3cd99d7dab95dd4b92cddb07d5bc8d77d4"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-28T09:44:42-07:00",
+        "subject": "Merge pull request #83 from NerdNek/codex/19-ingredient-alias-mapping"
+      },
+      {
+        "sha": "76862b3cd99d7dab95dd4b92cddb07d5bc8d77d4",
+        "parents": [
+          "2754b8fef7fb1b61a32d9c597dae40e320025a43"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-21T12:42:52-07:00",
+        "subject": "PD-03: Keep unresolved products out of analysis until IDs and catalog provenance check out."
+      },
+      {
+        "sha": "2754b8fef7fb1b61a32d9c597dae40e320025a43",
+        "parents": [
+          "1560884945c05740d688a406cf1a9e194cb65bc9"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-20T16:18:26-07:00",
+        "subject": "PD-03: Publish a stable ingredient mapping record for catalog and analysis handoff."
+      },
+      {
+        "sha": "1560884945c05740d688a406cf1a9e194cb65bc9",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-18T17:31:27-07:00",
+        "subject": "PD-03: Improve ingredient coverage and reject conflicting aliases"
+      },
+      {
+        "sha": "f47ed2189c2763598a8a8a39908b9fce2af6a9aa",
+        "parents": [
+          "03bb4bfb3d871852da1ec08ff21bb46d4f4056e9"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T10:09:34-07:00",
+        "subject": "Preserve unreadable routine data during saves"
+      },
+      {
+        "sha": "03bb4bfb3d871852da1ec08ff21bb46d4f4056e9",
+        "parents": [
+          "2ddc448d3c583d72dc72e46e12ecce88f361ff32"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T00:55:31-07:00",
+        "subject": "Fix Home edit/create flow, hide mock score, preserve sign-in retry input."
+      },
+      {
+        "sha": "2ddc448d3c583d72dc72e46e12ecce88f361ff32",
+        "parents": [
+          "37fd5b82380fbb8146381e21ed1ee76d838cc92c"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-27T23:59:40-07:00",
+        "subject": "Fix catalog add identity, Home routine binding, and safety copy."
+      },
+      {
+        "sha": "37fd5b82380fbb8146381e21ed1ee76d838cc92c",
+        "parents": [
+          "0b58eba6d9e5b4f6a97a3bf07efbcbcf516c51a6"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-27T23:59:40-07:00",
+        "subject": "Make email sign-in honest and stop fake social auth success."
+      },
+      {
+        "sha": "0b58eba6d9e5b4f6a97a3bf07efbcbcf516c51a6",
+        "parents": [
+          "9b291dfe0612814992e79fb47517ba25af708e03"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-27T23:59:40-07:00",
+        "subject": "Disable Firestore routine/profile sync until isolation is verified."
+      },
+      {
+        "sha": "9b291dfe0612814992e79fb47517ba25af708e03",
+        "parents": [
+          "5479d6ed42c0a9d9b2b6665c17801e553f7427a3"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-27T22:03:01-07:00",
+        "subject": "Integrate Firebase Authentication and Firestore Cloud Sync for Routines and Skin Profile"
+      },
+      {
+        "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
+        "parents": [
+          "95effa8d212ca52abcb0d66c5ba5619e4d220fd1"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-27T21:23:59-07:00",
+        "subject": "Complete User Story PD-01: Product Catalog Selection & Ingredient Guidance"
+      },
+      {
+        "sha": "95effa8d212ca52abcb0d66c5ba5619e4d220fd1",
+        "parents": [
+          "7d89561d44244b9cee64a79290cc3203e1a912b4"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-27T20:36:31-07:00",
+        "subject": "Update RT-03 after database integration"
+      },
+      {
+        "sha": "7d89561d44244b9cee64a79290cc3203e1a912b4",
+        "parents": [
+          "7fd7f24b5b4f844d3bacdb9f79958c61f783dc06",
+          "fee57c7c3edc4825facfb840afc2bf8c614f24b4"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-27T19:43:39-07:00",
+        "subject": "Merge remote-tracking branch 'upstream/main' into sprint-2"
+      },
+      {
+        "sha": "7fd7f24b5b4f844d3bacdb9f79958c61f783dc06",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-22T12:28:52-07:00",
+        "subject": "resolves RT-03: Routine persistence. Routine is saved and available when user leaves app."
+      },
       {
         "sha": "e48a0d7d9712a5b638e7a0f281686d4661a9d10c",
         "parents": [
@@ -1524,61 +1769,6 @@ window.SPRINT_SNAPSHOT = {
         "subject": "Merge remote-tracking branch 'upstream/main' into fresh-start-2026-10-19"
       },
       {
-        "sha": "86de79f2ee313eedbbb5501e82b1b36d49a7ff71",
-        "parents": [
-          "605c09d5d5c6b51aac62fb17c19b6fb05d18448c"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-10-26T12:44:15-07:00",
-        "subject": "PD-02: Validate and prepare manual product submissions"
-      },
-      {
-        "sha": "605c09d5d5c6b51aac62fb17c19b6fb05d18448c",
-        "parents": [
-          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-10-23T22:16:49-07:00",
-        "subject": "PD-02: Add manual product and draft models"
-      },
-      {
-        "sha": "9b291dfe0612814992e79fb47517ba25af708e03",
-        "parents": [
-          "5479d6ed42c0a9d9b2b6665c17801e553f7427a3"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-10-27T22:03:01-07:00",
-        "subject": "Integrate Firebase Authentication and Firestore Cloud Sync for Routines and Skin Profile"
-      },
-      {
-        "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
-        "parents": [
-          "95effa8d212ca52abcb0d66c5ba5619e4d220fd1"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-10-27T21:23:59-07:00",
-        "subject": "Complete User Story PD-01: Product Catalog Selection & Ingredient Guidance"
-      },
-      {
-        "sha": "95effa8d212ca52abcb0d66c5ba5619e4d220fd1",
-        "parents": [
-          "7d89561d44244b9cee64a79290cc3203e1a912b4"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-10-27T20:36:31-07:00",
-        "subject": "Update RT-03 after database integration"
-      },
-      {
-        "sha": "7d89561d44244b9cee64a79290cc3203e1a912b4",
-        "parents": [
-          "7fd7f24b5b4f844d3bacdb9f79958c61f783dc06",
-          "fee57c7c3edc4825facfb840afc2bf8c614f24b4"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-10-27T19:43:39-07:00",
-        "subject": "Merge remote-tracking branch 'upstream/main' into sprint-2"
-      },
-      {
         "sha": "fee57c7c3edc4825facfb840afc2bf8c614f24b4",
         "parents": [
           "1984aa28faeb27b636bd88c78a7347478bc8f15c",
@@ -1607,67 +1797,22 @@ window.SPRINT_SNAPSHOT = {
         "subject": "Finished BE-04: Establish Firestore database and import product catalog #82"
       },
       {
-        "sha": "7fd7f24b5b4f844d3bacdb9f79958c61f783dc06",
+        "sha": "86de79f2ee313eedbbb5501e82b1b36d49a7ff71",
+        "parents": [
+          "605c09d5d5c6b51aac62fb17c19b6fb05d18448c"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-26T12:44:15-07:00",
+        "subject": "PD-02: Validate and prepare manual product submissions"
+      },
+      {
+        "sha": "605c09d5d5c6b51aac62fb17c19b6fb05d18448c",
         "parents": [
           "1984aa28faeb27b636bd88c78a7347478bc8f15c"
         ],
-        "author": "Liza Grande",
-        "date": "2026-10-22T12:28:52-07:00",
-        "subject": "resolves RT-03: Routine persistence. Routine is saved and available when user leaves app."
-      },
-      {
-        "sha": "2dbef55820ca3dbbe1ed77213791e8b3391db9c9",
-        "parents": [
-          "17aada3ec7f501e4ef4ab05a3bcfb1e38701d73c"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-26T17:48:29-07:00",
-        "subject": "AN-02: Narrow tretinoin conflict and separate engine acceptance."
-      },
-      {
-        "sha": "17aada3ec7f501e4ef4ab05a3bcfb1e38701d73c",
-        "parents": [
-          "e067871d07b16ac88567e1a7dbb345ebe23ad0e6"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-25T23:47:49-07:00",
-        "subject": "AN-02: Label the version 3 catalog as the PD-03 snapshot."
-      },
-      {
-        "sha": "e067871d07b16ac88567e1a7dbb345ebe23ad0e6",
-        "parents": [
-          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-25T23:41:35-07:00",
-        "subject": "AN-02: Propose analysis rules and result contract"
-      },
-      {
-        "sha": "76862b3cd99d7dab95dd4b92cddb07d5bc8d77d4",
-        "parents": [
-          "2754b8fef7fb1b61a32d9c597dae40e320025a43"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-21T12:42:52-07:00",
-        "subject": "PD-03: Keep unresolved products out of analysis until IDs and catalog provenance check out."
-      },
-      {
-        "sha": "2754b8fef7fb1b61a32d9c597dae40e320025a43",
-        "parents": [
-          "1560884945c05740d688a406cf1a9e194cb65bc9"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-20T16:18:26-07:00",
-        "subject": "PD-03: Publish a stable ingredient mapping record for catalog and analysis handoff."
-      },
-      {
-        "sha": "1560884945c05740d688a406cf1a9e194cb65bc9",
-        "parents": [
-          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-18T17:31:27-07:00",
-        "subject": "PD-03: Improve ingredient coverage and reject conflicting aliases"
+        "author": "Najih Sherif",
+        "date": "2026-10-23T22:16:49-07:00",
+        "subject": "PD-02: Add manual product and draft models"
       },
       {
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
