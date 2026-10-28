@@ -1,5 +1,5 @@
 window.SPRINT_SNAPSHOT = {
-  "capturedAt": "2026-10-27T23:43:46.878433+00:00",
+  "capturedAt": "2026-10-28T06:23:28.600714+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -417,7 +417,28 @@ window.SPRINT_SNAPSHOT = {
       "proposed": false,
       "closedAt": null,
       "updatedAt": "2026-10-15T00:54:22Z",
-      "prs": [],
+      "prs": [
+        {
+          "number": 89,
+          "title": "User Story PD-01: Product Catalog Selection & Ingredient Guidance and RT-03 Updates",
+          "state": "OPEN",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/89",
+          "review": "REVIEW_REQUIRED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            },
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "lizagrande"
+        }
+      ],
       "module": "PD"
     },
     {
@@ -434,7 +455,24 @@ window.SPRINT_SNAPSHOT = {
       "proposed": false,
       "closedAt": null,
       "updatedAt": "2026-10-15T00:54:27Z",
-      "prs": [],
+      "prs": [
+        {
+          "number": 90,
+          "title": "PD-02: Manually Inputted Products",
+          "state": "OPEN",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/90",
+          "review": "REVIEW_REQUIRED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "najihsherif"
+        }
+      ],
       "module": "PD"
     },
     {
@@ -487,7 +525,24 @@ window.SPRINT_SNAPSHOT = {
       "proposed": false,
       "closedAt": null,
       "updatedAt": "2026-10-15T00:55:18Z",
-      "prs": [],
+      "prs": [
+        {
+          "number": 92,
+          "title": "RT-02: Routine Editor",
+          "state": "OPEN",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/92",
+          "review": "REVIEW_REQUIRED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "najihsherif"
+        }
+      ],
       "module": "RT"
     },
     {
@@ -508,13 +563,37 @@ window.SPRINT_SNAPSHOT = {
       "updatedAt": "2026-10-22T19:32:10Z",
       "prs": [
         {
+          "number": 89,
+          "title": "User Story PD-01: Product Catalog Selection & Ingredient Guidance and RT-03 Updates",
+          "state": "OPEN",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/89",
+          "review": "REVIEW_REQUIRED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            },
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "lizagrande"
+        },
+        {
           "number": 86,
           "title": "resolves RT-03: Routine persistence. Routine is saved and available when user leaves app.",
-          "state": "OPEN",
+          "state": "CLOSED",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/86",
           "review": "REVIEW_REQUIRED",
           "ci": "failed",
           "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            },
             {
               "name": "Build and unit test",
               "result": "FAILURE"
@@ -540,14 +619,30 @@ window.SPRINT_SNAPSHOT = {
       "points": 5,
       "proposed": false,
       "closedAt": null,
-      "updatedAt": "2026-10-15T00:54:58Z",
+      "updatedAt": "2026-10-28T04:10:20Z",
       "prs": [
+        {
+          "number": 93,
+          "title": "AN-02 proposal- recorded team approved rule review",
+          "state": "OPEN",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/93",
+          "review": "REVIEW_REQUIRED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "miacarter04"
+        },
         {
           "number": 87,
           "title": "AN-02: Proposed analysis rules and result contract",
           "state": "OPEN",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/87",
-          "review": "REVIEW_REQUIRED",
+          "review": "APPROVED",
           "ci": "failed",
           "checks": [
             {
@@ -1089,67 +1184,67 @@ window.SPRINT_SNAPSHOT = {
   "runs": [
     {
       "name": "DATA-01 dataset checks",
-      "branch": "main",
+      "branch": "23-an03-input-prep",
       "status": "completed",
       "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40597602092",
-      "createdAt": "2026-10-27T22:48:38Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40639198242",
+      "createdAt": "2026-10-28T05:38:46Z"
     },
     {
       "name": "iOS CI",
-      "branch": "main",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40597602090",
-      "createdAt": "2026-10-27T22:48:38Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "82-firestore-catalog-setup",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40589825926",
-      "createdAt": "2026-10-27T21:48:31Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "82-firestore-catalog-setup",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40589825817",
-      "createdAt": "2026-10-27T21:48:31Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "82-firestore-catalog-setup",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40432253671",
-      "createdAt": "2026-10-27T01:23:12Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "82-firestore-catalog-setup",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40432253549",
-      "createdAt": "2026-10-27T01:23:12Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "an-02-review-only",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40428752208",
-      "createdAt": "2026-10-27T00:48:48Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "an-02-review-only",
+      "branch": "23-an03-input-prep",
       "status": "completed",
       "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40428752200",
-      "createdAt": "2026-10-27T00:48:48Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40639198236",
+      "createdAt": "2026-10-28T05:38:46Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "an-02-approved-rules",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40639152597",
+      "createdAt": "2026-10-28T05:38:17Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "rt-02-routine-editor",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40637101720",
+      "createdAt": "2026-10-28T05:17:14Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "fresh-start-2026-10-19",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40636534397",
+      "createdAt": "2026-10-28T05:11:33Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "sprint-2",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40635882719",
+      "createdAt": "2026-10-28T05:04:47Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "fresh-start-2026-10-19",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40635413734",
+      "createdAt": "2026-10-28T04:59:55Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "sprint-2",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40632190096",
+      "createdAt": "2026-10-28T04:24:56Z"
     }
   ],
   "graph": {
@@ -1175,9 +1270,9 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "23-an03-input-prep",
-        "sha": "2ec13553c74693002d333c9185930dc1636f4788",
+        "sha": "e48a0d7d9712a5b638e7a0f281686d4661a9d10c",
         "behind": 3,
-        "ahead": 1,
+        "ahead": 2,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/23-an03-input-prep"
@@ -1228,6 +1323,15 @@ window.SPRINT_SNAPSHOT = {
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/Belleairr-updated-sprint-tabel"
       },
       {
+        "name": "an-02-approved-rules",
+        "sha": "4c1871455e36708d12ff222dbded998d200a0856",
+        "behind": 0,
+        "ahead": 1,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/an-02-approved-rules"
+      },
+      {
         "name": "codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
         "behind": 3,
@@ -1273,15 +1377,6 @@ window.SPRINT_SNAPSHOT = {
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/85"
       },
       {
-        "name": "PR #86 \u00b7 lizagrande/sprint-2",
-        "sha": "7fd7f24b5b4f844d3bacdb9f79958c61f783dc06",
-        "behind": 3,
-        "ahead": 1,
-        "kind": "pull-request",
-        "prNumber": 86,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/86"
-      },
-      {
         "name": "PR #87 \u00b7 NerdNek/an-02-review-only",
         "sha": "2dbef55820ca3dbbe1ed77213791e8b3391db9c9",
         "behind": 3,
@@ -1289,9 +1384,200 @@ window.SPRINT_SNAPSHOT = {
         "kind": "pull-request",
         "prNumber": 87,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/87"
+      },
+      {
+        "name": "PR #89 \u00b7 Aesthelity-Team/sprint-2",
+        "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
+        "behind": 0,
+        "ahead": 4,
+        "kind": "pull-request",
+        "prNumber": 89,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/89"
+      },
+      {
+        "name": "PR #90 \u00b7 najihsherif/fresh-start-2026-10-19",
+        "sha": "9ddc53ecbed58b31c8dbb9f3a6c6a509b8e8b798",
+        "behind": 0,
+        "ahead": 6,
+        "kind": "pull-request",
+        "prNumber": 90,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/90"
+      },
+      {
+        "name": "PR #91 \u00b7 lizagrande/sprint-2",
+        "sha": "9b291dfe0612814992e79fb47517ba25af708e03",
+        "behind": 0,
+        "ahead": 5,
+        "kind": "pull-request",
+        "prNumber": 91,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/91"
+      },
+      {
+        "name": "PR #92 \u00b7 najihsherif/rt-02-routine-editor",
+        "sha": "793b3039de47e7612eda3f0d7b598b7cd2e0e345",
+        "behind": 0,
+        "ahead": 7,
+        "kind": "pull-request",
+        "prNumber": 92,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/92"
+      },
+      {
+        "name": "PR #93 \u00b7 Aesthelity-Team/an-02-approved-rules",
+        "sha": "4c1871455e36708d12ff222dbded998d200a0856",
+        "behind": 0,
+        "ahead": 1,
+        "kind": "pull-request",
+        "prNumber": 93,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/93"
+      },
+      {
+        "name": "PR #94 \u00b7 Aesthelity-Team/23-an03-input-prep",
+        "sha": "e48a0d7d9712a5b638e7a0f281686d4661a9d10c",
+        "behind": 3,
+        "ahead": 2,
+        "kind": "pull-request",
+        "prNumber": 94,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/94"
+      },
+      {
+        "name": "sprint-2",
+        "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
+        "behind": 0,
+        "ahead": 4,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/sprint-2"
       }
     ],
     "commits": [
+      {
+        "sha": "e48a0d7d9712a5b638e7a0f281686d4661a9d10c",
+        "parents": [
+          "2ec13553c74693002d333c9185930dc1636f4788"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-27T22:32:22-07:00",
+        "subject": "AN-03- implemented routine analysis engine based on approved rules from AN-02"
+      },
+      {
+        "sha": "2ec13553c74693002d333c9185930dc1636f4788",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-25T15:52:19-07:00",
+        "subject": "Analysis Engine draft - this prepares input for analysis"
+      },
+      {
+        "sha": "4c1871455e36708d12ff222dbded998d200a0856",
+        "parents": [
+          "fee57c7c3edc4825facfb840afc2bf8c614f24b4"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-27T22:25:55-07:00",
+        "subject": "AN-02 proposal- recorded team approved rule review"
+      },
+      {
+        "sha": "793b3039de47e7612eda3f0d7b598b7cd2e0e345",
+        "parents": [
+          "9ddc53ecbed58b31c8dbb9f3a6c6a509b8e8b798"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-27T22:11:26-07:00",
+        "subject": "RT-02: Complete routine editing with catalog and manual products"
+      },
+      {
+        "sha": "9ddc53ecbed58b31c8dbb9f3a6c6a509b8e8b798",
+        "parents": [
+          "8e4a38b74d2a0b555544c6a10cd17ef5462e230b"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-27T21:50:09-07:00",
+        "subject": "PD-02: Add manual entry, ingredient review, and local save UI"
+      },
+      {
+        "sha": "8e4a38b74d2a0b555544c6a10cd17ef5462e230b",
+        "parents": [
+          "f233327537fa49ef32eaea4f285f481a2de2a3e7"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-27T21:35:38-07:00",
+        "subject": "PD-02: Adapt manual products to draft AN-03 input contract"
+      },
+      {
+        "sha": "f233327537fa49ef32eaea4f285f481a2de2a3e7",
+        "parents": [
+          "a9ac35bf92347563a3db6a53a699e7a7c3152542"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-27T21:34:00-07:00",
+        "subject": "PD-02: Persist manual products locally with atomic saves"
+      },
+      {
+        "sha": "a9ac35bf92347563a3db6a53a699e7a7c3152542",
+        "parents": [
+          "86de79f2ee313eedbbb5501e82b1b36d49a7ff71",
+          "fee57c7c3edc4825facfb840afc2bf8c614f24b4"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-27T21:31:38-07:00",
+        "subject": "Merge remote-tracking branch 'upstream/main' into fresh-start-2026-10-19"
+      },
+      {
+        "sha": "86de79f2ee313eedbbb5501e82b1b36d49a7ff71",
+        "parents": [
+          "605c09d5d5c6b51aac62fb17c19b6fb05d18448c"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-26T12:44:15-07:00",
+        "subject": "PD-02: Validate and prepare manual product submissions"
+      },
+      {
+        "sha": "605c09d5d5c6b51aac62fb17c19b6fb05d18448c",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-23T22:16:49-07:00",
+        "subject": "PD-02: Add manual product and draft models"
+      },
+      {
+        "sha": "9b291dfe0612814992e79fb47517ba25af708e03",
+        "parents": [
+          "5479d6ed42c0a9d9b2b6665c17801e553f7427a3"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-27T22:03:01-07:00",
+        "subject": "Integrate Firebase Authentication and Firestore Cloud Sync for Routines and Skin Profile"
+      },
+      {
+        "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
+        "parents": [
+          "95effa8d212ca52abcb0d66c5ba5619e4d220fd1"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-27T21:23:59-07:00",
+        "subject": "Complete User Story PD-01: Product Catalog Selection & Ingredient Guidance"
+      },
+      {
+        "sha": "95effa8d212ca52abcb0d66c5ba5619e4d220fd1",
+        "parents": [
+          "7d89561d44244b9cee64a79290cc3203e1a912b4"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-27T20:36:31-07:00",
+        "subject": "Update RT-03 after database integration"
+      },
+      {
+        "sha": "7d89561d44244b9cee64a79290cc3203e1a912b4",
+        "parents": [
+          "7fd7f24b5b4f844d3bacdb9f79958c61f783dc06",
+          "fee57c7c3edc4825facfb840afc2bf8c614f24b4"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-27T19:43:39-07:00",
+        "subject": "Merge remote-tracking branch 'upstream/main' into sprint-2"
+      },
       {
         "sha": "fee57c7c3edc4825facfb840afc2bf8c614f24b4",
         "parents": [
@@ -1321,6 +1607,15 @@ window.SPRINT_SNAPSHOT = {
         "subject": "Finished BE-04: Establish Firestore database and import product catalog #82"
       },
       {
+        "sha": "7fd7f24b5b4f844d3bacdb9f79958c61f783dc06",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-10-22T12:28:52-07:00",
+        "subject": "resolves RT-03: Routine persistence. Routine is saved and available when user leaves app."
+      },
+      {
         "sha": "2dbef55820ca3dbbe1ed77213791e8b3391db9c9",
         "parents": [
           "17aada3ec7f501e4ef4ab05a3bcfb1e38701d73c"
@@ -1346,24 +1641,6 @@ window.SPRINT_SNAPSHOT = {
         "author": "Gaurav Pandey",
         "date": "2026-10-25T23:41:35-07:00",
         "subject": "AN-02: Propose analysis rules and result contract"
-      },
-      {
-        "sha": "2ec13553c74693002d333c9185930dc1636f4788",
-        "parents": [
-          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-25T15:52:19-07:00",
-        "subject": "Analysis Engine draft - this prepares input for analysis"
-      },
-      {
-        "sha": "7fd7f24b5b4f844d3bacdb9f79958c61f783dc06",
-        "parents": [
-          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-10-22T12:28:52-07:00",
-        "subject": "resolves RT-03: Routine persistence. Routine is saved and available when user leaves app."
       },
       {
         "sha": "76862b3cd99d7dab95dd4b92cddb07d5bc8d77d4",
