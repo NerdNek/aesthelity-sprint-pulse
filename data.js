@@ -1,5 +1,5 @@
 window.SPRINT_SNAPSHOT = {
-  "capturedAt": "2026-10-28T19:55:43.373887+00:00",
+  "capturedAt": "2026-10-29T06:34:26.180909+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -424,7 +424,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "PD-01: Select product from catalog",
       "code": "PD-01",
       "sprint": "sprint-2",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/17",
       "owners": [
         "lizagrande",
@@ -432,8 +432,8 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 5,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-15T00:54:22Z",
+      "closedAt": "2026-10-28T20:54:31Z",
+      "updatedAt": "2026-10-28T20:54:31Z",
       "prs": [
         {
           "number": 89,
@@ -463,22 +463,22 @@ window.SPRINT_SNAPSHOT = {
       "title": "PD-02: Manual product & ingredient input",
       "code": "PD-02",
       "sprint": "sprint-2",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/18",
       "owners": [
         "najihsherif"
       ],
       "points": 5,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-15T00:54:27Z",
+      "closedAt": "2026-10-29T05:07:39Z",
+      "updatedAt": "2026-10-29T05:07:39Z",
       "prs": [
         {
           "number": 90,
           "title": "PD-02: Manually Inputted Products",
-          "state": "OPEN",
+          "state": "MERGED",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/90",
-          "review": "REVIEW_REQUIRED",
+          "review": "APPROVED",
           "ci": "failed",
           "checks": [
             {
@@ -507,7 +507,7 @@ window.SPRINT_SNAPSHOT = {
       "points": 3,
       "proposed": false,
       "closedAt": "2026-10-28T16:44:45Z",
-      "updatedAt": "2026-10-28T16:44:45Z",
+      "updatedAt": "2026-10-29T06:23:59Z",
       "prs": [
         {
           "number": 83,
@@ -533,22 +533,22 @@ window.SPRINT_SNAPSHOT = {
       "title": "RT-02: Routine editor",
       "code": "RT-02",
       "sprint": "sprint-2",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/20",
       "owners": [
         "najihsherif"
       ],
       "points": 5,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-15T00:55:18Z",
+      "closedAt": "2026-10-29T05:07:39Z",
+      "updatedAt": "2026-10-29T05:07:39Z",
       "prs": [
         {
           "number": 92,
           "title": "RT-02: Routine Editor",
-          "state": "OPEN",
+          "state": "MERGED",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/92",
-          "review": "REVIEW_REQUIRED",
+          "review": "APPROVED",
           "ci": "failed",
           "checks": [
             {
@@ -627,7 +627,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "AN-02: Analysis rule definitions",
       "code": "AN-02",
       "sprint": "sprint-2",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/22",
       "owners": [
         "NerdNek",
@@ -635,15 +635,15 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 5,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-28T04:10:20Z",
+      "closedAt": "2026-10-29T05:07:37Z",
+      "updatedAt": "2026-10-29T06:24:18Z",
       "prs": [
         {
           "number": 93,
           "title": "AN-02 proposal- recorded team approved rule review",
-          "state": "OPEN",
+          "state": "MERGED",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/93",
-          "review": "REVIEW_REQUIRED",
+          "review": "APPROVED",
           "ci": "failed",
           "checks": [
             {
@@ -657,11 +657,15 @@ window.SPRINT_SNAPSHOT = {
         {
           "number": 87,
           "title": "AN-02: Proposed analysis rules and result contract",
-          "state": "OPEN",
+          "state": "MERGED",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/87",
-          "review": "REVIEW_REQUIRED",
-          "ci": "passed",
+          "review": "APPROVED",
+          "ci": "failed",
           "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            },
             {
               "name": "validate",
               "result": "SUCCESS"
@@ -678,15 +682,15 @@ window.SPRINT_SNAPSHOT = {
       "title": "AN-03: Core analysis engine",
       "code": "AN-03",
       "sprint": "sprint-2",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/23",
       "owners": [
         "miacarter04"
       ],
       "points": 8,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-15T00:55:02Z",
+      "closedAt": "2026-10-29T05:07:35Z",
+      "updatedAt": "2026-10-29T06:24:11Z",
       "prs": [],
       "module": "AN"
     },
@@ -1160,15 +1164,15 @@ window.SPRINT_SNAPSHOT = {
       "title": "BE-04: Establish Firestore database and import product catalog",
       "code": "BE-04",
       "sprint": "sprint-2",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/82",
       "owners": [
         "Belleairr"
       ],
       "points": 5,
       "proposed": true,
-      "closedAt": null,
-      "updatedAt": "2026-10-14T22:13:28Z",
+      "closedAt": "2026-10-28T21:43:41Z",
+      "updatedAt": "2026-10-28T21:43:41Z",
       "prs": [
         {
           "number": 88,
@@ -1192,72 +1196,186 @@ window.SPRINT_SNAPSHOT = {
         }
       ],
       "module": "BE"
+    },
+    {
+      "number": 96,
+      "title": "Sprint 3: Harden analysis entry point and demo scenario results",
+      "code": "#96",
+      "sprint": "sprint-3",
+      "state": "OPEN",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/96",
+      "owners": [],
+      "points": null,
+      "proposed": false,
+      "closedAt": null,
+      "updatedAt": "2026-10-28T20:54:57Z",
+      "prs": [],
+      "module": "#96"
+    },
+    {
+      "number": 97,
+      "title": "AN-02 follow-up: Store analysis rules and contracts in the database",
+      "code": "AN-02",
+      "sprint": "sprint-3",
+      "state": "OPEN",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/97",
+      "owners": [],
+      "points": 3,
+      "proposed": true,
+      "closedAt": null,
+      "updatedAt": "2026-10-29T06:29:38Z",
+      "prs": [
+        {
+          "number": 93,
+          "title": "AN-02 proposal- recorded team approved rule review",
+          "state": "MERGED",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/93",
+          "review": "APPROVED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "miacarter04"
+        },
+        {
+          "number": 87,
+          "title": "AN-02: Proposed analysis rules and result contract",
+          "state": "MERGED",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/87",
+          "review": "APPROVED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            },
+            {
+              "name": "validate",
+              "result": "SUCCESS"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "NerdNek"
+        }
+      ],
+      "module": "AN"
+    },
+    {
+      "number": 98,
+      "title": "PD-03 follow-up: Store ingredient alias mappings in the database",
+      "code": "PD-03",
+      "sprint": "sprint-3",
+      "state": "OPEN",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/98",
+      "owners": [],
+      "points": 3,
+      "proposed": true,
+      "closedAt": null,
+      "updatedAt": "2026-10-29T06:31:35Z",
+      "prs": [
+        {
+          "number": 83,
+          "title": "PD-03: Map ingredient aliases and publish the integration contract",
+          "state": "MERGED",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/83",
+          "review": "APPROVED",
+          "ci": "passed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "SUCCESS"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "NerdNek"
+        }
+      ],
+      "module": "PD"
+    },
+    {
+      "number": 99,
+      "title": "AN-03 Follow-Up: Improve the Analysis Engine with AI-Assisted Feedback",
+      "code": "AN-03",
+      "sprint": "sprint-3",
+      "state": "OPEN",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/99",
+      "owners": [],
+      "points": 8,
+      "proposed": true,
+      "closedAt": null,
+      "updatedAt": "2026-10-29T06:32:31Z",
+      "prs": [],
+      "module": "AN"
     }
   ],
   "runs": [
     {
       "name": "iOS CI",
-      "branch": "an-02-review-only",
-      "status": "pending",
-      "conclusion": null,
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40758485754",
-      "createdAt": "2026-10-28T19:54:25Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "an-02-review-only",
+      "branch": "main",
       "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40758485739",
-      "createdAt": "2026-10-28T19:54:25Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "an-02-review-only",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40756540658",
-      "createdAt": "2026-10-28T19:41:23Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "an-02-review-only",
-      "status": "in_progress",
-      "conclusion": null,
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40756540448",
-      "createdAt": "2026-10-28T19:41:23Z"
+      "conclusion": "cancelled",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40768979240",
+      "createdAt": "2026-10-28T21:05:24Z"
     },
     {
       "name": "iOS CI",
       "branch": "main",
       "status": "completed",
+      "conclusion": "cancelled",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40768498857",
+      "createdAt": "2026-10-28T21:02:07Z"
+    },
+    {
+      "name": "DATA-01 dataset checks",
+      "branch": "main",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40768498822",
+      "createdAt": "2026-10-28T21:02:07Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "rt-02-routine-editor",
+      "status": "completed",
       "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40754858739",
-      "createdAt": "2026-10-28T19:30:09Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40768418081",
+      "createdAt": "2026-10-28T21:01:32Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "main",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40767214348",
+      "createdAt": "2026-10-28T20:53:07Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "fresh-start-2026-10-19",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40766380526",
+      "createdAt": "2026-10-28T20:47:22Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "23-an03-input-prep",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40765883361",
+      "createdAt": "2026-10-28T20:44:00Z"
     },
     {
       "name": "DATA-01 dataset checks",
       "branch": "23-an03-input-prep",
       "status": "completed",
       "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40749964977",
-      "createdAt": "2026-10-28T18:57:55Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "23-an03-input-prep",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40749964927",
-      "createdAt": "2026-10-28T18:57:55Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "23-an03-input-prep",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40747589364",
-      "createdAt": "2026-10-28T18:42:15Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40765883328",
+      "createdAt": "2026-10-28T20:44:00Z"
     }
   ],
   "graph": {
@@ -1266,7 +1384,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "1-curated-demo-product-set",
         "sha": "212ccc5083adcc50058db9f0e263a5213e52e5cd",
-        "behind": 49,
+        "behind": 77,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1275,7 +1393,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "10-rt-01-sample-am-pm-routines",
         "sha": "19064b713badc0748d66ea501baf93b6fc2f9b9b",
-        "behind": 43,
+        "behind": 71,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1283,9 +1401,9 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "23-an03-input-prep",
-        "sha": "d239fe316510ae8ce634344a51ae5da6347c3735",
-        "behind": 2,
-        "ahead": 5,
+        "sha": "c6abb828fedc5f133adf9f608a1797c1a8746c51",
+        "behind": 12,
+        "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/23-an03-input-prep"
@@ -1293,7 +1411,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "3-on-01-welcome-first-use",
         "sha": "734741c14ecba313382e3d002020b0014e7e27c9",
-        "behind": 53,
+        "behind": 81,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1302,7 +1420,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "82-firestore-catalog-setup",
         "sha": "db44ffea14037cfe8c37a96f870fddd56ff9c553",
-        "behind": 19,
+        "behind": 47,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1311,7 +1429,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-DevNotes",
         "sha": "d9412faa96d5bab242672bfd70a1a92ede88a2ee",
-        "behind": 75,
+        "behind": 103,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1320,7 +1438,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-Unfinished-but-Updated-README",
         "sha": "00dea3404e93f896754c15369371adcb6da79193",
-        "behind": 71,
+        "behind": 99,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1329,7 +1447,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-updated-sprint-tabel",
         "sha": "f1be2cfaedba6b5b250067e7de5c734b9dd0e8aa",
-        "behind": 73,
+        "behind": 101,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1338,8 +1456,8 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "an-02-approved-rules",
         "sha": "4c1871455e36708d12ff222dbded998d200a0856",
-        "behind": 18,
-        "ahead": 1,
+        "behind": 45,
+        "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/an-02-approved-rules"
@@ -1347,7 +1465,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
-        "behind": 21,
+        "behind": 49,
         "ahead": 3,
         "kind": "branch",
         "prNumber": null,
@@ -1356,7 +1474,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "docs/update-sprint-table",
         "sha": "07c24557ce36b22baacb9b24d631cd6329f59c91",
-        "behind": 76,
+        "behind": 104,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1364,7 +1482,7 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "main",
-        "sha": "06e37fcf2ec8b0c69ee37b3d8cc5d5c4b6610fb9",
+        "sha": "f1e5624294985998252a20e2ab787610999236a6",
         "behind": 0,
         "ahead": 0,
         "kind": "branch",
@@ -1374,7 +1492,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "pl-04-api-data-contract",
         "sha": "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5",
-        "behind": 17,
+        "behind": 45,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1383,61 +1501,16 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "PR #85 \u00b7 Aesthelity-Team/codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
-        "behind": 21,
+        "behind": 49,
         "ahead": 3,
         "kind": "pull-request",
         "prNumber": 85,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/85"
       },
       {
-        "name": "PR #87 \u00b7 NerdNek/an-02-review-only",
-        "sha": "1141c9c5c22722de6c58393544e3cb6fa8629589",
-        "behind": 0,
-        "ahead": 6,
-        "kind": "pull-request",
-        "prNumber": 87,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/87"
-      },
-      {
-        "name": "PR #90 \u00b7 najihsherif/fresh-start-2026-10-19",
-        "sha": "9ddc53ecbed58b31c8dbb9f3a6c6a509b8e8b798",
-        "behind": 18,
-        "ahead": 6,
-        "kind": "pull-request",
-        "prNumber": 90,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/90"
-      },
-      {
-        "name": "PR #92 \u00b7 najihsherif/rt-02-routine-editor",
-        "sha": "793b3039de47e7612eda3f0d7b598b7cd2e0e345",
-        "behind": 18,
-        "ahead": 7,
-        "kind": "pull-request",
-        "prNumber": 92,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/92"
-      },
-      {
-        "name": "PR #93 \u00b7 Aesthelity-Team/an-02-approved-rules",
-        "sha": "4c1871455e36708d12ff222dbded998d200a0856",
-        "behind": 18,
-        "ahead": 1,
-        "kind": "pull-request",
-        "prNumber": 93,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/93"
-      },
-      {
-        "name": "PR #94 \u00b7 Aesthelity-Team/23-an03-input-prep",
-        "sha": "d239fe316510ae8ce634344a51ae5da6347c3735",
-        "behind": 2,
-        "ahead": 5,
-        "kind": "pull-request",
-        "prNumber": 94,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/94"
-      },
-      {
         "name": "sprint-2",
         "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
-        "behind": 14,
+        "behind": 42,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1445,6 +1518,140 @@ window.SPRINT_SNAPSHOT = {
       }
     ],
     "commits": [
+      {
+        "sha": "f1e5624294985998252a20e2ab787610999236a6",
+        "parents": [
+          "9da4b3569099e00b06090378a1879533d1afa2ad",
+          "479e5dd4640b7cdb803ce00804e18afb11023b9a"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T14:05:20-07:00",
+        "subject": "Merge pull request #92 from najihsherif/rt-02-routine-editor"
+      },
+      {
+        "sha": "479e5dd4640b7cdb803ce00804e18afb11023b9a",
+        "parents": [
+          "793b3039de47e7612eda3f0d7b598b7cd2e0e345",
+          "89c032ef9737225aad1864c4f1c5dc652ba81409"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-28T14:01:25-07:00",
+        "subject": "Merge main into RT-02 and adapt editor to persisted routine model"
+      },
+      {
+        "sha": "793b3039de47e7612eda3f0d7b598b7cd2e0e345",
+        "parents": [
+          "9ddc53ecbed58b31c8dbb9f3a6c6a509b8e8b798"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-27T22:11:26-07:00",
+        "subject": "RT-02: Complete routine editing with catalog and manual products"
+      },
+      {
+        "sha": "9da4b3569099e00b06090378a1879533d1afa2ad",
+        "parents": [
+          "89c032ef9737225aad1864c4f1c5dc652ba81409",
+          "c6abb828fedc5f133adf9f608a1797c1a8746c51"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T14:02:03-07:00",
+        "subject": "Merge pull request #94 from Aesthelity-Team/23-an03-input-prep"
+      },
+      {
+        "sha": "c6abb828fedc5f133adf9f608a1797c1a8746c51",
+        "parents": [
+          "3ac0a9af8f4ef331c552460c24f83d73eabd94aa"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T13:43:51-07:00",
+        "subject": "AN-03: Align engine and fixtures with approved AN-02 contract."
+      },
+      {
+        "sha": "3ac0a9af8f4ef331c552460c24f83d73eabd94aa",
+        "parents": [
+          "d239fe316510ae8ce634344a51ae5da6347c3735",
+          "e6a13b2fbfa54911058ae697e029a0da48de04d0"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T13:21:03-07:00",
+        "subject": "Merge upstream/main into pr94-merge-prep for AN-02 alignment."
+      },
+      {
+        "sha": "d239fe316510ae8ce634344a51ae5da6347c3735",
+        "parents": [
+          "21a6f5b390da9e06cf3b691b0f71d7bdfcdbeba0"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-28T11:57:42-07:00",
+        "subject": "Fix DATA-01 validator path after catalog move"
+      },
+      {
+        "sha": "21a6f5b390da9e06cf3b691b0f71d7bdfcdbeba0",
+        "parents": [
+          "eb32d0b96287ac739856974bd889bd3317f07382"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-28T11:41:20-07:00",
+        "subject": "AN-03: connect live analysis UI to backend API"
+      },
+      {
+        "sha": "eb32d0b96287ac739856974bd889bd3317f07382",
+        "parents": [
+          "e48a0d7d9712a5b638e7a0f281686d4661a9d10c",
+          "b5b14213e6d4190a2d369da7fa6d9125b4f92bb8"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-28T10:54:48-07:00",
+        "subject": "Merge remote-tracking branch 'origin/main' into 23-an03-input-prep # Please enter a commit message to explain why this merge is necessary, # especially if it merges an updated upstream into a topic branch. # # Lines starting with '#' will be ignored, and an empty message aborts # the commit."
+      },
+      {
+        "sha": "e48a0d7d9712a5b638e7a0f281686d4661a9d10c",
+        "parents": [
+          "2ec13553c74693002d333c9185930dc1636f4788"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-27T22:32:22-07:00",
+        "subject": "AN-03- implemented routine analysis engine based on approved rules from AN-02"
+      },
+      {
+        "sha": "2ec13553c74693002d333c9185930dc1636f4788",
+        "parents": [
+          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-10-25T15:52:19-07:00",
+        "subject": "Analysis Engine draft - this prepares input for analysis"
+      },
+      {
+        "sha": "89c032ef9737225aad1864c4f1c5dc652ba81409",
+        "parents": [
+          "e6a13b2fbfa54911058ae697e029a0da48de04d0",
+          "5db969b157c82132a5e059a84f0ae35e7907a5c2"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T13:53:04-07:00",
+        "subject": "Merge pull request #90 from najihsherif/fresh-start-2026-10-19"
+      },
+      {
+        "sha": "5db969b157c82132a5e059a84f0ae35e7907a5c2",
+        "parents": [
+          "9ddc53ecbed58b31c8dbb9f3a6c6a509b8e8b798",
+          "e6a13b2fbfa54911058ae697e029a0da48de04d0"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-10-28T13:47:11-07:00",
+        "subject": "Merge upstream/main into PD-02 and preserve manual product integration"
+      },
+      {
+        "sha": "e6a13b2fbfa54911058ae697e029a0da48de04d0",
+        "parents": [
+          "e503da2e63573eb0417924c61715d9d53cdc136f",
+          "1141c9c5c22722de6c58393544e3cb6fa8629589"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T13:13:03-07:00",
+        "subject": "Merge pull request #87 from NerdNek/an-02-review-only"
+      },
       {
         "sha": "1141c9c5c22722de6c58393544e3cb6fa8629589",
         "parents": [
@@ -1463,25 +1670,6 @@ window.SPRINT_SNAPSHOT = {
         "author": "Gaurav Pandey",
         "date": "2026-10-28T12:53:41-07:00",
         "subject": "Merge branch 'main' into an-02-review-only"
-      },
-      {
-        "sha": "06e37fcf2ec8b0c69ee37b3d8cc5d5c4b6610fb9",
-        "parents": [
-          "b5b14213e6d4190a2d369da7fa6d9125b4f92bb8",
-          "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-28T12:30:06-07:00",
-        "subject": "Merge pull request #95 from Aesthelity-Team/pl-04-api-data-contract"
-      },
-      {
-        "sha": "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5",
-        "parents": [
-          "fee57c7c3edc4825facfb840afc2bf8c614f24b4"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-28T00:46:31-07:00",
-        "subject": "docs PL-04: draft API and data contract"
       },
       {
         "sha": "39b25c2990bbf1c6271c5ce9c749e33985caa58f",
@@ -1520,32 +1708,42 @@ window.SPRINT_SNAPSHOT = {
         "subject": "AN-02: Propose analysis rules and result contract"
       },
       {
-        "sha": "d239fe316510ae8ce634344a51ae5da6347c3735",
+        "sha": "e503da2e63573eb0417924c61715d9d53cdc136f",
         "parents": [
-          "21a6f5b390da9e06cf3b691b0f71d7bdfcdbeba0"
+          "06e37fcf2ec8b0c69ee37b3d8cc5d5c4b6610fb9",
+          "4c1871455e36708d12ff222dbded998d200a0856"
         ],
-        "author": "Mia Carter",
-        "date": "2026-10-28T11:57:42-07:00",
-        "subject": "Fix DATA-01 validator path after catalog move"
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T12:57:51-07:00",
+        "subject": "Merge pull request #93 from Aesthelity-Team/an-02-approved-rules"
       },
       {
-        "sha": "21a6f5b390da9e06cf3b691b0f71d7bdfcdbeba0",
+        "sha": "4c1871455e36708d12ff222dbded998d200a0856",
         "parents": [
-          "eb32d0b96287ac739856974bd889bd3317f07382"
+          "fee57c7c3edc4825facfb840afc2bf8c614f24b4"
         ],
         "author": "Mia Carter",
-        "date": "2026-10-28T11:41:20-07:00",
-        "subject": "AN-03: connect live analysis UI to backend API"
+        "date": "2026-10-27T22:25:55-07:00",
+        "subject": "AN-02 proposal- recorded team approved rule review"
       },
       {
-        "sha": "eb32d0b96287ac739856974bd889bd3317f07382",
+        "sha": "06e37fcf2ec8b0c69ee37b3d8cc5d5c4b6610fb9",
         "parents": [
-          "e48a0d7d9712a5b638e7a0f281686d4661a9d10c",
-          "b5b14213e6d4190a2d369da7fa6d9125b4f92bb8"
+          "b5b14213e6d4190a2d369da7fa6d9125b4f92bb8",
+          "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-10-28T12:30:06-07:00",
+        "subject": "Merge pull request #95 from Aesthelity-Team/pl-04-api-data-contract"
+      },
+      {
+        "sha": "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5",
+        "parents": [
+          "fee57c7c3edc4825facfb840afc2bf8c614f24b4"
         ],
         "author": "Mia Carter",
-        "date": "2026-10-28T10:54:48-07:00",
-        "subject": "Merge remote-tracking branch 'origin/main' into 23-an03-input-prep # Please enter a commit message to explain why this merge is necessary, # especially if it merges an updated upstream into a topic branch. # # Lines starting with '#' will be ignored, and an empty message aborts # the commit."
+        "date": "2026-10-28T00:46:31-07:00",
+        "subject": "docs PL-04: draft API and data contract"
       },
       {
         "sha": "b5b14213e6d4190a2d369da7fa6d9125b4f92bb8",
@@ -1694,42 +1892,6 @@ window.SPRINT_SNAPSHOT = {
         "author": "Liza Grande",
         "date": "2026-10-22T12:28:52-07:00",
         "subject": "resolves RT-03: Routine persistence. Routine is saved and available when user leaves app."
-      },
-      {
-        "sha": "e48a0d7d9712a5b638e7a0f281686d4661a9d10c",
-        "parents": [
-          "2ec13553c74693002d333c9185930dc1636f4788"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-27T22:32:22-07:00",
-        "subject": "AN-03- implemented routine analysis engine based on approved rules from AN-02"
-      },
-      {
-        "sha": "2ec13553c74693002d333c9185930dc1636f4788",
-        "parents": [
-          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-25T15:52:19-07:00",
-        "subject": "Analysis Engine draft - this prepares input for analysis"
-      },
-      {
-        "sha": "4c1871455e36708d12ff222dbded998d200a0856",
-        "parents": [
-          "fee57c7c3edc4825facfb840afc2bf8c614f24b4"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-27T22:25:55-07:00",
-        "subject": "AN-02 proposal- recorded team approved rule review"
-      },
-      {
-        "sha": "793b3039de47e7612eda3f0d7b598b7cd2e0e345",
-        "parents": [
-          "9ddc53ecbed58b31c8dbb9f3a6c6a509b8e8b798"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-10-27T22:11:26-07:00",
-        "subject": "RT-02: Complete routine editing with catalog and manual products"
       },
       {
         "sha": "9ddc53ecbed58b31c8dbb9f3a6c6a509b8e8b798",
