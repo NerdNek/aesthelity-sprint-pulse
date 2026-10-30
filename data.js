@@ -1,5 +1,5 @@
 window.SPRINT_SNAPSHOT = {
-  "capturedAt": "2026-10-29T19:55:16.259840+00:00",
+  "capturedAt": "2026-10-30T06:34:00.066533+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -701,11 +701,14 @@ window.SPRINT_SNAPSHOT = {
       "sprint": "sprint-3",
       "state": "OPEN",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/24",
-      "owners": [],
+      "owners": [
+        "lizagrande",
+        "najihsherif"
+      ],
       "points": 5,
       "proposed": false,
       "closedAt": null,
-      "updatedAt": "2026-10-05T06:58:50Z",
+      "updatedAt": "2026-10-29T21:56:36Z",
       "prs": [],
       "module": "AN"
     },
@@ -716,11 +719,14 @@ window.SPRINT_SNAPSHOT = {
       "sprint": "sprint-3",
       "state": "OPEN",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/25",
-      "owners": [],
+      "owners": [
+        "lizagrande",
+        "miacarter04"
+      ],
       "points": 3,
       "proposed": false,
       "closedAt": null,
-      "updatedAt": "2026-10-05T06:59:29Z",
+      "updatedAt": "2026-10-29T21:56:53Z",
       "prs": [],
       "module": "AN"
     },
@@ -731,11 +737,14 @@ window.SPRINT_SNAPSHOT = {
       "sprint": "sprint-3",
       "state": "OPEN",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/26",
-      "owners": [],
+      "owners": [
+        "NerdNek",
+        "najihsherif"
+      ],
       "points": 3,
       "proposed": false,
       "closedAt": null,
-      "updatedAt": "2026-10-05T07:00:27Z",
+      "updatedAt": "2026-10-29T21:57:15Z",
       "prs": [],
       "module": "AN"
     },
@@ -746,11 +755,14 @@ window.SPRINT_SNAPSHOT = {
       "sprint": "sprint-3",
       "state": "OPEN",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/27",
-      "owners": [],
+      "owners": [
+        "lizagrande",
+        "miacarter04"
+      ],
       "points": 5,
       "proposed": false,
       "closedAt": null,
-      "updatedAt": "2026-10-05T07:01:17Z",
+      "updatedAt": "2026-10-29T21:57:35Z",
       "prs": [],
       "module": "BE"
     },
@@ -761,11 +773,15 @@ window.SPRINT_SNAPSHOT = {
       "sprint": "sprint-3",
       "state": "OPEN",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/28",
-      "owners": [],
+      "owners": [
+        "Belleairr",
+        "NerdNek",
+        "miacarter04"
+      ],
       "points": 5,
       "proposed": false,
       "closedAt": null,
-      "updatedAt": "2026-10-05T07:02:19Z",
+      "updatedAt": "2026-10-29T21:58:01Z",
       "prs": [],
       "module": "BE"
     },
@@ -776,11 +792,14 @@ window.SPRINT_SNAPSHOT = {
       "sprint": "sprint-3",
       "state": "OPEN",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/29",
-      "owners": [],
+      "owners": [
+        "Belleairr",
+        "najihsherif"
+      ],
       "points": 5,
       "proposed": false,
       "closedAt": null,
-      "updatedAt": "2026-10-05T07:03:06Z",
+      "updatedAt": "2026-10-29T21:58:18Z",
       "prs": [],
       "module": "BE"
     },
@@ -941,11 +960,14 @@ window.SPRINT_SNAPSHOT = {
       "sprint": "sprint-3",
       "state": "OPEN",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/40",
-      "owners": [],
+      "owners": [
+        "lizagrande",
+        "najihsherif"
+      ],
       "points": 2,
       "proposed": false,
       "closedAt": null,
-      "updatedAt": "2026-10-05T07:03:54Z",
+      "updatedAt": "2026-10-29T21:58:35Z",
       "prs": [],
       "module": "QA"
     },
@@ -1204,11 +1226,14 @@ window.SPRINT_SNAPSHOT = {
       "sprint": "sprint-3",
       "state": "OPEN",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/96",
-      "owners": [],
+      "owners": [
+        "lizagrande",
+        "najihsherif"
+      ],
       "points": null,
       "proposed": false,
       "closedAt": null,
-      "updatedAt": "2026-10-28T20:54:57Z",
+      "updatedAt": "2026-10-29T21:56:08Z",
       "prs": [],
       "module": "#96"
     },
@@ -1219,11 +1244,14 @@ window.SPRINT_SNAPSHOT = {
       "sprint": "sprint-3",
       "state": "OPEN",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/97",
-      "owners": [],
+      "owners": [
+        "NerdNek",
+        "miacarter04"
+      ],
       "points": 3,
       "proposed": true,
       "closedAt": null,
-      "updatedAt": "2026-10-29T06:29:38Z",
+      "updatedAt": "2026-10-29T22:09:46Z",
       "prs": [
         {
           "number": 93,
@@ -1271,11 +1299,15 @@ window.SPRINT_SNAPSHOT = {
       "sprint": "sprint-3",
       "state": "OPEN",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/98",
-      "owners": [],
+      "owners": [
+        "Belleairr",
+        "NerdNek",
+        "miacarter04"
+      ],
       "points": 3,
       "proposed": true,
       "closedAt": null,
-      "updatedAt": "2026-10-29T06:31:35Z",
+      "updatedAt": "2026-10-29T22:09:41Z",
       "prs": [
         {
           "number": 83,
@@ -1303,11 +1335,14 @@ window.SPRINT_SNAPSHOT = {
       "sprint": "sprint-3",
       "state": "OPEN",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/99",
-      "owners": [],
+      "owners": [
+        "NerdNek",
+        "miacarter04"
+      ],
       "points": 8,
       "proposed": true,
       "closedAt": null,
-      "updatedAt": "2026-10-29T06:32:31Z",
+      "updatedAt": "2026-10-29T22:09:36Z",
       "prs": [],
       "module": "AN"
     }
