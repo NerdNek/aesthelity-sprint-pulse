@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-03T21:19:43.655035+00:00",
+  "capturedAt": "2026-11-04T08:11:12.665834+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -1350,6 +1350,14 @@
   "runs": [
     {
       "name": "iOS CI",
+      "branch": "96-harden-analysis-entry",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/41746905640",
+      "createdAt": "2026-11-04T00:27:05Z"
+    },
+    {
+      "name": "iOS CI",
       "branch": "main",
       "status": "completed",
       "conclusion": "cancelled",
@@ -1403,14 +1411,6 @@
       "conclusion": "failure",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40765883361",
       "createdAt": "2026-10-28T20:44:00Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "23-an03-input-prep",
-      "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40765883328",
-      "createdAt": "2026-10-28T20:44:00Z"
     }
   ],
   "graph": {
@@ -1460,6 +1460,15 @@
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/82-firestore-catalog-setup"
+      },
+      {
+        "name": "96-harden-analysis-entry",
+        "sha": "39378714ed354a662a4b45c78a3ed3d837d664ef",
+        "behind": 0,
+        "ahead": 2,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/96-harden-analysis-entry"
       },
       {
         "name": "Belleairr-DevNotes",
@@ -1553,6 +1562,25 @@
       }
     ],
     "commits": [
+      {
+        "sha": "39378714ed354a662a4b45c78a3ed3d837d664ef",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6",
+          "8492341da7c7fdd8aba9ff096b364531efbbbe07"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-03T18:41:14-08:00",
+        "subject": "Merge pull request #100 from najihsherif/96-harden-analysis-entry"
+      },
+      {
+        "sha": "8492341da7c7fdd8aba9ff096b364531efbbbe07",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-03T16:17:28-08:00",
+        "subject": "Fix #96 analysis entry point and stale demo requests"
+      },
       {
         "sha": "f1e5624294985998252a20e2ab787610999236a6",
         "parents": [
