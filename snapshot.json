@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-04T21:35:17.896492+00:00",
+  "capturedAt": "2026-11-05T08:37:16.544730+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -1350,6 +1350,14 @@
   "runs": [
     {
       "name": "iOS CI",
+      "branch": "29-authenticated-api",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/41931073312",
+      "createdAt": "2026-11-04T23:06:58Z"
+    },
+    {
+      "name": "iOS CI",
       "branch": "96-harden-analysis-entry",
       "status": "completed",
       "conclusion": "failure",
@@ -1403,14 +1411,6 @@
       "conclusion": "failure",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40766380526",
       "createdAt": "2026-10-28T20:47:22Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "23-an03-input-prep",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40765883361",
-      "createdAt": "2026-10-28T20:44:00Z"
     }
   ],
   "graph": {
@@ -1442,6 +1442,15 @@
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/23-an03-input-prep"
+      },
+      {
+        "name": "29-authenticated-api",
+        "sha": "a136f7a7c3bd9aef8e912b262a654977d97057a7",
+        "behind": 0,
+        "ahead": 2,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/29-authenticated-api"
       },
       {
         "name": "3-on-01-welcome-first-use",
@@ -1499,9 +1508,9 @@
       },
       {
         "name": "an-02-approved-rules",
-        "sha": "4c1871455e36708d12ff222dbded998d200a0856",
-        "behind": 45,
-        "ahead": 0,
+        "sha": "f2b178a202d7b929937cdca121fc1ee525fff2b2",
+        "behind": 0,
+        "ahead": 1,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/an-02-approved-rules"
@@ -1562,6 +1571,34 @@
       }
     ],
     "commits": [
+      {
+        "sha": "a136f7a7c3bd9aef8e912b262a654977d97057a7",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6",
+          "d815e3c0ff223154af032171d66e3850b1fb0904"
+        ],
+        "author": "najihsherif",
+        "date": "2026-11-04T15:09:31-08:00",
+        "subject": "Merge pull request #101 from najihsherif/29-authenticated-api"
+      },
+      {
+        "sha": "d815e3c0ff223154af032171d66e3850b1fb0904",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-04T15:03:55-08:00",
+        "subject": "Add #29 authenticated iOS API client and analysis integration"
+      },
+      {
+        "sha": "f2b178a202d7b929937cdca121fc1ee525fff2b2",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-04T14:56:11-08:00",
+        "subject": "Add source references to AN-02 fixtures"
+      },
       {
         "sha": "39378714ed354a662a4b45c78a3ed3d837d664ef",
         "parents": [
