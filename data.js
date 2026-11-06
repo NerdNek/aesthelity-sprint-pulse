@@ -1,5 +1,5 @@
 window.SPRINT_SNAPSHOT = {
-  "capturedAt": "2026-11-06T08:36:39.917285+00:00",
+  "capturedAt": "2026-11-06T21:07:49.852949+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
