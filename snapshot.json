@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-08T20:00:35.285980+00:00",
+  "capturedAt": "2026-11-09T08:44:47.030313+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -1350,6 +1350,22 @@
   "runs": [
     {
       "name": "iOS CI",
+      "branch": "liza/27-be-01-user-authentication",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/42548289142",
+      "createdAt": "2026-11-09T01:57:51Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "liza/27-be-01-user-authentication",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/42548245260",
+      "createdAt": "2026-11-09T01:57:19Z"
+    },
+    {
+      "name": "iOS CI",
       "branch": "29-authenticated-api",
       "status": "completed",
       "conclusion": "failure",
@@ -1395,22 +1411,6 @@
       "conclusion": "failure",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40768418081",
       "createdAt": "2026-10-28T21:01:32Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "main",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40767214348",
-      "createdAt": "2026-10-28T20:53:07Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "fresh-start-2026-10-19",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40766380526",
-      "createdAt": "2026-10-28T20:47:22Z"
     }
   ],
   "graph": {
@@ -1552,6 +1552,15 @@
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/pl-04-api-data-contract"
       },
       {
+        "name": "PR #103 \u00b7 lizagrande/liza/27-be-01-user-authentication",
+        "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
+        "behind": 0,
+        "ahead": 3,
+        "kind": "pull-request",
+        "prNumber": 103,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/103"
+      },
+      {
         "name": "PR #85 \u00b7 Aesthelity-Team/codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
         "behind": 49,
@@ -1571,6 +1580,33 @@
       }
     ],
     "commits": [
+      {
+        "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
+        "parents": [
+          "5576f0e1354ab41374bdeaaeaca9f89b43049be6"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-11-08T17:56:04-08:00",
+        "subject": "feat(auth): add post-onboarding registration step with secure fallback and username support"
+      },
+      {
+        "sha": "5576f0e1354ab41374bdeaaeaca9f89b43049be6",
+        "parents": [
+          "baaa55757326b185651e68495f21d7ff0edac077"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-11-08T16:59:37-08:00",
+        "subject": "feat(ui): add prominent sign out buttons to Profile and Settings screens"
+      },
+      {
+        "sha": "baaa55757326b185651e68495f21d7ff0edac077",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-11-08T16:47:26-08:00",
+        "subject": "feat(auth): implement secure user registration, sign-in, sign-out, password hashing, and keychain storage (BE-01)"
+      },
       {
         "sha": "a136f7a7c3bd9aef8e912b262a654977d97057a7",
         "parents": [
