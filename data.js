@@ -1,5 +1,5 @@
 window.SPRINT_SNAPSHOT = {
-  "capturedAt": "2026-11-09T08:44:47.030313+00:00",
+  "capturedAt": "2026-11-09T23:52:23.118655+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -1349,6 +1349,22 @@ window.SPRINT_SNAPSHOT = {
   ],
   "runs": [
     {
+      "name": "DATA-01 dataset checks",
+      "branch": "98-ai-ingredient-normalization",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/42716741306",
+      "createdAt": "2026-11-09T22:59:57Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "98-ai-ingredient-normalization",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/42716741028",
+      "createdAt": "2026-11-09T22:59:57Z"
+    },
+    {
       "name": "iOS CI",
       "branch": "liza/27-be-01-user-authentication",
       "status": "completed",
@@ -1395,22 +1411,6 @@ window.SPRINT_SNAPSHOT = {
       "conclusion": "cancelled",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40768498857",
       "createdAt": "2026-10-28T21:02:07Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "main",
-      "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40768498822",
-      "createdAt": "2026-10-28T21:02:07Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "rt-02-routine-editor",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40768418081",
-      "createdAt": "2026-10-28T21:01:32Z"
     }
   ],
   "graph": {
@@ -1478,6 +1478,15 @@ window.SPRINT_SNAPSHOT = {
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/96-harden-analysis-entry"
+      },
+      {
+        "name": "98-ai-ingredient-normalization",
+        "sha": "c604c99fffab2663bec74c9c060728513e198d46",
+        "behind": 0,
+        "ahead": 1,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/98-ai-ingredient-normalization"
       },
       {
         "name": "Belleairr-DevNotes",
@@ -1561,6 +1570,15 @@ window.SPRINT_SNAPSHOT = {
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/103"
       },
       {
+        "name": "PR #104 \u00b7 Aesthelity-Team/98-ai-ingredient-normalization",
+        "sha": "c604c99fffab2663bec74c9c060728513e198d46",
+        "behind": 0,
+        "ahead": 1,
+        "kind": "pull-request",
+        "prNumber": 104,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/104"
+      },
+      {
         "name": "PR #85 \u00b7 Aesthelity-Team/codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
         "behind": 49,
@@ -1580,6 +1598,15 @@ window.SPRINT_SNAPSHOT = {
       }
     ],
     "commits": [
+      {
+        "sha": "c604c99fffab2663bec74c9c060728513e198d46",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6"
+        ],
+        "author": "Belleairr",
+        "date": "2026-11-09T14:59:29-08:00",
+        "subject": "Initial Work on Issue 98"
+      },
       {
         "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
         "parents": [
