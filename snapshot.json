@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-12T21:56:27.610634+00:00",
+  "capturedAt": "2026-11-13T08:49:40.163022+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -1480,6 +1480,15 @@
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/96-harden-analysis-entry"
       },
       {
+        "name": "97-ai-analysis-contract",
+        "sha": "5cbf3d074557367ca526264d6a059250b0ab1e52",
+        "behind": 0,
+        "ahead": 1,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/97-ai-analysis-contract"
+      },
+      {
         "name": "98-ai-ingredient-normalization",
         "sha": "c604c99fffab2663bec74c9c060728513e198d46",
         "behind": 0,
@@ -1487,6 +1496,15 @@
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/98-ai-ingredient-normalization"
+      },
+      {
+        "name": "99-ai-analysis-engine",
+        "sha": "06488abde110a9ca23ff5e4413fab8ec007e9ab7",
+        "behind": 0,
+        "ahead": 3,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/99-ai-analysis-engine"
       },
       {
         "name": "Belleairr-DevNotes",
@@ -1599,6 +1617,24 @@
     ],
     "commits": [
       {
+        "sha": "06488abde110a9ca23ff5e4413fab8ec007e9ab7",
+        "parents": [
+          "c08211b4d849b302a8c0c57d0523e61e3583f672"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-12T22:32:01-08:00",
+        "subject": "Implement evidence grounded AI analysis"
+      },
+      {
+        "sha": "c08211b4d849b302a8c0c57d0523e61e3583f672",
+        "parents": [
+          "c604c99fffab2663bec74c9c060728513e198d46"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-12T21:22:54-08:00",
+        "subject": "AN-03: add grounded AI feedback layer"
+      },
+      {
         "sha": "c604c99fffab2663bec74c9c060728513e198d46",
         "parents": [
           "f1e5624294985998252a20e2ab787610999236a6"
@@ -1606,6 +1642,15 @@
         "author": "Belleairr",
         "date": "2026-11-09T14:59:29-08:00",
         "subject": "Initial Work on Issue 98"
+      },
+      {
+        "sha": "5cbf3d074557367ca526264d6a059250b0ab1e52",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-12T21:59:17-08:00",
+        "subject": "defined AI analysis contract for #97"
       },
       {
         "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
