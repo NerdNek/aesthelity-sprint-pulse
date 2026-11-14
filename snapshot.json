@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-13T21:41:41.784419+00:00",
+  "capturedAt": "2026-11-14T08:10:18.575417+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -1350,6 +1350,30 @@
   "runs": [
     {
       "name": "DATA-01 dataset checks",
+      "branch": "mia/an02-firestore-references",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43570846297",
+      "createdAt": "2026-11-14T07:23:03Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "mia/an02-firestore-references",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43570846295",
+      "createdAt": "2026-11-14T07:23:03Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "mia/google-password-reset",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43557467868",
+      "createdAt": "2026-11-14T04:36:09Z"
+    },
+    {
+      "name": "DATA-01 dataset checks",
       "branch": "98-ai-ingredient-normalization",
       "status": "completed",
       "conclusion": "success",
@@ -1387,30 +1411,6 @@
       "conclusion": "failure",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/41931073312",
       "createdAt": "2026-11-04T23:06:58Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "96-harden-analysis-entry",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/41746905640",
-      "createdAt": "2026-11-04T00:27:05Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "main",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40768979240",
-      "createdAt": "2026-10-28T21:05:24Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "main",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/40768498857",
-      "createdAt": "2026-10-28T21:02:07Z"
     }
   ],
   "graph": {
@@ -1433,6 +1433,15 @@
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/10-rt-01-sample-am-pm-routines"
+      },
+      {
+        "name": "103-be01-backend-auth",
+        "sha": "644ce6b16c6a0a0e62f58c5e9575dceda13db1f0",
+        "behind": 0,
+        "ahead": 1,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/103-be01-backend-auth"
       },
       {
         "name": "23-an03-input-prep",
@@ -1570,6 +1579,33 @@
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/main"
       },
       {
+        "name": "mia/an02-firestore-references",
+        "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
+        "behind": 0,
+        "ahead": 5,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/an02-firestore-references"
+      },
+      {
+        "name": "mia/google-password-reset",
+        "sha": "1612c8a7349d7907620ce23ec342d9c30104534b",
+        "behind": 0,
+        "ahead": 4,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/google-password-reset"
+      },
+      {
+        "name": "mia/liza-auth-base",
+        "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
+        "behind": 0,
+        "ahead": 3,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/liza-auth-base"
+      },
+      {
         "name": "pl-04-api-data-contract",
         "sha": "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5",
         "behind": 45,
@@ -1597,6 +1633,24 @@
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/104"
       },
       {
+        "name": "PR #105 \u00b7 Aesthelity-Team/mia/google-password-reset",
+        "sha": "1612c8a7349d7907620ce23ec342d9c30104534b",
+        "behind": 0,
+        "ahead": 4,
+        "kind": "pull-request",
+        "prNumber": 105,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/105"
+      },
+      {
+        "name": "PR #106 \u00b7 Aesthelity-Team/mia/an02-firestore-references",
+        "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
+        "behind": 0,
+        "ahead": 5,
+        "kind": "pull-request",
+        "prNumber": 106,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/106"
+      },
+      {
         "name": "PR #85 \u00b7 Aesthelity-Team/codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
         "behind": 49,
@@ -1616,6 +1670,24 @@
       }
     ],
     "commits": [
+      {
+        "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
+        "parents": [
+          "c423ce715a9074a7c19d997ad44c410895b400e9"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-13T23:18:20-08:00",
+        "subject": "Ignore ingredient order in AI analysis context"
+      },
+      {
+        "sha": "c423ce715a9074a7c19d997ad44c410895b400e9",
+        "parents": [
+          "06488abde110a9ca23ff5e4413fab8ec007e9ab7"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-13T22:52:29-08:00",
+        "subject": "Load approved analysis references from Firestore"
+      },
       {
         "sha": "06488abde110a9ca23ff5e4413fab8ec007e9ab7",
         "parents": [
@@ -1644,13 +1716,13 @@
         "subject": "Initial Work on Issue 98"
       },
       {
-        "sha": "5cbf3d074557367ca526264d6a059250b0ab1e52",
+        "sha": "1612c8a7349d7907620ce23ec342d9c30104534b",
         "parents": [
-          "f1e5624294985998252a20e2ab787610999236a6"
+          "84f53e96477afb6d70254ec4b68faa060c6a470f"
         ],
         "author": "Mia Carter",
-        "date": "2026-11-12T21:59:17-08:00",
-        "subject": "defined AI analysis contract for #97"
+        "date": "2026-11-13T20:30:35-08:00",
+        "subject": "Add Google sign-in and password reset"
       },
       {
         "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
@@ -1678,6 +1750,24 @@
         "author": "Liza Grande",
         "date": "2026-11-08T16:47:26-08:00",
         "subject": "feat(auth): implement secure user registration, sign-in, sign-out, password hashing, and keychain storage (BE-01)"
+      },
+      {
+        "sha": "644ce6b16c6a0a0e62f58c5e9575dceda13db1f0",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-13T15:49:08-08:00",
+        "subject": "Add Firebase auth to analysis requests"
+      },
+      {
+        "sha": "5cbf3d074557367ca526264d6a059250b0ab1e52",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-12T21:59:17-08:00",
+        "subject": "defined AI analysis contract for #97"
       },
       {
         "sha": "a136f7a7c3bd9aef8e912b262a654977d97057a7",
