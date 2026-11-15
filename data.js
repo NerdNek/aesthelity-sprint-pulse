@@ -1,5 +1,5 @@
 window.SPRINT_SNAPSHOT = {
-  "capturedAt": "2026-11-14T20:11:06.805713+00:00",
+  "capturedAt": "2026-11-15T08:29:10.223607+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -1349,6 +1349,14 @@ window.SPRINT_SNAPSHOT = {
   ],
   "runs": [
     {
+      "name": "iOS CI",
+      "branch": "liza/27-be-01-user-authentication",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43691359807",
+      "createdAt": "2026-11-15T07:45:30Z"
+    },
+    {
       "name": "DATA-01 dataset checks",
       "branch": "mia/an02-firestore-references",
       "status": "completed",
@@ -1403,14 +1411,6 @@ window.SPRINT_SNAPSHOT = {
       "conclusion": "failure",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/42548245260",
       "createdAt": "2026-11-09T01:57:19Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "29-authenticated-api",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/41931073312",
-      "createdAt": "2026-11-04T23:06:58Z"
     }
   ],
   "graph": {
@@ -1616,9 +1616,9 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "PR #103 \u00b7 lizagrande/liza/27-be-01-user-authentication",
-        "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
+        "sha": "4ac6c4d9ee72ff63f0caeb863e838820a6b8253f",
         "behind": 0,
-        "ahead": 3,
+        "ahead": 4,
         "kind": "pull-request",
         "prNumber": 103,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/103"
@@ -1670,6 +1670,15 @@ window.SPRINT_SNAPSHOT = {
       }
     ],
     "commits": [
+      {
+        "sha": "4ac6c4d9ee72ff63f0caeb863e838820a6b8253f",
+        "parents": [
+          "84f53e96477afb6d70254ec4b68faa060c6a470f"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-14T23:43:30-08:00",
+        "subject": "Add Google sign-in and password reset"
+      },
       {
         "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
         "parents": [
