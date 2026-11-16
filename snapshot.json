@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-16T08:40:52.252977+00:00",
+  "capturedAt": "2026-11-16T23:52:24.950776+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -717,7 +717,7 @@
       "title": "AN-05: Missing data coverage reporting",
       "code": "AN-05",
       "sprint": "sprint-3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/25",
       "owners": [
         "lizagrande",
@@ -725,9 +725,21 @@
       ],
       "points": 3,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-29T21:56:53Z",
-      "prs": [],
+      "closedAt": "2026-11-16T22:43:08Z",
+      "updatedAt": "2026-11-16T22:43:08Z",
+      "prs": [
+        {
+          "number": 113,
+          "title": "AN-05: Analysis Coverage Detection, Reporting, and Fail-Closed Safety",
+          "state": "OPEN",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/113",
+          "review": "REVIEW_REQUIRED",
+          "ci": "unknown",
+          "checks": [],
+          "basis": "Story code in PR title",
+          "author": "lizagrande"
+        }
+      ],
       "module": "AN"
     },
     {
@@ -1394,6 +1406,38 @@
       "branch": "98-alias-mappings",
       "status": "completed",
       "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43963681157",
+      "createdAt": "2026-11-16T21:47:48Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "98-alias-mappings",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43963680889",
+      "createdAt": "2026-11-16T21:47:48Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "98-alias-mappings",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43962073307",
+      "createdAt": "2026-11-16T21:38:09Z"
+    },
+    {
+      "name": "DATA-01 dataset checks",
+      "branch": "98-alias-mappings",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43962073153",
+      "createdAt": "2026-11-16T21:38:09Z"
+    },
+    {
+      "name": "DATA-01 dataset checks",
+      "branch": "98-alias-mappings",
+      "status": "completed",
+      "conclusion": "success",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43820420703",
       "createdAt": "2026-11-16T06:58:01Z"
     },
@@ -1420,38 +1464,6 @@
       "conclusion": "success",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43807727757",
       "createdAt": "2026-11-16T05:03:04Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "main",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43805106523",
-      "createdAt": "2026-11-16T04:36:17Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "98-alias-mappings",
-      "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43804725503",
-      "createdAt": "2026-11-16T04:32:30Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "98-alias-mappings",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43804725500",
-      "createdAt": "2026-11-16T04:32:30Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "mia/google-password-reset",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43800628081",
-      "createdAt": "2026-11-16T03:51:38Z"
     }
   ],
   "graph": {
@@ -1558,9 +1570,9 @@
       },
       {
         "name": "98-alias-mappings",
-        "sha": "43a869f0a0ae9bd13f531512cdf1991c17076152",
-        "behind": 2,
-        "ahead": 4,
+        "sha": "dae3e114955c96d3e8e3c6246a9a094e1d7f790e",
+        "behind": 0,
+        "ahead": 8,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/98-alias-mappings"
@@ -1657,9 +1669,9 @@
       },
       {
         "name": "mia/an05-analysis-coverage",
-        "sha": "dd7a0613d229bb9075102bee7d844ca562ab8dab",
+        "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
         "behind": 12,
-        "ahead": 6,
+        "ahead": 7,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/an05-analysis-coverage"
@@ -1692,33 +1704,6 @@
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/pl-04-api-data-contract"
       },
       {
-        "name": "PR #104 \u00b7 Aesthelity-Team/98-ai-ingredient-normalization",
-        "sha": "c604c99fffab2663bec74c9c060728513e198d46",
-        "behind": 12,
-        "ahead": 1,
-        "kind": "pull-request",
-        "prNumber": 104,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/104"
-      },
-      {
-        "name": "PR #105 \u00b7 Aesthelity-Team/mia/google-password-reset",
-        "sha": "0f76d89789def307fd52b44f9d36f19566451841",
-        "behind": 9,
-        "ahead": 2,
-        "kind": "pull-request",
-        "prNumber": 105,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/105"
-      },
-      {
-        "name": "PR #109 \u00b7 Aesthelity-Team/mia/an05-analysis-coverage",
-        "sha": "dd7a0613d229bb9075102bee7d844ca562ab8dab",
-        "behind": 12,
-        "ahead": 6,
-        "kind": "pull-request",
-        "prNumber": 109,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/109"
-      },
-      {
         "name": "PR #110 \u00b7 Aesthelity-Team/mia/an02-firestore-clean",
         "sha": "bf10e615d5c5d7c99b63432ad3be6440f8b5d642",
         "behind": 2,
@@ -1729,21 +1714,21 @@
       },
       {
         "name": "PR #112 \u00b7 Aesthelity-Team/98-alias-mappings",
-        "sha": "43a869f0a0ae9bd13f531512cdf1991c17076152",
-        "behind": 2,
-        "ahead": 4,
+        "sha": "dae3e114955c96d3e8e3c6246a9a094e1d7f790e",
+        "behind": 0,
+        "ahead": 8,
         "kind": "pull-request",
         "prNumber": 112,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/112"
       },
       {
-        "name": "PR #85 \u00b7 Aesthelity-Team/codex/simplify-ios-ci",
-        "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
-        "behind": 61,
-        "ahead": 3,
+        "name": "PR #113 \u00b7 Aesthelity-Team/mia/an05-analysis-coverage",
+        "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
+        "behind": 12,
+        "ahead": 7,
         "kind": "pull-request",
-        "prNumber": 85,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/85"
+        "prNumber": 113,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/113"
       },
       {
         "name": "sprint-2",
@@ -1756,6 +1741,116 @@
       }
     ],
     "commits": [
+      {
+        "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
+        "parents": [
+          "dd7a0613d229bb9075102bee7d844ca562ab8dab"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-11-16T14:33:51-08:00",
+        "subject": "AN-05: Display analysis coverage states, affected products, and fail-closed safety messaging"
+      },
+      {
+        "sha": "dd7a0613d229bb9075102bee7d844ca562ab8dab",
+        "parents": [
+          "b6b7d69320d360b3f0749d63914416e84229a69a"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-15T16:20:45-08:00",
+        "subject": "Testvarious analysis states to ensure missing data coverage reportings"
+      },
+      {
+        "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
+        "parents": [
+          "c423ce715a9074a7c19d997ad44c410895b400e9"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-13T23:18:20-08:00",
+        "subject": "Ignore ingredient order in AI analysis context"
+      },
+      {
+        "sha": "c423ce715a9074a7c19d997ad44c410895b400e9",
+        "parents": [
+          "06488abde110a9ca23ff5e4413fab8ec007e9ab7"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-13T22:52:29-08:00",
+        "subject": "Load approved analysis references from Firestore"
+      },
+      {
+        "sha": "06488abde110a9ca23ff5e4413fab8ec007e9ab7",
+        "parents": [
+          "c08211b4d849b302a8c0c57d0523e61e3583f672"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-12T22:32:01-08:00",
+        "subject": "Implement evidence grounded AI analysis"
+      },
+      {
+        "sha": "c08211b4d849b302a8c0c57d0523e61e3583f672",
+        "parents": [
+          "c604c99fffab2663bec74c9c060728513e198d46"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-12T21:22:54-08:00",
+        "subject": "AN-03: add grounded AI feedback layer"
+      },
+      {
+        "sha": "dae3e114955c96d3e8e3c6246a9a094e1d7f790e",
+        "parents": [
+          "8b1700825b3a6c2db078bcd69e8a04d663cc61e7"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-16T13:47:39-08:00",
+        "subject": "Test (#98): FakeFirestore ArrayUnion + firebase_admin-independent lookup test"
+      },
+      {
+        "sha": "8b1700825b3a6c2db078bcd69e8a04d663cc61e7",
+        "parents": [
+          "5350e3173e270262ef7031ee644cdc1183f0303c"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-16T13:38:00-08:00",
+        "subject": "PD-03 (#98): AI-primary ingredient resolution, persistence, iOS resolve + docs"
+      },
+      {
+        "sha": "5350e3173e270262ef7031ee644cdc1183f0303c",
+        "parents": [
+          "915b68889a46aad1aae92ffdf8a75e166471fbc0"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-15T23:41:12-08:00",
+        "subject": "Test (#98): defer firebase_admin import until after catalog validation"
+      },
+      {
+        "sha": "915b68889a46aad1aae92ffdf8a75e166471fbc0",
+        "parents": [
+          "43a869f0a0ae9bd13f531512cdf1991c17076152",
+          "262eab783ed7ba4cd45586bca2681e202afb3007"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-15T23:38:04-08:00",
+        "subject": "Merge remote-tracking branch 'origin/main' into 98-alias-mappings"
+      },
+      {
+        "sha": "262eab783ed7ba4cd45586bca2681e202afb3007",
+        "parents": [
+          "066ae69dc305e86259f97c7778808995eb8cec07",
+          "8c9c6a89c2f33176feda5b4e2b9ac9cfeee4ef34"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-15T20:36:14-08:00",
+        "subject": "Merge pull request #111 from najihsherif/96-analysis-entry-update"
+      },
+      {
+        "sha": "8c9c6a89c2f33176feda5b4e2b9ac9cfeee4ef34",
+        "parents": [
+          "066ae69dc305e86259f97c7778808995eb8cec07"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-15T18:33:42-08:00",
+        "subject": "Fix #96 analysis entry and stale demo requests"
+      },
       {
         "sha": "43a869f0a0ae9bd13f531512cdf1991c17076152",
         "parents": [
@@ -1785,23 +1880,13 @@
         "subject": "PD-03 follow-up (#98): Firestore-backed ingredient alias mappings"
       },
       {
-        "sha": "262eab783ed7ba4cd45586bca2681e202afb3007",
+        "sha": "c604c99fffab2663bec74c9c060728513e198d46",
         "parents": [
-          "066ae69dc305e86259f97c7778808995eb8cec07",
-          "8c9c6a89c2f33176feda5b4e2b9ac9cfeee4ef34"
+          "f1e5624294985998252a20e2ab787610999236a6"
         ],
-        "author": "Mia Carter",
-        "date": "2026-11-15T20:36:14-08:00",
-        "subject": "Merge pull request #111 from najihsherif/96-analysis-entry-update"
-      },
-      {
-        "sha": "8c9c6a89c2f33176feda5b4e2b9ac9cfeee4ef34",
-        "parents": [
-          "066ae69dc305e86259f97c7778808995eb8cec07"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-11-15T18:33:42-08:00",
-        "subject": "Fix #96 analysis entry and stale demo requests"
+        "author": "Belleairr",
+        "date": "2026-11-09T14:59:29-08:00",
+        "subject": "Initial Work on Issue 98"
       },
       {
         "sha": "0f76d89789def307fd52b44f9d36f19566451841",
@@ -1923,60 +2008,6 @@
         "author": "Mia Carter",
         "date": "2026-11-13T15:49:08-08:00",
         "subject": "Add Firebase auth to analysis requests"
-      },
-      {
-        "sha": "dd7a0613d229bb9075102bee7d844ca562ab8dab",
-        "parents": [
-          "b6b7d69320d360b3f0749d63914416e84229a69a"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-15T16:20:45-08:00",
-        "subject": "Testvarious analysis states to ensure missing data coverage reportings"
-      },
-      {
-        "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
-        "parents": [
-          "c423ce715a9074a7c19d997ad44c410895b400e9"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-13T23:18:20-08:00",
-        "subject": "Ignore ingredient order in AI analysis context"
-      },
-      {
-        "sha": "c423ce715a9074a7c19d997ad44c410895b400e9",
-        "parents": [
-          "06488abde110a9ca23ff5e4413fab8ec007e9ab7"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-13T22:52:29-08:00",
-        "subject": "Load approved analysis references from Firestore"
-      },
-      {
-        "sha": "06488abde110a9ca23ff5e4413fab8ec007e9ab7",
-        "parents": [
-          "c08211b4d849b302a8c0c57d0523e61e3583f672"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-12T22:32:01-08:00",
-        "subject": "Implement evidence grounded AI analysis"
-      },
-      {
-        "sha": "c08211b4d849b302a8c0c57d0523e61e3583f672",
-        "parents": [
-          "c604c99fffab2663bec74c9c060728513e198d46"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-12T21:22:54-08:00",
-        "subject": "AN-03: add grounded AI feedback layer"
-      },
-      {
-        "sha": "c604c99fffab2663bec74c9c060728513e198d46",
-        "parents": [
-          "f1e5624294985998252a20e2ab787610999236a6"
-        ],
-        "author": "Belleairr",
-        "date": "2026-11-09T14:59:29-08:00",
-        "subject": "Initial Work on Issue 98"
       },
       {
         "sha": "5cbf3d074557367ca526264d6a059250b0ab1e52",
@@ -3013,52 +3044,6 @@
         "author": "Belleairr",
         "date": "2026-10-05T14:57:38-07:00",
         "subject": "updated sprint table for dev notes"
-      },
-      {
-        "sha": "75f55c777a38fada4930c5f95d00a8971eeb59d6",
-        "parents": [
-          "761bf0788690244904b3d2077a989508367245cb",
-          "d9412faa96d5bab242672bfd70a1a92ede88a2ee"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-05T14:55:51-07:00",
-        "subject": "Merge pull request #54 from Aesthelity-Team/Belleairr-DevNotes"
-      },
-      {
-        "sha": "d9412faa96d5bab242672bfd70a1a92ede88a2ee",
-        "parents": [
-          "761bf0788690244904b3d2077a989508367245cb"
-        ],
-        "author": "Belleairr",
-        "date": "2026-10-05T14:50:16-07:00",
-        "subject": "Creating project development notes for our reference"
-      },
-      {
-        "sha": "07c24557ce36b22baacb9b24d631cd6329f59c91",
-        "parents": [
-          "761bf0788690244904b3d2077a989508367245cb"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-05T01:49:39-07:00",
-        "subject": "Updated Sprint 1 table"
-      },
-      {
-        "sha": "761bf0788690244904b3d2077a989508367245cb",
-        "parents": [
-          "0c8a4778f5fe929c4c4f8b233eee4611e0709f8b"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-09-30T11:59:35-07:00",
-        "subject": "Documented branch naming convention instructions"
-      },
-      {
-        "sha": "0c8a4778f5fe929c4c4f8b233eee4611e0709f8b",
-        "parents": [
-          "f52b02f9f42d3e0cbd1b010bd4f3c79ecef8a059"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-09-30T11:45:22-07:00",
-        "subject": "Initial set up of project documentation and issue template"
       }
     ],
     "limit": 140,
