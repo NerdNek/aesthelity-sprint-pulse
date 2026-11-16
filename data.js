@@ -1,5 +1,5 @@
 window.SPRINT_SNAPSHOT = {
-  "capturedAt": "2026-11-15T20:37:12.902289+00:00",
+  "capturedAt": "2026-11-16T08:40:52.252977+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -753,7 +753,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "BE-01: User authentication",
       "code": "BE-01",
       "sprint": "sprint-3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/27",
       "owners": [
         "lizagrande",
@@ -761,8 +761,8 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 5,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-29T21:57:35Z",
+      "closedAt": "2026-11-16T04:10:51Z",
+      "updatedAt": "2026-11-16T04:10:51Z",
       "prs": [],
       "module": "BE"
     },
@@ -771,7 +771,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "BE-02: Backend data isolation",
       "code": "BE-02",
       "sprint": "sprint-3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/28",
       "owners": [
         "Belleairr",
@@ -780,9 +780,30 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 5,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-29T21:58:01Z",
-      "prs": [],
+      "closedAt": "2026-11-16T03:51:20Z",
+      "updatedAt": "2026-11-16T03:51:21Z",
+      "prs": [
+        {
+          "number": 108,
+          "title": "BE-02: Implement backend data isolation (#28)",
+          "state": "MERGED",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/108",
+          "review": "APPROVED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            },
+            {
+              "name": "validate",
+              "result": "SUCCESS"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "Belleairr"
+        }
+      ],
       "module": "BE"
     },
     {
@@ -1224,7 +1245,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "Sprint 3: Harden analysis entry point and demo scenario results",
       "code": "#96",
       "sprint": "sprint-3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/96",
       "owners": [
         "lizagrande",
@@ -1232,8 +1253,8 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": null,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-29T21:56:08Z",
+      "closedAt": "2026-11-16T04:36:16Z",
+      "updatedAt": "2026-11-16T04:36:16Z",
       "prs": [],
       "module": "#96"
     },
@@ -1307,8 +1328,28 @@ window.SPRINT_SNAPSHOT = {
       "points": 3,
       "proposed": true,
       "closedAt": null,
-      "updatedAt": "2026-10-29T22:09:41Z",
+      "updatedAt": "2026-11-16T06:59:35Z",
       "prs": [
+        {
+          "number": 112,
+          "title": "Ingredient alias mappings (#98)",
+          "state": "OPEN",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/112",
+          "review": "REVIEW_REQUIRED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            },
+            {
+              "name": "validate",
+              "result": "SUCCESS"
+            }
+          ],
+          "basis": "GitHub closing reference",
+          "author": "NerdNek"
+        },
         {
           "number": 83,
           "title": "PD-03: Map ingredient aliases and publish the integration contract",
@@ -1349,68 +1390,68 @@ window.SPRINT_SNAPSHOT = {
   ],
   "runs": [
     {
+      "name": "DATA-01 dataset checks",
+      "branch": "98-alias-mappings",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43820420703",
+      "createdAt": "2026-11-16T06:58:01Z"
+    },
+    {
       "name": "iOS CI",
-      "branch": "liza/27-be-01-user-authentication",
+      "branch": "98-alias-mappings",
       "status": "completed",
       "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43691359807",
-      "createdAt": "2026-11-15T07:45:30Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43820420697",
+      "createdAt": "2026-11-16T06:58:01Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "98-alias-mappings",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43807727791",
+      "createdAt": "2026-11-16T05:03:04Z"
     },
     {
       "name": "DATA-01 dataset checks",
-      "branch": "mia/an02-firestore-references",
+      "branch": "98-alias-mappings",
       "status": "completed",
       "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43570846297",
-      "createdAt": "2026-11-14T07:23:03Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43807727757",
+      "createdAt": "2026-11-16T05:03:04Z"
     },
     {
       "name": "iOS CI",
-      "branch": "mia/an02-firestore-references",
+      "branch": "main",
       "status": "completed",
       "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43570846295",
-      "createdAt": "2026-11-14T07:23:03Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43805106523",
+      "createdAt": "2026-11-16T04:36:17Z"
+    },
+    {
+      "name": "DATA-01 dataset checks",
+      "branch": "98-alias-mappings",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43804725503",
+      "createdAt": "2026-11-16T04:32:30Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "98-alias-mappings",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43804725500",
+      "createdAt": "2026-11-16T04:32:30Z"
     },
     {
       "name": "iOS CI",
       "branch": "mia/google-password-reset",
       "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43557467868",
-      "createdAt": "2026-11-14T04:36:09Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "98-ai-ingredient-normalization",
-      "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/42716741306",
-      "createdAt": "2026-11-09T22:59:57Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "98-ai-ingredient-normalization",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/42716741028",
-      "createdAt": "2026-11-09T22:59:57Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "liza/27-be-01-user-authentication",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/42548289142",
-      "createdAt": "2026-11-09T01:57:51Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "liza/27-be-01-user-authentication",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/42548245260",
-      "createdAt": "2026-11-09T01:57:19Z"
+      "conclusion": "cancelled",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43800628081",
+      "createdAt": "2026-11-16T03:51:38Z"
     }
   ],
   "graph": {
@@ -1419,7 +1460,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "1-curated-demo-product-set",
         "sha": "212ccc5083adcc50058db9f0e263a5213e52e5cd",
-        "behind": 77,
+        "behind": 89,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1428,7 +1469,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "10-rt-01-sample-am-pm-routines",
         "sha": "19064b713badc0748d66ea501baf93b6fc2f9b9b",
-        "behind": 71,
+        "behind": 83,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1437,8 +1478,8 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "103-be01-backend-auth",
         "sha": "644ce6b16c6a0a0e62f58c5e9575dceda13db1f0",
-        "behind": 0,
-        "ahead": 1,
+        "behind": 11,
+        "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/103-be01-backend-auth"
@@ -1446,16 +1487,25 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "23-an03-input-prep",
         "sha": "c6abb828fedc5f133adf9f608a1797c1a8746c51",
-        "behind": 12,
+        "behind": 24,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/23-an03-input-prep"
       },
       {
+        "name": "28-backend-data-isolation",
+        "sha": "4bcb13b55b010a82da01f37c7340be3b6d60345b",
+        "behind": 3,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/28-backend-data-isolation"
+      },
+      {
         "name": "29-authenticated-api",
         "sha": "a136f7a7c3bd9aef8e912b262a654977d97057a7",
-        "behind": 0,
+        "behind": 12,
         "ahead": 2,
         "kind": "branch",
         "prNumber": null,
@@ -1464,7 +1514,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "3-on-01-welcome-first-use",
         "sha": "734741c14ecba313382e3d002020b0014e7e27c9",
-        "behind": 81,
+        "behind": 93,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1473,7 +1523,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "82-firestore-catalog-setup",
         "sha": "db44ffea14037cfe8c37a96f870fddd56ff9c553",
-        "behind": 47,
+        "behind": 59,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1482,7 +1532,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "96-harden-analysis-entry",
         "sha": "39378714ed354a662a4b45c78a3ed3d837d664ef",
-        "behind": 0,
+        "behind": 12,
         "ahead": 2,
         "kind": "branch",
         "prNumber": null,
@@ -1491,7 +1541,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "97-ai-analysis-contract",
         "sha": "5cbf3d074557367ca526264d6a059250b0ab1e52",
-        "behind": 0,
+        "behind": 12,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1500,16 +1550,25 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "98-ai-ingredient-normalization",
         "sha": "c604c99fffab2663bec74c9c060728513e198d46",
-        "behind": 0,
+        "behind": 12,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/98-ai-ingredient-normalization"
       },
       {
+        "name": "98-alias-mappings",
+        "sha": "43a869f0a0ae9bd13f531512cdf1991c17076152",
+        "behind": 2,
+        "ahead": 4,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/98-alias-mappings"
+      },
+      {
         "name": "99-ai-analysis-engine",
         "sha": "06488abde110a9ca23ff5e4413fab8ec007e9ab7",
-        "behind": 0,
+        "behind": 12,
         "ahead": 3,
         "kind": "branch",
         "prNumber": null,
@@ -1518,7 +1577,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-DevNotes",
         "sha": "d9412faa96d5bab242672bfd70a1a92ede88a2ee",
-        "behind": 103,
+        "behind": 115,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1527,7 +1586,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-Unfinished-but-Updated-README",
         "sha": "00dea3404e93f896754c15369371adcb6da79193",
-        "behind": 99,
+        "behind": 111,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1536,7 +1595,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-updated-sprint-tabel",
         "sha": "f1be2cfaedba6b5b250067e7de5c734b9dd0e8aa",
-        "behind": 101,
+        "behind": 113,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1545,7 +1604,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "an-02-approved-rules",
         "sha": "f2b178a202d7b929937cdca121fc1ee525fff2b2",
-        "behind": 0,
+        "behind": 12,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1554,7 +1613,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
-        "behind": 49,
+        "behind": 61,
         "ahead": 3,
         "kind": "branch",
         "prNumber": null,
@@ -1563,7 +1622,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "docs/update-sprint-table",
         "sha": "07c24557ce36b22baacb9b24d631cd6329f59c91",
-        "behind": 104,
+        "behind": 116,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1571,7 +1630,7 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "main",
-        "sha": "f1e5624294985998252a20e2ab787610999236a6",
+        "sha": "262eab783ed7ba4cd45586bca2681e202afb3007",
         "behind": 0,
         "ahead": 0,
         "kind": "branch",
@@ -1579,19 +1638,37 @@ window.SPRINT_SNAPSHOT = {
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/main"
       },
       {
+        "name": "mia/an02-firestore-clean",
+        "sha": "bf10e615d5c5d7c99b63432ad3be6440f8b5d642",
+        "behind": 2,
+        "ahead": 1,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/an02-firestore-clean"
+      },
+      {
         "name": "mia/an02-firestore-references",
         "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
-        "behind": 0,
+        "behind": 12,
         "ahead": 5,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/an02-firestore-references"
       },
       {
+        "name": "mia/an05-analysis-coverage",
+        "sha": "dd7a0613d229bb9075102bee7d844ca562ab8dab",
+        "behind": 12,
+        "ahead": 6,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/an05-analysis-coverage"
+      },
+      {
         "name": "mia/google-password-reset",
-        "sha": "1612c8a7349d7907620ce23ec342d9c30104534b",
-        "behind": 0,
-        "ahead": 4,
+        "sha": "0f76d89789def307fd52b44f9d36f19566451841",
+        "behind": 9,
+        "ahead": 2,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/google-password-reset"
@@ -1599,8 +1676,8 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "mia/liza-auth-base",
         "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
-        "behind": 0,
-        "ahead": 3,
+        "behind": 9,
+        "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/liza-auth-base"
@@ -1608,25 +1685,16 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "pl-04-api-data-contract",
         "sha": "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5",
-        "behind": 45,
+        "behind": 57,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/pl-04-api-data-contract"
       },
       {
-        "name": "PR #103 \u00b7 lizagrande/liza/27-be-01-user-authentication",
-        "sha": "4ac6c4d9ee72ff63f0caeb863e838820a6b8253f",
-        "behind": 0,
-        "ahead": 4,
-        "kind": "pull-request",
-        "prNumber": 103,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/103"
-      },
-      {
         "name": "PR #104 \u00b7 Aesthelity-Team/98-ai-ingredient-normalization",
         "sha": "c604c99fffab2663bec74c9c060728513e198d46",
-        "behind": 0,
+        "behind": 12,
         "ahead": 1,
         "kind": "pull-request",
         "prNumber": 104,
@@ -1634,26 +1702,44 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "PR #105 \u00b7 Aesthelity-Team/mia/google-password-reset",
-        "sha": "1612c8a7349d7907620ce23ec342d9c30104534b",
-        "behind": 0,
-        "ahead": 4,
+        "sha": "0f76d89789def307fd52b44f9d36f19566451841",
+        "behind": 9,
+        "ahead": 2,
         "kind": "pull-request",
         "prNumber": 105,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/105"
       },
       {
-        "name": "PR #106 \u00b7 Aesthelity-Team/mia/an02-firestore-references",
-        "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
-        "behind": 0,
-        "ahead": 5,
+        "name": "PR #109 \u00b7 Aesthelity-Team/mia/an05-analysis-coverage",
+        "sha": "dd7a0613d229bb9075102bee7d844ca562ab8dab",
+        "behind": 12,
+        "ahead": 6,
         "kind": "pull-request",
-        "prNumber": 106,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/106"
+        "prNumber": 109,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/109"
+      },
+      {
+        "name": "PR #110 \u00b7 Aesthelity-Team/mia/an02-firestore-clean",
+        "sha": "bf10e615d5c5d7c99b63432ad3be6440f8b5d642",
+        "behind": 2,
+        "ahead": 1,
+        "kind": "pull-request",
+        "prNumber": 110,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/110"
+      },
+      {
+        "name": "PR #112 \u00b7 Aesthelity-Team/98-alias-mappings",
+        "sha": "43a869f0a0ae9bd13f531512cdf1991c17076152",
+        "behind": 2,
+        "ahead": 4,
+        "kind": "pull-request",
+        "prNumber": 112,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/112"
       },
       {
         "name": "PR #85 \u00b7 Aesthelity-Team/codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
-        "behind": 49,
+        "behind": 61,
         "ahead": 3,
         "kind": "pull-request",
         "prNumber": 85,
@@ -1662,7 +1748,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "sprint-2",
         "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
-        "behind": 42,
+        "behind": 54,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1671,6 +1757,120 @@ window.SPRINT_SNAPSHOT = {
     ],
     "commits": [
       {
+        "sha": "43a869f0a0ae9bd13f531512cdf1991c17076152",
+        "parents": [
+          "990f9c3c2cc6f99eeadb5bb57a95f100efa6e2c6"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-15T22:57:53-08:00",
+        "subject": "PD-03 follow-up (#98): analysis-engine input adapter and AI fallback for unresolved ingredients"
+      },
+      {
+        "sha": "990f9c3c2cc6f99eeadb5bb57a95f100efa6e2c6",
+        "parents": [
+          "4f92b601c6555e5cc92fd3067fcf354f41b603bc"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-15T21:02:55-08:00",
+        "subject": "PD-03 follow-up (#98): import full EU CosIng ingredient catalog"
+      },
+      {
+        "sha": "4f92b601c6555e5cc92fd3067fcf354f41b603bc",
+        "parents": [
+          "c604c99fffab2663bec74c9c060728513e198d46",
+          "066ae69dc305e86259f97c7778808995eb8cec07"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-15T20:32:23-08:00",
+        "subject": "PD-03 follow-up (#98): Firestore-backed ingredient alias mappings"
+      },
+      {
+        "sha": "262eab783ed7ba4cd45586bca2681e202afb3007",
+        "parents": [
+          "066ae69dc305e86259f97c7778808995eb8cec07",
+          "8c9c6a89c2f33176feda5b4e2b9ac9cfeee4ef34"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-15T20:36:14-08:00",
+        "subject": "Merge pull request #111 from najihsherif/96-analysis-entry-update"
+      },
+      {
+        "sha": "8c9c6a89c2f33176feda5b4e2b9ac9cfeee4ef34",
+        "parents": [
+          "066ae69dc305e86259f97c7778808995eb8cec07"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-15T18:33:42-08:00",
+        "subject": "Fix #96 analysis entry and stale demo requests"
+      },
+      {
+        "sha": "0f76d89789def307fd52b44f9d36f19566451841",
+        "parents": [
+          "1612c8a7349d7907620ce23ec342d9c30104534b"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-15T19:51:28-08:00",
+        "subject": "Restore auth fallback and address review feedback"
+      },
+      {
+        "sha": "1612c8a7349d7907620ce23ec342d9c30104534b",
+        "parents": [
+          "84f53e96477afb6d70254ec4b68faa060c6a470f"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-13T20:30:35-08:00",
+        "subject": "Add Google sign-in and password reset"
+      },
+      {
+        "sha": "bf10e615d5c5d7c99b63432ad3be6440f8b5d642",
+        "parents": [
+          "066ae69dc305e86259f97c7778808995eb8cec07"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-15T18:30:55-08:00",
+        "subject": "Add Firestore analysis reference storage"
+      },
+      {
+        "sha": "066ae69dc305e86259f97c7778808995eb8cec07",
+        "parents": [
+          "008c17842614b1d60fad36cf6681070044560676",
+          "4bcb13b55b010a82da01f37c7340be3b6d60345b"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-15T17:54:36-08:00",
+        "subject": "Merge pull request #108 from Aesthelity-Team/28-backend-data-isolation"
+      },
+      {
+        "sha": "4bcb13b55b010a82da01f37c7340be3b6d60345b",
+        "parents": [
+          "2f8aa14ee84ec5625372173e7ea9ced9517da978",
+          "008c17842614b1d60fad36cf6681070044560676"
+        ],
+        "author": "Belleairr",
+        "date": "2026-11-15T16:13:30-08:00",
+        "subject": "Merge remote-tracking branch 'origin/main' into 28-backend-data-isolation Implement backend data isolation (#28)# the commit."
+      },
+      {
+        "sha": "008c17842614b1d60fad36cf6681070044560676",
+        "parents": [
+          "baa827231d0b2e59f379ea81333e621f1a2b959f",
+          "644ce6b16c6a0a0e62f58c5e9575dceda13db1f0"
+        ],
+        "author": "Belleairr",
+        "date": "2026-11-15T16:06:04-08:00",
+        "subject": "Merge pull request #107 from Aesthelity-Team/103-be01-backend-auth"
+      },
+      {
+        "sha": "baa827231d0b2e59f379ea81333e621f1a2b959f",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6",
+          "4ac6c4d9ee72ff63f0caeb863e838820a6b8253f"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-15T15:11:45-08:00",
+        "subject": "Merge pull request #103 from lizagrande/liza/27-be-01-user-authentication"
+      },
+      {
         "sha": "4ac6c4d9ee72ff63f0caeb863e838820a6b8253f",
         "parents": [
           "84f53e96477afb6d70254ec4b68faa060c6a470f"
@@ -1678,6 +1878,60 @@ window.SPRINT_SNAPSHOT = {
         "author": "Mia Carter",
         "date": "2026-11-14T23:43:30-08:00",
         "subject": "Add Google sign-in and password reset"
+      },
+      {
+        "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
+        "parents": [
+          "5576f0e1354ab41374bdeaaeaca9f89b43049be6"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-11-08T17:56:04-08:00",
+        "subject": "feat(auth): add post-onboarding registration step with secure fallback and username support"
+      },
+      {
+        "sha": "5576f0e1354ab41374bdeaaeaca9f89b43049be6",
+        "parents": [
+          "baaa55757326b185651e68495f21d7ff0edac077"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-11-08T16:59:37-08:00",
+        "subject": "feat(ui): add prominent sign out buttons to Profile and Settings screens"
+      },
+      {
+        "sha": "baaa55757326b185651e68495f21d7ff0edac077",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-11-08T16:47:26-08:00",
+        "subject": "feat(auth): implement secure user registration, sign-in, sign-out, password hashing, and keychain storage (BE-01)"
+      },
+      {
+        "sha": "2f8aa14ee84ec5625372173e7ea9ced9517da978",
+        "parents": [
+          "644ce6b16c6a0a0e62f58c5e9575dceda13db1f0"
+        ],
+        "author": "Belleairr",
+        "date": "2026-11-15T14:33:07-08:00",
+        "subject": "Implement user data isolation for issue #28"
+      },
+      {
+        "sha": "644ce6b16c6a0a0e62f58c5e9575dceda13db1f0",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-13T15:49:08-08:00",
+        "subject": "Add Firebase auth to analysis requests"
+      },
+      {
+        "sha": "dd7a0613d229bb9075102bee7d844ca562ab8dab",
+        "parents": [
+          "b6b7d69320d360b3f0749d63914416e84229a69a"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-15T16:20:45-08:00",
+        "subject": "Testvarious analysis states to ensure missing data coverage reportings"
       },
       {
         "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
@@ -1723,51 +1977,6 @@ window.SPRINT_SNAPSHOT = {
         "author": "Belleairr",
         "date": "2026-11-09T14:59:29-08:00",
         "subject": "Initial Work on Issue 98"
-      },
-      {
-        "sha": "1612c8a7349d7907620ce23ec342d9c30104534b",
-        "parents": [
-          "84f53e96477afb6d70254ec4b68faa060c6a470f"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-13T20:30:35-08:00",
-        "subject": "Add Google sign-in and password reset"
-      },
-      {
-        "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
-        "parents": [
-          "5576f0e1354ab41374bdeaaeaca9f89b43049be6"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-11-08T17:56:04-08:00",
-        "subject": "feat(auth): add post-onboarding registration step with secure fallback and username support"
-      },
-      {
-        "sha": "5576f0e1354ab41374bdeaaeaca9f89b43049be6",
-        "parents": [
-          "baaa55757326b185651e68495f21d7ff0edac077"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-11-08T16:59:37-08:00",
-        "subject": "feat(ui): add prominent sign out buttons to Profile and Settings screens"
-      },
-      {
-        "sha": "baaa55757326b185651e68495f21d7ff0edac077",
-        "parents": [
-          "f1e5624294985998252a20e2ab787610999236a6"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-11-08T16:47:26-08:00",
-        "subject": "feat(auth): implement secure user registration, sign-in, sign-out, password hashing, and keychain storage (BE-01)"
-      },
-      {
-        "sha": "644ce6b16c6a0a0e62f58c5e9575dceda13db1f0",
-        "parents": [
-          "f1e5624294985998252a20e2ab787610999236a6"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-13T15:49:08-08:00",
-        "subject": "Add Firebase auth to analysis requests"
       },
       {
         "sha": "5cbf3d074557367ca526264d6a059250b0ab1e52",
@@ -2850,18 +3059,11 @@ window.SPRINT_SNAPSHOT = {
         "author": "Mia Carter",
         "date": "2026-09-30T11:45:22-07:00",
         "subject": "Initial set up of project documentation and issue template"
-      },
-      {
-        "sha": "f52b02f9f42d3e0cbd1b010bd4f3c79ecef8a059",
-        "parents": [],
-        "author": "Belleairr",
-        "date": "2026-08-24T14:10:20-07:00",
-        "subject": "Initial commit"
       }
     ],
     "limit": 140,
     "fetchDepth": 300,
     "order": "child-before-parent",
-    "partial": false
+    "partial": true
   }
 };
