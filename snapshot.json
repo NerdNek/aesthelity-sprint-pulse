@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-16T23:52:24.950776+00:00",
+  "capturedAt": "2026-11-17T09:46:03.615967+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -1352,7 +1352,7 @@
           "checks": [
             {
               "name": "Build and unit test",
-              "result": "FAILURE"
+              "result": "CANCELLED"
             },
             {
               "name": "validate",
@@ -1403,6 +1403,46 @@
   "runs": [
     {
       "name": "DATA-01 dataset checks",
+      "branch": "29-authenticated-api",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44057436181",
+      "createdAt": "2026-11-17T09:38:35Z"
+    },
+    {
+      "name": "Backend API checks",
+      "branch": "29-authenticated-api",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44057435957",
+      "createdAt": "2026-11-17T09:38:35Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "29-authenticated-api",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44057435911",
+      "createdAt": "2026-11-17T09:38:34Z"
+    },
+    {
+      "name": "DATA-01 dataset checks",
+      "branch": "98-alias-mappings",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43999899953",
+      "createdAt": "2026-11-17T02:01:25Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "98-alias-mappings",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43999899768",
+      "createdAt": "2026-11-17T02:01:24Z"
+    },
+    {
+      "name": "DATA-01 dataset checks",
       "branch": "98-alias-mappings",
       "status": "completed",
       "conclusion": "success",
@@ -1424,46 +1464,6 @@
       "conclusion": "cancelled",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43962073307",
       "createdAt": "2026-11-16T21:38:09Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "98-alias-mappings",
-      "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43962073153",
-      "createdAt": "2026-11-16T21:38:09Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "98-alias-mappings",
-      "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43820420703",
-      "createdAt": "2026-11-16T06:58:01Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "98-alias-mappings",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43820420697",
-      "createdAt": "2026-11-16T06:58:01Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "98-alias-mappings",
-      "status": "completed",
-      "conclusion": "failure",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43807727791",
-      "createdAt": "2026-11-16T05:03:04Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "98-alias-mappings",
-      "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/43807727757",
-      "createdAt": "2026-11-16T05:03:04Z"
     }
   ],
   "graph": {
@@ -1516,9 +1516,9 @@
       },
       {
         "name": "29-authenticated-api",
-        "sha": "a136f7a7c3bd9aef8e912b262a654977d97057a7",
-        "behind": 12,
-        "ahead": 2,
+        "sha": "c8067de9e0119c827b1ff9da15abca3027e1f935",
+        "behind": 0,
+        "ahead": 7,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/29-authenticated-api"
@@ -1570,9 +1570,9 @@
       },
       {
         "name": "98-alias-mappings",
-        "sha": "dae3e114955c96d3e8e3c6246a9a094e1d7f790e",
+        "sha": "c646c4fb09e99f7d9b968411b8d9071c422cde6b",
         "behind": 0,
-        "ahead": 8,
+        "ahead": 9,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/98-alias-mappings"
@@ -1714,9 +1714,9 @@
       },
       {
         "name": "PR #112 \u00b7 Aesthelity-Team/98-alias-mappings",
-        "sha": "dae3e114955c96d3e8e3c6246a9a094e1d7f790e",
+        "sha": "c646c4fb09e99f7d9b968411b8d9071c422cde6b",
         "behind": 0,
-        "ahead": 8,
+        "ahead": 9,
         "kind": "pull-request",
         "prNumber": 112,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/112"
@@ -1731,6 +1731,15 @@
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/113"
       },
       {
+        "name": "PR #115 \u00b7 Aesthelity-Team/29-authenticated-api",
+        "sha": "c8067de9e0119c827b1ff9da15abca3027e1f935",
+        "behind": 0,
+        "ahead": 7,
+        "kind": "pull-request",
+        "prNumber": 115,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/115"
+      },
+      {
         "name": "sprint-2",
         "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
         "behind": 54,
@@ -1742,58 +1751,79 @@
     ],
     "commits": [
       {
-        "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
+        "sha": "c8067de9e0119c827b1ff9da15abca3027e1f935",
         "parents": [
-          "dd7a0613d229bb9075102bee7d844ca562ab8dab"
+          "d815e3c0ff223154af032171d66e3850b1fb0904",
+          "0b41cb3e41066ffa844bd6278a8961b27f31a456"
         ],
-        "author": "Liza Grande",
-        "date": "2026-11-16T14:33:51-08:00",
-        "subject": "AN-05: Display analysis coverage states, affected products, and fail-closed safety messaging"
+        "author": "Najih Sherif",
+        "date": "2026-11-17T01:23:05-08:00",
+        "subject": "Integrate team updates and complete #29 authenticated API flows"
       },
       {
-        "sha": "dd7a0613d229bb9075102bee7d844ca562ab8dab",
+        "sha": "0b41cb3e41066ffa844bd6278a8961b27f31a456",
         "parents": [
-          "b6b7d69320d360b3f0749d63914416e84229a69a"
+          "e9b3044cff2f043c5a1439998ca96ccd9f0f40c4"
         ],
-        "author": "Mia Carter",
-        "date": "2026-11-15T16:20:45-08:00",
-        "subject": "Testvarious analysis states to ensure missing data coverage reportings"
+        "author": "Belleairr",
+        "date": "2026-11-16T18:09:12-08:00",
+        "subject": "Add #29 analysis server error handling, production auth verification tests, and docs"
       },
       {
-        "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
+        "sha": "e9b3044cff2f043c5a1439998ca96ccd9f0f40c4",
         "parents": [
-          "c423ce715a9074a7c19d997ad44c410895b400e9"
+          "cf00dce051acb89db35c470fc1123b21029bfcb7"
         ],
-        "author": "Mia Carter",
-        "date": "2026-11-13T23:18:20-08:00",
-        "subject": "Ignore ingredient order in AI analysis context"
+        "author": "Belleairr",
+        "date": "2026-11-16T17:34:44-08:00",
+        "subject": "Add #29 HTTP acceptance tests for authenticated POST /api/v1/analyses"
       },
       {
-        "sha": "c423ce715a9074a7c19d997ad44c410895b400e9",
+        "sha": "cf00dce051acb89db35c470fc1123b21029bfcb7",
         "parents": [
-          "06488abde110a9ca23ff5e4413fab8ec007e9ab7"
+          "b620ef36b69d4164122af7111a0f7dc0edc69b91"
         ],
-        "author": "Mia Carter",
-        "date": "2026-11-13T22:52:29-08:00",
-        "subject": "Load approved analysis references from Firestore"
+        "author": "Belleairr",
+        "date": "2026-11-16T17:34:44-08:00",
+        "subject": "Fix #29 _authorized to use injected verifier and check_revoked=True"
       },
       {
-        "sha": "06488abde110a9ca23ff5e4413fab8ec007e9ab7",
+        "sha": "b620ef36b69d4164122af7111a0f7dc0edc69b91",
         "parents": [
-          "c08211b4d849b302a8c0c57d0523e61e3583f672"
+          "a136f7a7c3bd9aef8e912b262a654977d97057a7",
+          "262eab783ed7ba4cd45586bca2681e202afb3007"
         ],
-        "author": "Mia Carter",
-        "date": "2026-11-12T22:32:01-08:00",
-        "subject": "Implement evidence grounded AI analysis"
+        "author": "Belleairr",
+        "date": "2026-11-16T17:34:30-08:00",
+        "subject": "Merge origin/main into 29-authenticated-api"
       },
       {
-        "sha": "c08211b4d849b302a8c0c57d0523e61e3583f672",
+        "sha": "a136f7a7c3bd9aef8e912b262a654977d97057a7",
         "parents": [
-          "c604c99fffab2663bec74c9c060728513e198d46"
+          "f1e5624294985998252a20e2ab787610999236a6",
+          "d815e3c0ff223154af032171d66e3850b1fb0904"
         ],
-        "author": "Mia Carter",
-        "date": "2026-11-12T21:22:54-08:00",
-        "subject": "AN-03: add grounded AI feedback layer"
+        "author": "najihsherif",
+        "date": "2026-11-04T15:09:31-08:00",
+        "subject": "Merge pull request #101 from najihsherif/29-authenticated-api"
+      },
+      {
+        "sha": "d815e3c0ff223154af032171d66e3850b1fb0904",
+        "parents": [
+          "f1e5624294985998252a20e2ab787610999236a6"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-04T15:03:55-08:00",
+        "subject": "Add #29 authenticated iOS API client and analysis integration"
+      },
+      {
+        "sha": "c646c4fb09e99f7d9b968411b8d9071c422cde6b",
+        "parents": [
+          "dae3e114955c96d3e8e3c6246a9a094e1d7f790e"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-16T18:01:17-08:00",
+        "subject": "PD-03 (#98): address review \u2014 ownership check, validate before persist, #99 routine helper, iOS listStatus"
       },
       {
         "sha": "dae3e114955c96d3e8e3c6246a9a094e1d7f790e",
@@ -1878,6 +1908,60 @@
         "author": "Gaurav Pandey",
         "date": "2026-11-15T20:32:23-08:00",
         "subject": "PD-03 follow-up (#98): Firestore-backed ingredient alias mappings"
+      },
+      {
+        "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
+        "parents": [
+          "dd7a0613d229bb9075102bee7d844ca562ab8dab"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-11-16T14:33:51-08:00",
+        "subject": "AN-05: Display analysis coverage states, affected products, and fail-closed safety messaging"
+      },
+      {
+        "sha": "dd7a0613d229bb9075102bee7d844ca562ab8dab",
+        "parents": [
+          "b6b7d69320d360b3f0749d63914416e84229a69a"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-15T16:20:45-08:00",
+        "subject": "Testvarious analysis states to ensure missing data coverage reportings"
+      },
+      {
+        "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
+        "parents": [
+          "c423ce715a9074a7c19d997ad44c410895b400e9"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-13T23:18:20-08:00",
+        "subject": "Ignore ingredient order in AI analysis context"
+      },
+      {
+        "sha": "c423ce715a9074a7c19d997ad44c410895b400e9",
+        "parents": [
+          "06488abde110a9ca23ff5e4413fab8ec007e9ab7"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-13T22:52:29-08:00",
+        "subject": "Load approved analysis references from Firestore"
+      },
+      {
+        "sha": "06488abde110a9ca23ff5e4413fab8ec007e9ab7",
+        "parents": [
+          "c08211b4d849b302a8c0c57d0523e61e3583f672"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-12T22:32:01-08:00",
+        "subject": "Implement evidence grounded AI analysis"
+      },
+      {
+        "sha": "c08211b4d849b302a8c0c57d0523e61e3583f672",
+        "parents": [
+          "c604c99fffab2663bec74c9c060728513e198d46"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-12T21:22:54-08:00",
+        "subject": "AN-03: add grounded AI feedback layer"
       },
       {
         "sha": "c604c99fffab2663bec74c9c060728513e198d46",
@@ -2017,25 +2101,6 @@
         "author": "Mia Carter",
         "date": "2026-11-12T21:59:17-08:00",
         "subject": "defined AI analysis contract for #97"
-      },
-      {
-        "sha": "a136f7a7c3bd9aef8e912b262a654977d97057a7",
-        "parents": [
-          "f1e5624294985998252a20e2ab787610999236a6",
-          "d815e3c0ff223154af032171d66e3850b1fb0904"
-        ],
-        "author": "najihsherif",
-        "date": "2026-11-04T15:09:31-08:00",
-        "subject": "Merge pull request #101 from najihsherif/29-authenticated-api"
-      },
-      {
-        "sha": "d815e3c0ff223154af032171d66e3850b1fb0904",
-        "parents": [
-          "f1e5624294985998252a20e2ab787610999236a6"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-11-04T15:03:55-08:00",
-        "subject": "Add #29 authenticated iOS API client and analysis integration"
       },
       {
         "sha": "f2b178a202d7b929937cdca121fc1ee525fff2b2",
@@ -2989,61 +3054,6 @@
         "author": "Liza Grande",
         "date": "2026-10-11T22:43:29-07:00",
         "subject": "Add startup screens: Welcome, Skin Priorities onboarding, and Auth Sign In with Invalid Form and Network Error states"
-      },
-      {
-        "sha": "54299c13d3d7d6d25dfa143b31272c5d0da45312",
-        "parents": [
-          "a86cb4ea93e7b013667771e3340fd1cdeb5a456a"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-10-11T16:31:07-07:00",
-        "subject": "confidence card setup"
-      },
-      {
-        "sha": "a86cb4ea93e7b013667771e3340fd1cdeb5a456a",
-        "parents": [
-          "6c667e73e810ff77c84dda49174f3b37c484962b"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-10-11T16:17:22-07:00",
-        "subject": "initial setup, font and color integraiton, home page built"
-      },
-      {
-        "sha": "6c667e73e810ff77c84dda49174f3b37c484962b",
-        "parents": [
-          "53d15376b9a60b39adef9362f31f5f4a2912d51f"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-10-07T15:06:37-07:00",
-        "subject": "initial setup"
-      },
-      {
-        "sha": "53d15376b9a60b39adef9362f31f5f4a2912d51f",
-        "parents": [
-          "a34499c8f2ce6041e3c59d76b8aa4c23384c0329"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-10-07T14:16:54-07:00",
-        "subject": "initial setup"
-      },
-      {
-        "sha": "a34499c8f2ce6041e3c59d76b8aa4c23384c0329",
-        "parents": [
-          "75f55c777a38fada4930c5f95d00a8971eeb59d6",
-          "f1be2cfaedba6b5b250067e7de5c734b9dd0e8aa"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-05T14:59:11-07:00",
-        "subject": "Merge pull request #55 from Aesthelity-Team/Belleairr-updated-sprint-tabel"
-      },
-      {
-        "sha": "f1be2cfaedba6b5b250067e7de5c734b9dd0e8aa",
-        "parents": [
-          "75f55c777a38fada4930c5f95d00a8971eeb59d6"
-        ],
-        "author": "Belleairr",
-        "date": "2026-10-05T14:57:38-07:00",
-        "subject": "updated sprint table for dev notes"
       }
     ],
     "limit": 140,
