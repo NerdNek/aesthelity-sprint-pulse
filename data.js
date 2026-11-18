@@ -1,5 +1,5 @@
 window.SPRINT_SNAPSHOT = {
-  "capturedAt": "2026-11-17T23:12:03.269420+00:00",
+  "capturedAt": "2026-11-18T09:18:09.332901+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -709,7 +709,24 @@ window.SPRINT_SNAPSHOT = {
       "proposed": false,
       "closedAt": null,
       "updatedAt": "2026-10-29T21:56:36Z",
-      "prs": [],
+      "prs": [
+        {
+          "number": 117,
+          "title": "AN-04: Plain language analysis results, affected products, and severity display",
+          "state": "OPEN",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/117",
+          "review": "REVIEW_REQUIRED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "lizagrande"
+        }
+      ],
       "module": "AN"
     },
     {
@@ -823,7 +840,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "BE-03: Authenticated API integration",
       "code": "BE-03",
       "sprint": "sprint-3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/29",
       "owners": [
         "Belleairr",
@@ -831,8 +848,8 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 5,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-29T21:58:18Z",
+      "closedAt": "2026-11-18T09:06:29Z",
+      "updatedAt": "2026-11-18T09:06:29Z",
       "prs": [],
       "module": "BE"
     },
@@ -1275,7 +1292,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "AN-02 follow-up: Store analysis rules and contracts in the database",
       "code": "AN-02",
       "sprint": "sprint-3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/97",
       "owners": [
         "NerdNek",
@@ -1283,8 +1300,8 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 3,
       "proposed": true,
-      "closedAt": null,
-      "updatedAt": "2026-10-29T22:09:46Z",
+      "closedAt": "2026-11-18T08:35:30Z",
+      "updatedAt": "2026-11-18T08:35:30Z",
       "prs": [
         {
           "number": 93,
@@ -1330,7 +1347,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "PD-03 follow-up: Store ingredient alias mappings in the database",
       "code": "PD-03",
       "sprint": "sprint-3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/98",
       "owners": [
         "Belleairr",
@@ -1339,20 +1356,20 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 3,
       "proposed": true,
-      "closedAt": null,
-      "updatedAt": "2026-11-16T06:59:35Z",
+      "closedAt": "2026-11-18T07:34:29Z",
+      "updatedAt": "2026-11-18T07:34:29Z",
       "prs": [
         {
           "number": 112,
           "title": "Ingredient alias mappings (#98)",
-          "state": "OPEN",
+          "state": "MERGED",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/112",
-          "review": "REVIEW_REQUIRED",
-          "ci": "pending",
+          "review": "APPROVED",
+          "ci": "failed",
           "checks": [
             {
               "name": "Build and unit test",
-              "result": "IN_PROGRESS"
+              "result": "CANCELLED"
             },
             {
               "name": "validate",
@@ -1386,7 +1403,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "AN-03 Follow-Up: Improve the Analysis Engine with AI-Assisted Feedback",
       "code": "AN-03",
       "sprint": "sprint-3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/99",
       "owners": [
         "NerdNek",
@@ -1394,76 +1411,97 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 8,
       "proposed": true,
-      "closedAt": null,
-      "updatedAt": "2026-10-29T22:09:36Z",
-      "prs": [],
+      "closedAt": "2026-11-18T09:06:16Z",
+      "updatedAt": "2026-11-18T09:06:16Z",
+      "prs": [
+        {
+          "number": 116,
+          "title": "99 ai analysis engine",
+          "state": "MERGED",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/116",
+          "review": "APPROVED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            },
+            {
+              "name": "validate",
+              "result": "SUCCESS"
+            }
+          ],
+          "basis": "GitHub closing reference",
+          "author": "miacarter04"
+        }
+      ],
       "module": "AN"
     }
   ],
   "runs": [
     {
-      "name": "DATA-01 dataset checks",
-      "branch": "98-alias-mappings",
+      "name": "Backend API checks",
+      "branch": "main",
       "status": "completed",
       "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44196209559",
-      "createdAt": "2026-11-17T23:05:27Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "98-alias-mappings",
-      "status": "in_progress",
-      "conclusion": null,
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44196209534",
-      "createdAt": "2026-11-17T23:05:27Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "main",
-      "status": "in_progress",
-      "conclusion": null,
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44193668548",
-      "createdAt": "2026-11-17T22:48:58Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44272817745",
+      "createdAt": "2026-11-18T09:06:30Z"
     },
     {
       "name": "DATA-01 dataset checks",
       "branch": "main",
       "status": "completed",
       "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44193668471",
-      "createdAt": "2026-11-17T22:48:58Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44272817740",
+      "createdAt": "2026-11-18T09:06:30Z"
     },
     {
       "name": "iOS CI",
-      "branch": "98-alias-mappings",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44190133430",
-      "createdAt": "2026-11-17T22:26:50Z"
+      "branch": "main",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44272817735",
+      "createdAt": "2026-11-18T09:06:30Z"
     },
     {
       "name": "DATA-01 dataset checks",
-      "branch": "98-alias-mappings",
+      "branch": "main",
       "status": "completed",
       "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44190133348",
-      "createdAt": "2026-11-17T22:26:50Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44272785800",
+      "createdAt": "2026-11-18T09:06:17Z"
     },
     {
       "name": "iOS CI",
-      "branch": "29-authenticated-api",
+      "branch": "main",
       "status": "completed",
       "conclusion": "cancelled",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44180383502",
-      "createdAt": "2026-11-17T21:29:44Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44272785790",
+      "createdAt": "2026-11-18T09:06:17Z"
     },
     {
       "name": "Backend API checks",
       "branch": "29-authenticated-api",
       "status": "completed",
       "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44180383479",
-      "createdAt": "2026-11-17T21:29:44Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44271424499",
+      "createdAt": "2026-11-18T08:57:14Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "29-authenticated-api",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44271424494",
+      "createdAt": "2026-11-18T08:57:14Z"
+    },
+    {
+      "name": "DATA-01 dataset checks",
+      "branch": "29-authenticated-api",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44271424327",
+      "createdAt": "2026-11-18T08:57:14Z"
     }
   ],
   "graph": {
@@ -1472,7 +1510,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "1-curated-demo-product-set",
         "sha": "212ccc5083adcc50058db9f0e263a5213e52e5cd",
-        "behind": 91,
+        "behind": 120,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1481,7 +1519,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "10-rt-01-sample-am-pm-routines",
         "sha": "19064b713badc0748d66ea501baf93b6fc2f9b9b",
-        "behind": 85,
+        "behind": 114,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1490,7 +1528,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "103-be01-backend-auth",
         "sha": "644ce6b16c6a0a0e62f58c5e9575dceda13db1f0",
-        "behind": 13,
+        "behind": 42,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1499,7 +1537,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "23-an03-input-prep",
         "sha": "c6abb828fedc5f133adf9f608a1797c1a8746c51",
-        "behind": 26,
+        "behind": 55,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1508,7 +1546,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "28-backend-data-isolation",
         "sha": "4bcb13b55b010a82da01f37c7340be3b6d60345b",
-        "behind": 5,
+        "behind": 34,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1516,9 +1554,9 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "29-authenticated-api",
-        "sha": "4e821f2cde88beb37eb01d5e950b7f97cd35f079",
-        "behind": 2,
-        "ahead": 9,
+        "sha": "3076c2f4c719f676514c80673751bfde85888482",
+        "behind": 6,
+        "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/29-authenticated-api"
@@ -1526,7 +1564,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "3-on-01-welcome-first-use",
         "sha": "734741c14ecba313382e3d002020b0014e7e27c9",
-        "behind": 95,
+        "behind": 124,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1535,7 +1573,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "82-firestore-catalog-setup",
         "sha": "db44ffea14037cfe8c37a96f870fddd56ff9c553",
-        "behind": 61,
+        "behind": 90,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1544,7 +1582,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "96-harden-analysis-entry",
         "sha": "39378714ed354a662a4b45c78a3ed3d837d664ef",
-        "behind": 14,
+        "behind": 43,
         "ahead": 2,
         "kind": "branch",
         "prNumber": null,
@@ -1553,7 +1591,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "97-ai-analysis-contract",
         "sha": "5cbf3d074557367ca526264d6a059250b0ab1e52",
-        "behind": 14,
+        "behind": 43,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1562,26 +1600,26 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "98-ai-ingredient-normalization",
         "sha": "c604c99fffab2663bec74c9c060728513e198d46",
-        "behind": 14,
-        "ahead": 1,
+        "behind": 42,
+        "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/98-ai-ingredient-normalization"
       },
       {
         "name": "98-alias-mappings",
-        "sha": "c6b0cfe8f2c126d165db7958c9e22f626aaa1cd6",
-        "behind": 0,
-        "ahead": 11,
+        "sha": "b08df88d9ae641dd5ad38f796b76f5dbe75f40fa",
+        "behind": 14,
+        "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/98-alias-mappings"
       },
       {
         "name": "99-ai-analysis-engine",
-        "sha": "06488abde110a9ca23ff5e4413fab8ec007e9ab7",
-        "behind": 14,
-        "ahead": 3,
+        "sha": "b5afa1a093a8136fbdf5a829145b5c37f28b3733",
+        "behind": 9,
+        "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/99-ai-analysis-engine"
@@ -1589,7 +1627,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-DevNotes",
         "sha": "d9412faa96d5bab242672bfd70a1a92ede88a2ee",
-        "behind": 117,
+        "behind": 146,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1598,7 +1636,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-Unfinished-but-Updated-README",
         "sha": "00dea3404e93f896754c15369371adcb6da79193",
-        "behind": 113,
+        "behind": 142,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1607,7 +1645,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-updated-sprint-tabel",
         "sha": "f1be2cfaedba6b5b250067e7de5c734b9dd0e8aa",
-        "behind": 115,
+        "behind": 144,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1616,16 +1654,25 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "an-02-approved-rules",
         "sha": "f2b178a202d7b929937cdca121fc1ee525fff2b2",
-        "behind": 14,
+        "behind": 43,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/an-02-approved-rules"
       },
       {
+        "name": "an-04-plain-language",
+        "sha": "dd297314bdb85ce82fbd196c9127d433b4f136b6",
+        "behind": 13,
+        "ahead": 1,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/an-04-plain-language"
+      },
+      {
         "name": "codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
-        "behind": 63,
+        "behind": 92,
         "ahead": 3,
         "kind": "branch",
         "prNumber": null,
@@ -1634,7 +1681,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "docs/update-sprint-table",
         "sha": "07c24557ce36b22baacb9b24d631cd6329f59c91",
-        "behind": 118,
+        "behind": 147,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1642,7 +1689,7 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "main",
-        "sha": "0c916f458301628ff108f617d179083b4b4fd091",
+        "sha": "5699bd94902df2c3e9fefa7fce6cb5df41905172",
         "behind": 0,
         "ahead": 0,
         "kind": "branch",
@@ -1652,7 +1699,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "mia/an02-firestore-clean",
         "sha": "bf10e615d5c5d7c99b63432ad3be6440f8b5d642",
-        "behind": 3,
+        "behind": 32,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1661,8 +1708,8 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "mia/an02-firestore-references",
         "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
-        "behind": 14,
-        "ahead": 5,
+        "behind": 42,
+        "ahead": 4,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/an02-firestore-references"
@@ -1670,8 +1717,8 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "mia/an05-analysis-coverage",
         "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
-        "behind": 14,
-        "ahead": 7,
+        "behind": 42,
+        "ahead": 6,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/an05-analysis-coverage"
@@ -1679,7 +1726,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "mia/google-password-reset",
         "sha": "0f76d89789def307fd52b44f9d36f19566451841",
-        "behind": 11,
+        "behind": 40,
         "ahead": 2,
         "kind": "branch",
         "prNumber": null,
@@ -1688,7 +1735,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "mia/liza-auth-base",
         "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
-        "behind": 11,
+        "behind": 40,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1697,43 +1744,34 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "pl-04-api-data-contract",
         "sha": "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5",
-        "behind": 59,
+        "behind": 88,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/pl-04-api-data-contract"
       },
       {
-        "name": "PR #112 \u00b7 Aesthelity-Team/98-alias-mappings",
-        "sha": "c6b0cfe8f2c126d165db7958c9e22f626aaa1cd6",
-        "behind": 0,
-        "ahead": 11,
-        "kind": "pull-request",
-        "prNumber": 112,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/112"
-      },
-      {
         "name": "PR #113 \u00b7 Aesthelity-Team/mia/an05-analysis-coverage",
         "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
-        "behind": 14,
-        "ahead": 7,
+        "behind": 42,
+        "ahead": 6,
         "kind": "pull-request",
         "prNumber": 113,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/113"
       },
       {
-        "name": "PR #115 \u00b7 Aesthelity-Team/29-authenticated-api",
-        "sha": "4e821f2cde88beb37eb01d5e950b7f97cd35f079",
-        "behind": 2,
-        "ahead": 9,
+        "name": "PR #117 \u00b7 Aesthelity-Team/an-04-plain-language",
+        "sha": "dd297314bdb85ce82fbd196c9127d433b4f136b6",
+        "behind": 13,
+        "ahead": 1,
         "kind": "pull-request",
-        "prNumber": 115,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/115"
+        "prNumber": 117,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/117"
       },
       {
         "name": "sprint-2",
         "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
-        "behind": 56,
+        "behind": 85,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1741,6 +1779,180 @@ window.SPRINT_SNAPSHOT = {
       }
     ],
     "commits": [
+      {
+        "sha": "5699bd94902df2c3e9fefa7fce6cb5df41905172",
+        "parents": [
+          "affc925e46597564ca7ad7114a228187a4b5daa6",
+          "3076c2f4c719f676514c80673751bfde85888482"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T01:06:26-08:00",
+        "subject": "Merge pull request #115 from Aesthelity-Team/29-authenticated-api"
+      },
+      {
+        "sha": "3076c2f4c719f676514c80673751bfde85888482",
+        "parents": [
+          "7032e8d5de2631f7cc0ad9b0d5015f14193e4987"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T00:50:22-08:00",
+        "subject": "Preserve tested authenticated API integration after rebase"
+      },
+      {
+        "sha": "7032e8d5de2631f7cc0ad9b0d5015f14193e4987",
+        "parents": [
+          "0007a1b52e733aa20806029964e6174ddec9c7ab"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T00:50:01-08:00",
+        "subject": "Fix unknown allergy payload test assertion"
+      },
+      {
+        "sha": "0007a1b52e733aa20806029964e6174ddec9c7ab",
+        "parents": [
+          "3940d3a685d9ab22db4f0291c169b35f45000108"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T00:49:48-08:00",
+        "subject": "Omit allergy IDs when status is unknown"
+      },
+      {
+        "sha": "3940d3a685d9ab22db4f0291c169b35f45000108",
+        "parents": [
+          "8b9d2ab7da0435283dfffa82cb7c2fa2ede9653a"
+        ],
+        "author": "Belleairr",
+        "date": "2026-11-18T00:49:34-08:00",
+        "subject": "Add #29 analysis server error handling, production auth verification tests, and docs"
+      },
+      {
+        "sha": "8b9d2ab7da0435283dfffa82cb7c2fa2ede9653a",
+        "parents": [
+          "421e5e6c053ddb16dc5592796d12b44d35b2df94"
+        ],
+        "author": "Belleairr",
+        "date": "2026-11-18T00:49:34-08:00",
+        "subject": "Add #29 HTTP acceptance tests for authenticated POST /api/v1/analyses"
+      },
+      {
+        "sha": "421e5e6c053ddb16dc5592796d12b44d35b2df94",
+        "parents": [
+          "1bebfa310e75c06e8c3cd9e6be057ccba4221c2d"
+        ],
+        "author": "Belleairr",
+        "date": "2026-11-18T00:49:34-08:00",
+        "subject": "Fix #29 _authorized to use injected verifier and check_revoked=True"
+      },
+      {
+        "sha": "1bebfa310e75c06e8c3cd9e6be057ccba4221c2d",
+        "parents": [
+          "e65be911683bbfa5aede36a1b1924a88379951b3"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T00:49:20-08:00",
+        "subject": "Add #29 authenticated iOS API client and analysis integration"
+      },
+      {
+        "sha": "affc925e46597564ca7ad7114a228187a4b5daa6",
+        "parents": [
+          "e65be911683bbfa5aede36a1b1924a88379951b3",
+          "b5afa1a093a8136fbdf5a829145b5c37f28b3733"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T01:06:14-08:00",
+        "subject": "Merge pull request #116 from Aesthelity-Team/99-ai-analysis-engine"
+      },
+      {
+        "sha": "b5afa1a093a8136fbdf5a829145b5c37f28b3733",
+        "parents": [
+          "2a302623e67761e9ef2a306bc82733f05981c381"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-18T00:22:29-08:00",
+        "subject": "Use shared OpenRouter client for analysis"
+      },
+      {
+        "sha": "2a302623e67761e9ef2a306bc82733f05981c381",
+        "parents": [
+          "da157f7b34bb618e3f46449177ecf0f37983fb28"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-17T23:39:33-08:00",
+        "subject": "Address analysis engine review feedback"
+      },
+      {
+        "sha": "da157f7b34bb618e3f46449177ecf0f37983fb28",
+        "parents": [
+          "00f69b9a41511592af1cd1e695e186cc07685bf0"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-17T23:38:43-08:00",
+        "subject": "Implement evidence grounded AI analysis"
+      },
+      {
+        "sha": "00f69b9a41511592af1cd1e695e186cc07685bf0",
+        "parents": [
+          "e65be911683bbfa5aede36a1b1924a88379951b3"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-17T23:38:43-08:00",
+        "subject": "AN-03: add grounded AI feedback layer"
+      },
+      {
+        "sha": "dd297314bdb85ce82fbd196c9127d433b4f136b6",
+        "parents": [
+          "e65be911683bbfa5aede36a1b1924a88379951b3"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-11-18T00:46:28-08:00",
+        "subject": "AN-04: Plain language analysis results, affected products, and severity display"
+      },
+      {
+        "sha": "e65be911683bbfa5aede36a1b1924a88379951b3",
+        "parents": [
+          "0c916f458301628ff108f617d179083b4b4fd091",
+          "b08df88d9ae641dd5ad38f796b76f5dbe75f40fa"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-17T23:34:27-08:00",
+        "subject": "Merge pull request #112 from Aesthelity-Team/98-alias-mappings"
+      },
+      {
+        "sha": "b08df88d9ae641dd5ad38f796b76f5dbe75f40fa",
+        "parents": [
+          "adf9851aa75908befcf6fd64a806789666ea15b0"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-17T22:51:01-08:00",
+        "subject": "Fix routine UI test onboarding setup"
+      },
+      {
+        "sha": "adf9851aa75908befcf6fd64a806789666ea15b0",
+        "parents": [
+          "01e83e607bbf170f0b2b4645c897d8dde2d3f861"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-17T22:01:49-08:00",
+        "subject": "Reconcile persisted unresolved rows when ingredient matching fails"
+      },
+      {
+        "sha": "01e83e607bbf170f0b2b4645c897d8dde2d3f861",
+        "parents": [
+          "ea9b52f3476bf944e20c2bad89dac28cb1e19ad1"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-17T21:02:35-08:00",
+        "subject": "Fix #112 Save to reconcile persisted ingredient matches"
+      },
+      {
+        "sha": "ea9b52f3476bf944e20c2bad89dac28cb1e19ad1",
+        "parents": [
+          "c6b0cfe8f2c126d165db7958c9e22f626aaa1cd6"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-17T18:00:25-08:00",
+        "subject": "Validate Firestore product IDs before matching"
+      },
       {
         "sha": "c6b0cfe8f2c126d165db7958c9e22f626aaa1cd6",
         "parents": [
@@ -1826,6 +2038,25 @@ window.SPRINT_SNAPSHOT = {
         "subject": "Merge remote-tracking branch 'origin/main' into 98-alias-mappings"
       },
       {
+        "sha": "262eab783ed7ba4cd45586bca2681e202afb3007",
+        "parents": [
+          "066ae69dc305e86259f97c7778808995eb8cec07",
+          "8c9c6a89c2f33176feda5b4e2b9ac9cfeee4ef34"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-15T20:36:14-08:00",
+        "subject": "Merge pull request #111 from najihsherif/96-analysis-entry-update"
+      },
+      {
+        "sha": "8c9c6a89c2f33176feda5b4e2b9ac9cfeee4ef34",
+        "parents": [
+          "066ae69dc305e86259f97c7778808995eb8cec07"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-15T18:33:42-08:00",
+        "subject": "Fix #96 analysis entry and stale demo requests"
+      },
+      {
         "sha": "43a869f0a0ae9bd13f531512cdf1991c17076152",
         "parents": [
           "990f9c3c2cc6f99eeadb5bb57a95f100efa6e2c6"
@@ -1852,90 +2083,6 @@ window.SPRINT_SNAPSHOT = {
         "author": "Gaurav Pandey",
         "date": "2026-11-15T20:32:23-08:00",
         "subject": "PD-03 follow-up (#98): Firestore-backed ingredient alias mappings"
-      },
-      {
-        "sha": "4e821f2cde88beb37eb01d5e950b7f97cd35f079",
-        "parents": [
-          "bb15b441bf747d68a69e5292e1dbaf794a10c07f"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-11-17T13:29:35-08:00",
-        "subject": "Fix unknown allergy payload test assertion"
-      },
-      {
-        "sha": "bb15b441bf747d68a69e5292e1dbaf794a10c07f",
-        "parents": [
-          "c8067de9e0119c827b1ff9da15abca3027e1f935"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-11-17T13:22:58-08:00",
-        "subject": "Omit allergy IDs when status is unknown"
-      },
-      {
-        "sha": "c8067de9e0119c827b1ff9da15abca3027e1f935",
-        "parents": [
-          "d815e3c0ff223154af032171d66e3850b1fb0904",
-          "0b41cb3e41066ffa844bd6278a8961b27f31a456"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-11-17T01:23:05-08:00",
-        "subject": "Integrate team updates and complete #29 authenticated API flows"
-      },
-      {
-        "sha": "0b41cb3e41066ffa844bd6278a8961b27f31a456",
-        "parents": [
-          "e9b3044cff2f043c5a1439998ca96ccd9f0f40c4"
-        ],
-        "author": "Belleairr",
-        "date": "2026-11-16T18:09:12-08:00",
-        "subject": "Add #29 analysis server error handling, production auth verification tests, and docs"
-      },
-      {
-        "sha": "e9b3044cff2f043c5a1439998ca96ccd9f0f40c4",
-        "parents": [
-          "cf00dce051acb89db35c470fc1123b21029bfcb7"
-        ],
-        "author": "Belleairr",
-        "date": "2026-11-16T17:34:44-08:00",
-        "subject": "Add #29 HTTP acceptance tests for authenticated POST /api/v1/analyses"
-      },
-      {
-        "sha": "cf00dce051acb89db35c470fc1123b21029bfcb7",
-        "parents": [
-          "b620ef36b69d4164122af7111a0f7dc0edc69b91"
-        ],
-        "author": "Belleairr",
-        "date": "2026-11-16T17:34:44-08:00",
-        "subject": "Fix #29 _authorized to use injected verifier and check_revoked=True"
-      },
-      {
-        "sha": "b620ef36b69d4164122af7111a0f7dc0edc69b91",
-        "parents": [
-          "a136f7a7c3bd9aef8e912b262a654977d97057a7",
-          "262eab783ed7ba4cd45586bca2681e202afb3007"
-        ],
-        "author": "Belleairr",
-        "date": "2026-11-16T17:34:30-08:00",
-        "subject": "Merge origin/main into 29-authenticated-api"
-      },
-      {
-        "sha": "262eab783ed7ba4cd45586bca2681e202afb3007",
-        "parents": [
-          "066ae69dc305e86259f97c7778808995eb8cec07",
-          "8c9c6a89c2f33176feda5b4e2b9ac9cfeee4ef34"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-15T20:36:14-08:00",
-        "subject": "Merge pull request #111 from najihsherif/96-analysis-entry-update"
-      },
-      {
-        "sha": "8c9c6a89c2f33176feda5b4e2b9ac9cfeee4ef34",
-        "parents": [
-          "066ae69dc305e86259f97c7778808995eb8cec07"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-11-15T18:33:42-08:00",
-        "subject": "Fix #96 analysis entry and stale demo requests"
       },
       {
         "sha": "066ae69dc305e86259f97c7778808995eb8cec07",
@@ -2003,25 +2150,6 @@ window.SPRINT_SNAPSHOT = {
         "author": "Mia Carter",
         "date": "2026-11-13T15:49:08-08:00",
         "subject": "Add Firebase auth to analysis requests"
-      },
-      {
-        "sha": "a136f7a7c3bd9aef8e912b262a654977d97057a7",
-        "parents": [
-          "f1e5624294985998252a20e2ab787610999236a6",
-          "d815e3c0ff223154af032171d66e3850b1fb0904"
-        ],
-        "author": "najihsherif",
-        "date": "2026-11-04T15:09:31-08:00",
-        "subject": "Merge pull request #101 from najihsherif/29-authenticated-api"
-      },
-      {
-        "sha": "d815e3c0ff223154af032171d66e3850b1fb0904",
-        "parents": [
-          "f1e5624294985998252a20e2ab787610999236a6"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-11-04T15:03:55-08:00",
-        "subject": "Add #29 authenticated iOS API client and analysis integration"
       },
       {
         "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
@@ -2949,101 +3077,6 @@ window.SPRINT_SNAPSHOT = {
         "author": "Najih Sherif",
         "date": "2026-10-14T00:25:03-07:00",
         "subject": "PF-01: Add profile draft validation and submission"
-      },
-      {
-        "sha": "9626bfe861b975fa27dbff1df69288aa983ebce5",
-        "parents": [
-          "bccea57d009f7db79e53e2fa7aeb0cffa003cf07"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-10-13T18:44:47-07:00",
-        "subject": "PF-01: Add skin profile model and serialization tests"
-      },
-      {
-        "sha": "bccea57d009f7db79e53e2fa7aeb0cffa003cf07",
-        "parents": [
-          "ddae3d09de631d25a861c8aef5718c851e4813e4",
-          "9576f69a58b94dda1418d66cec609961b84f4f7b"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-13T18:14:50-07:00",
-        "subject": "Merge pull request #66 from lizagrande/sprint-1"
-      },
-      {
-        "sha": "9576f69a58b94dda1418d66cec609961b84f4f7b",
-        "parents": [
-          "ddb30a34d7daa15dde3841e9c91afab4977d6ec8"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-10-12T13:48:13-07:00",
-        "subject": "Add product detail lookup by ID, update library navigation, and add unit tests"
-      },
-      {
-        "sha": "ddb30a34d7daa15dde3841e9c91afab4977d6ec8",
-        "parents": [
-          "8994c43ade99e15a1fb54318825cf22cb3ab2f31",
-          "ddae3d09de631d25a861c8aef5718c851e4813e4"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-10-11T22:58:11-07:00",
-        "subject": "Merge branch 'main' into sprint-1"
-      },
-      {
-        "sha": "ddae3d09de631d25a861c8aef5718c851e4813e4",
-        "parents": [
-          "2063e8e3ee444468735c6e035896be481a2ac614",
-          "5e0bf664db64af1e3ee1d40e637e77fd91b3d520"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-08T16:48:17-07:00",
-        "subject": "Merge pull request #64 from NerdNek/docs-fix-issue-numbers"
-      },
-      {
-        "sha": "5e0bf664db64af1e3ee1d40e637e77fd91b3d520",
-        "parents": [
-          "dcb544a3cd28fa0a1cbb45811c793e8823ac760e"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-08T16:39:57-07:00",
-        "subject": "Fix Sprint 1 issue numbers in docs"
-      },
-      {
-        "sha": "2063e8e3ee444468735c6e035896be481a2ac614",
-        "parents": [
-          "4b87aa89f289ccc600cc81ff1c94529845bf1b04",
-          "8f5e026ce6f8d5714f4424072e3d154d7e8f1d30"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-08T16:47:23-07:00",
-        "subject": "Merge pull request #63 from NerdNek/2-normalize-ingredients"
-      },
-      {
-        "sha": "8f5e026ce6f8d5714f4424072e3d154d7e8f1d30",
-        "parents": [
-          "dcb544a3cd28fa0a1cbb45811c793e8823ac760e"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-08T16:24:39-07:00",
-        "subject": "DATA-02: Normalize ingredient names"
-      },
-      {
-        "sha": "4b87aa89f289ccc600cc81ff1c94529845bf1b04",
-        "parents": [
-          "dcb544a3cd28fa0a1cbb45811c793e8823ac760e",
-          "34cb94f463eab2bb758d0874122f506a4171b409"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-08T16:46:55-07:00",
-        "subject": "Merge pull request #62 from NerdNek/61-ci-unit-tests"
-      },
-      {
-        "sha": "34cb94f463eab2bb758d0874122f506a4171b409",
-        "parents": [
-          "dcb544a3cd28fa0a1cbb45811c793e8823ac760e"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-08T16:24:59-07:00",
-        "subject": "PL-06: Build and unit test pull requests in CI"
       }
     ],
     "limit": 140,
