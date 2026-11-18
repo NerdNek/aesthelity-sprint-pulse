@@ -1,5 +1,5 @@
 window.SPRINT_SNAPSHOT = {
-  "capturedAt": "2026-11-18T09:18:09.332901+00:00",
+  "capturedAt": "2026-11-18T22:44:11.138517+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -699,7 +699,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "AN-04: Plain language analysis results",
       "code": "AN-04",
       "sprint": "sprint-3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/24",
       "owners": [
         "lizagrande",
@@ -707,13 +707,29 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 5,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-29T21:56:36Z",
+      "closedAt": "2026-11-18T21:07:16Z",
+      "updatedAt": "2026-11-18T21:07:16Z",
       "prs": [
+        {
+          "number": 121,
+          "title": "AN-04 plain-language results on AI analysis contract",
+          "state": "MERGED",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/121",
+          "review": "APPROVED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "CANCELLED"
+            }
+          ],
+          "basis": "Story code in PR title",
+          "author": "najihsherif"
+        },
         {
           "number": 117,
           "title": "AN-04: Plain language analysis results, affected products, and severity display",
-          "state": "OPEN",
+          "state": "CLOSED",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/117",
           "review": "REVIEW_REQUIRED",
           "ci": "failed",
@@ -748,11 +764,24 @@ window.SPRINT_SNAPSHOT = {
         {
           "number": 113,
           "title": "AN-05: Analysis Coverage Detection, Reporting, and Fail-Closed Safety",
-          "state": "OPEN",
+          "state": "MERGED",
           "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/113",
-          "review": "REVIEW_REQUIRED",
-          "ci": "unknown",
-          "checks": [],
+          "review": "APPROVED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            },
+            {
+              "name": "authenticated-api",
+              "result": "SUCCESS"
+            },
+            {
+              "name": "validate",
+              "result": "SUCCESS"
+            }
+          ],
           "basis": "Story code in PR title",
           "author": "lizagrande"
         }
@@ -764,7 +793,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "AN-06: Layering explanation",
       "code": "AN-06",
       "sprint": "sprint-3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/26",
       "owners": [
         "NerdNek",
@@ -772,9 +801,26 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 3,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-29T21:57:15Z",
-      "prs": [],
+      "closedAt": "2026-11-18T19:36:28Z",
+      "updatedAt": "2026-11-18T19:36:28Z",
+      "prs": [
+        {
+          "number": 122,
+          "title": "AN-06: Explain layering order and connect live product catalogs",
+          "state": "MERGED",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/122",
+          "review": "APPROVED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "CANCELLED"
+            }
+          ],
+          "basis": "GitHub closing reference",
+          "author": "najihsherif"
+        }
+      ],
       "module": "AN"
     },
     {
@@ -1008,7 +1054,7 @@ window.SPRINT_SNAPSHOT = {
       "title": "QA-02: End-to-end integration verification",
       "code": "QA-02",
       "sprint": "sprint-3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "url": "https://github.com/Aesthelity-Team/Aesthelity/issues/40",
       "owners": [
         "lizagrande",
@@ -1016,9 +1062,34 @@ window.SPRINT_SNAPSHOT = {
       ],
       "points": 2,
       "proposed": false,
-      "closedAt": null,
-      "updatedAt": "2026-10-29T21:58:35Z",
-      "prs": [],
+      "closedAt": "2026-11-18T20:54:04Z",
+      "updatedAt": "2026-11-18T20:54:04Z",
+      "prs": [
+        {
+          "number": 125,
+          "title": "QA-02: verify profile-to-analysis journeys and report live findings",
+          "state": "MERGED",
+          "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/125",
+          "review": "APPROVED",
+          "ci": "failed",
+          "checks": [
+            {
+              "name": "Build and unit test",
+              "result": "FAILURE"
+            },
+            {
+              "name": "authenticated-api",
+              "result": "SUCCESS"
+            },
+            {
+              "name": "validate",
+              "result": "SUCCESS"
+            }
+          ],
+          "basis": "GitHub closing reference",
+          "author": "najihsherif"
+        }
+      ],
       "module": "QA"
     },
     {
@@ -1440,68 +1511,68 @@ window.SPRINT_SNAPSHOT = {
   ],
   "runs": [
     {
+      "name": "iOS CI",
+      "branch": "main",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44404533545",
+      "createdAt": "2026-11-18T21:44:15Z"
+    },
+    {
+      "name": "DATA-01 dataset checks",
+      "branch": "main",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44404533334",
+      "createdAt": "2026-11-18T21:44:15Z"
+    },
+    {
       "name": "Backend API checks",
       "branch": "main",
       "status": "completed",
       "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44272817745",
-      "createdAt": "2026-11-18T09:06:30Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "main",
-      "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44272817740",
-      "createdAt": "2026-11-18T09:06:30Z"
-    },
-    {
-      "name": "iOS CI",
-      "branch": "main",
-      "status": "in_progress",
-      "conclusion": null,
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44272817735",
-      "createdAt": "2026-11-18T09:06:30Z"
-    },
-    {
-      "name": "DATA-01 dataset checks",
-      "branch": "main",
-      "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44272785800",
-      "createdAt": "2026-11-18T09:06:17Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44404533114",
+      "createdAt": "2026-11-18T21:44:15Z"
     },
     {
       "name": "iOS CI",
       "branch": "main",
       "status": "completed",
       "conclusion": "cancelled",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44272785790",
-      "createdAt": "2026-11-18T09:06:17Z"
-    },
-    {
-      "name": "Backend API checks",
-      "branch": "29-authenticated-api",
-      "status": "completed",
-      "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44271424499",
-      "createdAt": "2026-11-18T08:57:14Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44404384342",
+      "createdAt": "2026-11-18T21:43:23Z"
     },
     {
       "name": "iOS CI",
-      "branch": "29-authenticated-api",
-      "status": "in_progress",
-      "conclusion": null,
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44271424494",
-      "createdAt": "2026-11-18T08:57:14Z"
+      "branch": "40-remove-mock-safety-claims",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44403520503",
+      "createdAt": "2026-11-18T21:38:15Z"
     },
     {
       "name": "DATA-01 dataset checks",
-      "branch": "29-authenticated-api",
+      "branch": "124-provider-deadline",
       "status": "completed",
       "conclusion": "success",
-      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44271424327",
-      "createdAt": "2026-11-18T08:57:14Z"
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44402943405",
+      "createdAt": "2026-11-18T21:34:54Z"
+    },
+    {
+      "name": "iOS CI",
+      "branch": "124-provider-deadline",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44402943220",
+      "createdAt": "2026-11-18T21:34:54Z"
+    },
+    {
+      "name": "Backend API checks",
+      "branch": "124-provider-deadline",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Aesthelity-Team/Aesthelity/actions/runs/44402943216",
+      "createdAt": "2026-11-18T21:34:54Z"
     }
   ],
   "graph": {
@@ -1510,7 +1581,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "1-curated-demo-product-set",
         "sha": "212ccc5083adcc50058db9f0e263a5213e52e5cd",
-        "behind": 120,
+        "behind": 159,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1519,7 +1590,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "10-rt-01-sample-am-pm-routines",
         "sha": "19064b713badc0748d66ea501baf93b6fc2f9b9b",
-        "behind": 114,
+        "behind": 153,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1528,25 +1599,79 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "103-be01-backend-auth",
         "sha": "644ce6b16c6a0a0e62f58c5e9575dceda13db1f0",
-        "behind": 42,
+        "behind": 81,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/103-be01-backend-auth"
       },
       {
+        "name": "114-demo-references",
+        "sha": "ef62e17d3f2c3014d5cfbe9580abe97797a72168",
+        "behind": 30,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/114-demo-references"
+      },
+      {
+        "name": "114-ios-findings",
+        "sha": "672de38667364a7991d9a522e49f9f6bac0aa7c6",
+        "behind": 37,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/114-ios-findings"
+      },
+      {
+        "name": "114-wire-ai-analysis",
+        "sha": "d5c9a0a1e6f7b71b353d26ddf252bfe830ef5943",
+        "behind": 36,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/114-wire-ai-analysis"
+      },
+      {
+        "name": "117-plain-language-results",
+        "sha": "47131186bded1b7f1ae7928d1159bbd2d8a9688b",
+        "behind": 28,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/117-plain-language-results"
+      },
+      {
+        "name": "124-provider-deadline",
+        "sha": "adea95f6f68068be775f5986dca9f4003c451793",
+        "behind": 4,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/124-provider-deadline"
+      },
+      {
         "name": "23-an03-input-prep",
         "sha": "c6abb828fedc5f133adf9f608a1797c1a8746c51",
-        "behind": 55,
+        "behind": 94,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/23-an03-input-prep"
       },
       {
+        "name": "26-an06-layering-explanation",
+        "sha": "358269e114a9fa778cc01d362e342cd1fcfe3895",
+        "behind": 21,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/26-an06-layering-explanation"
+      },
+      {
         "name": "28-backend-data-isolation",
         "sha": "4bcb13b55b010a82da01f37c7340be3b6d60345b",
-        "behind": 34,
+        "behind": 73,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1555,7 +1680,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "29-authenticated-api",
         "sha": "3076c2f4c719f676514c80673751bfde85888482",
-        "behind": 6,
+        "behind": 45,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1564,16 +1689,34 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "3-on-01-welcome-first-use",
         "sha": "734741c14ecba313382e3d002020b0014e7e27c9",
-        "behind": 124,
+        "behind": 163,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/3-on-01-welcome-first-use"
       },
       {
+        "name": "40-qa02-integration-verification",
+        "sha": "af85772ba1f85ffcbc7a8280821c5a44ff15f06d",
+        "behind": 20,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/40-qa02-integration-verification"
+      },
+      {
+        "name": "40-remove-mock-safety-claims",
+        "sha": "09c4daaa36d07ad41438124055689471c8b1c4ad",
+        "behind": 3,
+        "ahead": 0,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/40-remove-mock-safety-claims"
+      },
+      {
         "name": "82-firestore-catalog-setup",
         "sha": "db44ffea14037cfe8c37a96f870fddd56ff9c553",
-        "behind": 90,
+        "behind": 129,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1582,7 +1725,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "96-harden-analysis-entry",
         "sha": "39378714ed354a662a4b45c78a3ed3d837d664ef",
-        "behind": 43,
+        "behind": 82,
         "ahead": 2,
         "kind": "branch",
         "prNumber": null,
@@ -1591,7 +1734,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "97-ai-analysis-contract",
         "sha": "5cbf3d074557367ca526264d6a059250b0ab1e52",
-        "behind": 43,
+        "behind": 82,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1600,7 +1743,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "98-ai-ingredient-normalization",
         "sha": "c604c99fffab2663bec74c9c060728513e198d46",
-        "behind": 42,
+        "behind": 81,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1609,7 +1752,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "98-alias-mappings",
         "sha": "b08df88d9ae641dd5ad38f796b76f5dbe75f40fa",
-        "behind": 14,
+        "behind": 53,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1618,7 +1761,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "99-ai-analysis-engine",
         "sha": "b5afa1a093a8136fbdf5a829145b5c37f28b3733",
-        "behind": 9,
+        "behind": 48,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1627,7 +1770,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-DevNotes",
         "sha": "d9412faa96d5bab242672bfd70a1a92ede88a2ee",
-        "behind": 146,
+        "behind": 185,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1636,7 +1779,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-Unfinished-but-Updated-README",
         "sha": "00dea3404e93f896754c15369371adcb6da79193",
-        "behind": 142,
+        "behind": 181,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1645,7 +1788,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "Belleairr-updated-sprint-tabel",
         "sha": "f1be2cfaedba6b5b250067e7de5c734b9dd0e8aa",
-        "behind": 144,
+        "behind": 183,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1654,7 +1797,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "an-02-approved-rules",
         "sha": "f2b178a202d7b929937cdca121fc1ee525fff2b2",
-        "behind": 43,
+        "behind": 82,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1663,7 +1806,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "an-04-plain-language",
         "sha": "dd297314bdb85ce82fbd196c9127d433b4f136b6",
-        "behind": 13,
+        "behind": 52,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1672,7 +1815,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "codex/simplify-ios-ci",
         "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
-        "behind": 92,
+        "behind": 131,
         "ahead": 3,
         "kind": "branch",
         "prNumber": null,
@@ -1681,7 +1824,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "docs/update-sprint-table",
         "sha": "07c24557ce36b22baacb9b24d631cd6329f59c91",
-        "behind": 147,
+        "behind": 186,
         "ahead": 1,
         "kind": "branch",
         "prNumber": null,
@@ -1689,7 +1832,7 @@ window.SPRINT_SNAPSHOT = {
       },
       {
         "name": "main",
-        "sha": "5699bd94902df2c3e9fefa7fce6cb5df41905172",
+        "sha": "fe6bdec47b2a90c43a7c1dce2e43bcbffc32d786",
         "behind": 0,
         "ahead": 0,
         "kind": "branch",
@@ -1699,7 +1842,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "mia/an02-firestore-clean",
         "sha": "bf10e615d5c5d7c99b63432ad3be6440f8b5d642",
-        "behind": 32,
+        "behind": 71,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1708,17 +1851,17 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "mia/an02-firestore-references",
         "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
-        "behind": 42,
-        "ahead": 4,
+        "behind": 77,
+        "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/an02-firestore-references"
       },
       {
         "name": "mia/an05-analysis-coverage",
-        "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
-        "behind": 42,
-        "ahead": 6,
+        "sha": "f6aa21393b84638f616d752fd5c796b3e4866916",
+        "behind": 8,
+        "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/mia/an05-analysis-coverage"
@@ -1726,7 +1869,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "mia/google-password-reset",
         "sha": "0f76d89789def307fd52b44f9d36f19566451841",
-        "behind": 40,
+        "behind": 79,
         "ahead": 2,
         "kind": "branch",
         "prNumber": null,
@@ -1735,7 +1878,7 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "mia/liza-auth-base",
         "sha": "84f53e96477afb6d70254ec4b68faa060c6a470f",
-        "behind": 40,
+        "behind": 79,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1744,34 +1887,16 @@ window.SPRINT_SNAPSHOT = {
       {
         "name": "pl-04-api-data-contract",
         "sha": "6765dd4b0358c603bb20d6a3e8ac94c99532b4c5",
-        "behind": 88,
+        "behind": 127,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/pl-04-api-data-contract"
       },
       {
-        "name": "PR #113 \u00b7 Aesthelity-Team/mia/an05-analysis-coverage",
-        "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
-        "behind": 42,
-        "ahead": 6,
-        "kind": "pull-request",
-        "prNumber": 113,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/113"
-      },
-      {
-        "name": "PR #117 \u00b7 Aesthelity-Team/an-04-plain-language",
-        "sha": "dd297314bdb85ce82fbd196c9127d433b4f136b6",
-        "behind": 13,
-        "ahead": 1,
-        "kind": "pull-request",
-        "prNumber": 117,
-        "url": "https://github.com/Aesthelity-Team/Aesthelity/pull/117"
-      },
-      {
         "name": "sprint-2",
         "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
-        "behind": 85,
+        "behind": 124,
         "ahead": 0,
         "kind": "branch",
         "prNumber": null,
@@ -1779,6 +1904,369 @@ window.SPRINT_SNAPSHOT = {
       }
     ],
     "commits": [
+      {
+        "sha": "fe6bdec47b2a90c43a7c1dce2e43bcbffc32d786",
+        "parents": [
+          "ca2d6aad852f371ba2832cd2818bb02ae2d52ce3",
+          "adea95f6f68068be775f5986dca9f4003c451793"
+        ],
+        "author": "najihsherif",
+        "date": "2026-11-18T13:44:12-08:00",
+        "subject": "Merge pull request #127 from Aesthelity-Team/124-provider-deadline"
+      },
+      {
+        "sha": "adea95f6f68068be775f5986dca9f4003c451793",
+        "parents": [
+          "79098b97133cc4dbcde35973d44de100d7a8303a"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T13:34:46-08:00",
+        "subject": "Enforce 20s wall-clock deadline across OpenRouter provider calls"
+      },
+      {
+        "sha": "ca2d6aad852f371ba2832cd2818bb02ae2d52ce3",
+        "parents": [
+          "79098b97133cc4dbcde35973d44de100d7a8303a",
+          "09c4daaa36d07ad41438124055689471c8b1c4ad"
+        ],
+        "author": "najihsherif",
+        "date": "2026-11-18T13:43:19-08:00",
+        "subject": "Merge pull request #126 from Aesthelity-Team/40-remove-mock-safety-claims"
+      },
+      {
+        "sha": "09c4daaa36d07ad41438124055689471c8b1c4ad",
+        "parents": [
+          "6d42bbe01783d88b3ed973a97766ee75f20bc6b1"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T13:38:03-08:00",
+        "subject": "Disable sample scan actions that only toggled a local preview flag."
+      },
+      {
+        "sha": "6d42bbe01783d88b3ed973a97766ee75f20bc6b1",
+        "parents": [
+          "79098b97133cc4dbcde35973d44de100d7a8303a"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T13:29:40-08:00",
+        "subject": "Remove mock safety badges and sample scan verdicts"
+      },
+      {
+        "sha": "79098b97133cc4dbcde35973d44de100d7a8303a",
+        "parents": [
+          "e72447d4300c5fe4a9e1ee2dcdbf6825d6037061",
+          "f6aa21393b84638f616d752fd5c796b3e4866916"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T12:56:17-08:00",
+        "subject": "Merge pull request #113 from Aesthelity-Team/mia/an05-analysis-coverage"
+      },
+      {
+        "sha": "f6aa21393b84638f616d752fd5c796b3e4866916",
+        "parents": [
+          "f1e71a12341e89cb5cb85e4ef4277e4ffcf7678c"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T12:38:15-08:00",
+        "subject": "Preserve main\u2019s protected API configuration and timeout"
+      },
+      {
+        "sha": "f1e71a12341e89cb5cb85e4ef4277e4ffcf7678c",
+        "parents": [
+          "2e23d82a7ce9071930e72013d72e14472b6d2551"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T12:31:37-08:00",
+        "subject": "Address AN-05 analysis coverage review"
+      },
+      {
+        "sha": "2e23d82a7ce9071930e72013d72e14472b6d2551",
+        "parents": [
+          "9933e5bb85eb62fcf9c7625ff888b5cb9065c0a7",
+          "3535963d71a200c445a505099220611cb4029f7b"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T12:29:10-08:00",
+        "subject": "Merge remote-tracking branch 'upstream/main' into mia/an05-analysis-coverage"
+      },
+      {
+        "sha": "9933e5bb85eb62fcf9c7625ff888b5cb9065c0a7",
+        "parents": [
+          "59e187f15c9684699fd0cbeb7d353d4179c61ea1",
+          "b92655b8a39d0c9b6c596ed3479a92bd589782da"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-18T11:10:05-08:00",
+        "subject": "Merge main into AN-05 analysis coverage"
+      },
+      {
+        "sha": "59e187f15c9684699fd0cbeb7d353d4179c61ea1",
+        "parents": [
+          "7e800303b8edfed1b4a943979496a343d0a75491"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-18T08:49:34-08:00",
+        "subject": "Merge main and enable live routine analysis"
+      },
+      {
+        "sha": "7e800303b8edfed1b4a943979496a343d0a75491",
+        "parents": [
+          "2ba3f1afa936ed8390481778a8288627d0532c03",
+          "5699bd94902df2c3e9fefa7fce6cb5df41905172"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-18T04:27:25-08:00",
+        "subject": "Merge main and connect live routine analysis"
+      },
+      {
+        "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
+        "parents": [
+          "dd7a0613d229bb9075102bee7d844ca562ab8dab"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-11-16T14:33:51-08:00",
+        "subject": "AN-05: Display analysis coverage states, affected products, and fail-closed safety messaging"
+      },
+      {
+        "sha": "dd7a0613d229bb9075102bee7d844ca562ab8dab",
+        "parents": [
+          "b6b7d69320d360b3f0749d63914416e84229a69a"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-15T16:20:45-08:00",
+        "subject": "Testvarious analysis states to ensure missing data coverage reportings"
+      },
+      {
+        "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
+        "parents": [
+          "c423ce715a9074a7c19d997ad44c410895b400e9"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-13T23:18:20-08:00",
+        "subject": "Ignore ingredient order in AI analysis context"
+      },
+      {
+        "sha": "c423ce715a9074a7c19d997ad44c410895b400e9",
+        "parents": [
+          "06488abde110a9ca23ff5e4413fab8ec007e9ab7"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-13T22:52:29-08:00",
+        "subject": "Load approved analysis references from Firestore"
+      },
+      {
+        "sha": "06488abde110a9ca23ff5e4413fab8ec007e9ab7",
+        "parents": [
+          "c08211b4d849b302a8c0c57d0523e61e3583f672"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-12T22:32:01-08:00",
+        "subject": "Implement evidence grounded AI analysis"
+      },
+      {
+        "sha": "c08211b4d849b302a8c0c57d0523e61e3583f672",
+        "parents": [
+          "c604c99fffab2663bec74c9c060728513e198d46"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-12T21:22:54-08:00",
+        "subject": "AN-03: add grounded AI feedback layer"
+      },
+      {
+        "sha": "e72447d4300c5fe4a9e1ee2dcdbf6825d6037061",
+        "parents": [
+          "3535963d71a200c445a505099220611cb4029f7b",
+          "af85772ba1f85ffcbc7a8280821c5a44ff15f06d"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T12:54:01-08:00",
+        "subject": "Merge pull request #125 from Aesthelity-Team/40-qa02-integration-verification"
+      },
+      {
+        "sha": "af85772ba1f85ffcbc7a8280821c5a44ff15f06d",
+        "parents": [
+          "358269e114a9fa778cc01d362e342cd1fcfe3895"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T11:45:08-08:00",
+        "subject": "Complete QA-02 integration journeys and verification report"
+      },
+      {
+        "sha": "3535963d71a200c445a505099220611cb4029f7b",
+        "parents": [
+          "b92655b8a39d0c9b6c596ed3479a92bd589782da",
+          "358269e114a9fa778cc01d362e342cd1fcfe3895"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T11:36:24-08:00",
+        "subject": "Merge pull request #122 from Aesthelity-Team/26-an06-layering-explanation"
+      },
+      {
+        "sha": "358269e114a9fa778cc01d362e342cd1fcfe3895",
+        "parents": [
+          "135345e1adf3e1ce9d287c7ddc590342f0850b0e"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T10:28:10-08:00",
+        "subject": "Address AN-06 review uncertainty and legacy provenance issues"
+      },
+      {
+        "sha": "135345e1adf3e1ce9d287c7ddc590342f0850b0e",
+        "parents": [
+          "b5820b0b496421efaaf47fa70212706f95d07877"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T08:01:37-08:00",
+        "subject": "Connect live product catalogs and configure local HTTPS account testing"
+      },
+      {
+        "sha": "b5820b0b496421efaaf47fa70212706f95d07877",
+        "parents": [
+          "b92655b8a39d0c9b6c596ed3479a92bd589782da"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T07:33:19-08:00",
+        "subject": "AN-06: Explain routine layering order and uncertainty"
+      },
+      {
+        "sha": "b92655b8a39d0c9b6c596ed3479a92bd589782da",
+        "parents": [
+          "505ced74cf940bf5d2e690134bb05434204541df",
+          "47131186bded1b7f1ae7928d1159bbd2d8a9688b"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T07:05:21-08:00",
+        "subject": "Merge pull request #121 from Aesthelity-Team/117-plain-language-results"
+      },
+      {
+        "sha": "47131186bded1b7f1ae7928d1159bbd2d8a9688b",
+        "parents": [
+          "387a9267789dacf8583fd9ad7d2a905e7579f2bf"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T07:01:35-08:00",
+        "subject": "Wait for manual product review dismissal in routine UI tests"
+      },
+      {
+        "sha": "387a9267789dacf8583fd9ad7d2a905e7579f2bf",
+        "parents": [
+          "1cbb9d7cb3f040a854e4efd0d2bca2229f9a3a5c"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T06:11:19-08:00",
+        "subject": "Keep result details readable on light analysis surfaces"
+      },
+      {
+        "sha": "1cbb9d7cb3f040a854e4efd0d2bca2229f9a3a5c",
+        "parents": [
+          "78de62ede994d2e13e62b950afdadf43be53df8f"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T06:02:28-08:00",
+        "subject": "Polish analysis result labels and coverage copy"
+      },
+      {
+        "sha": "78de62ede994d2e13e62b950afdadf43be53df8f",
+        "parents": [
+          "83d5ba9c63da6cd376e501c828b1197823d577aa"
+        ],
+        "author": "Liza Grande",
+        "date": "2026-11-18T05:39:22-08:00",
+        "subject": "AN-04: Plain language analysis results, affected products, and severity display"
+      },
+      {
+        "sha": "505ced74cf940bf5d2e690134bb05434204541df",
+        "parents": [
+          "83d5ba9c63da6cd376e501c828b1197823d577aa",
+          "ef62e17d3f2c3014d5cfbe9580abe97797a72168"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T06:55:36-08:00",
+        "subject": "Merge pull request #120 from Aesthelity-Team/114-demo-references"
+      },
+      {
+        "sha": "ef62e17d3f2c3014d5cfbe9580abe97797a72168",
+        "parents": [
+          "975f224d8d9a99d0f7eacfdfc792a2a5ea0df83e"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T06:05:19-08:00",
+        "subject": "Verify exact linalool allergy matching through the analysis API"
+      },
+      {
+        "sha": "975f224d8d9a99d0f7eacfdfc792a2a5ea0df83e",
+        "parents": [
+          "83d5ba9c63da6cd376e501c828b1197823d577aa"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T05:31:20-08:00",
+        "subject": "Add linalool demo evidence and scope recorded allergy matching"
+      },
+      {
+        "sha": "83d5ba9c63da6cd376e501c828b1197823d577aa",
+        "parents": [
+          "990dd9f48a600587b09d49dfd71d643838963d18",
+          "d5c9a0a1e6f7b71b353d26ddf252bfe830ef5943"
+        ],
+        "author": "najihsherif",
+        "date": "2026-11-18T04:44:49-08:00",
+        "subject": "Merge pull request #119 from Aesthelity-Team/114-wire-ai-analysis"
+      },
+      {
+        "sha": "d5c9a0a1e6f7b71b353d26ddf252bfe830ef5943",
+        "parents": [
+          "57111f577cd1513ccae71a1254cc351e6a552999"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T04:12:15-08:00",
+        "subject": "Remove AI analysis flag and preserve unknown coverage findings"
+      },
+      {
+        "sha": "57111f577cd1513ccae71a1254cc351e6a552999",
+        "parents": [
+          "0e2e4db18adc19519e4d9f2b9579f7643ec6cac3"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T02:50:11-08:00",
+        "subject": "Wire AI analysis behind AESTHELITY_AI_ANALYSIS flag"
+      },
+      {
+        "sha": "0e2e4db18adc19519e4d9f2b9579f7643ec6cac3",
+        "parents": [
+          "5699bd94902df2c3e9fefa7fce6cb5df41905172"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T02:21:44-08:00",
+        "subject": "docs: #114 analysis response contract and fixtures"
+      },
+      {
+        "sha": "990dd9f48a600587b09d49dfd71d643838963d18",
+        "parents": [
+          "5699bd94902df2c3e9fefa7fce6cb5df41905172",
+          "672de38667364a7991d9a522e49f9f6bac0aa7c6"
+        ],
+        "author": "Gaurav Pandey",
+        "date": "2026-11-18T04:16:24-08:00",
+        "subject": "Merge pull request #118 from Aesthelity-Team/114-ios-findings"
+      },
+      {
+        "sha": "672de38667364a7991d9a522e49f9f6bac0aa7c6",
+        "parents": [
+          "82f12c7b77989870c4c2c59f345d3b218f2248f0"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T03:03:40-08:00",
+        "subject": "Show readable error copy for invalid analysis responses"
+      },
+      {
+        "sha": "82f12c7b77989870c4c2c59f345d3b218f2248f0",
+        "parents": [
+          "5699bd94902df2c3e9fefa7fce6cb5df41905172"
+        ],
+        "author": "Najih Sherif",
+        "date": "2026-11-18T02:48:55-08:00",
+        "subject": "Support evidence-backed and incomplete analysis results (#114)"
+      },
       {
         "sha": "5699bd94902df2c3e9fefa7fce6cb5df41905172",
         "parents": [
@@ -2150,60 +2638,6 @@ window.SPRINT_SNAPSHOT = {
         "author": "Mia Carter",
         "date": "2026-11-13T15:49:08-08:00",
         "subject": "Add Firebase auth to analysis requests"
-      },
-      {
-        "sha": "2ba3f1afa936ed8390481778a8288627d0532c03",
-        "parents": [
-          "dd7a0613d229bb9075102bee7d844ca562ab8dab"
-        ],
-        "author": "Liza Grande",
-        "date": "2026-11-16T14:33:51-08:00",
-        "subject": "AN-05: Display analysis coverage states, affected products, and fail-closed safety messaging"
-      },
-      {
-        "sha": "dd7a0613d229bb9075102bee7d844ca562ab8dab",
-        "parents": [
-          "b6b7d69320d360b3f0749d63914416e84229a69a"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-15T16:20:45-08:00",
-        "subject": "Testvarious analysis states to ensure missing data coverage reportings"
-      },
-      {
-        "sha": "b6b7d69320d360b3f0749d63914416e84229a69a",
-        "parents": [
-          "c423ce715a9074a7c19d997ad44c410895b400e9"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-13T23:18:20-08:00",
-        "subject": "Ignore ingredient order in AI analysis context"
-      },
-      {
-        "sha": "c423ce715a9074a7c19d997ad44c410895b400e9",
-        "parents": [
-          "06488abde110a9ca23ff5e4413fab8ec007e9ab7"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-13T22:52:29-08:00",
-        "subject": "Load approved analysis references from Firestore"
-      },
-      {
-        "sha": "06488abde110a9ca23ff5e4413fab8ec007e9ab7",
-        "parents": [
-          "c08211b4d849b302a8c0c57d0523e61e3583f672"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-12T22:32:01-08:00",
-        "subject": "Implement evidence grounded AI analysis"
-      },
-      {
-        "sha": "c08211b4d849b302a8c0c57d0523e61e3583f672",
-        "parents": [
-          "c604c99fffab2663bec74c9c060728513e198d46"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-11-12T21:22:54-08:00",
-        "subject": "AN-03: add grounded AI feedback layer"
       },
       {
         "sha": "c604c99fffab2663bec74c9c060728513e198d46",
@@ -2771,312 +3205,6 @@ window.SPRINT_SNAPSHOT = {
         "author": "Gaurav Pandey",
         "date": "2026-10-19T18:36:53-07:00",
         "subject": "Boot CI simulator explicitly and run unit tests without clones"
-      },
-      {
-        "sha": "b79b04be38bf8388efe05eaf3eaf7bab5a38b144",
-        "parents": [
-          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-19T18:19:36-07:00",
-        "subject": "Keep automatic iOS CI focused on build and unit tests"
-      },
-      {
-        "sha": "1984aa28faeb27b636bd88c78a7347478bc8f15c",
-        "parents": [
-          "90715a01a09a80272fd99fcb5cc419c602c7901c",
-          "0d274d22f259265cba2be2294a1b3be365d99658"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-15T00:45:07-07:00",
-        "subject": "Merge pull request #81 from NerdNek/codex/sprint1-final-clean-attribution"
-      },
-      {
-        "sha": "0d274d22f259265cba2be2294a1b3be365d99658",
-        "parents": [
-          "a05704b4d04da40bcf54643d587303e066e52144"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T14:06:50-07:00",
-        "subject": "UI tests: Reset portrait orientation after launch configuration checks"
-      },
-      {
-        "sha": "a05704b4d04da40bcf54643d587303e066e52144",
-        "parents": [
-          "7abfe5eeb4ca2066ee69fcc4aef8c408ef610fd0"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T14:05:36-07:00",
-        "subject": "ON-01: Use persisted-profile test isolation and stable setup identifiers"
-      },
-      {
-        "sha": "7abfe5eeb4ca2066ee69fcc4aef8c408ef610fd0",
-        "parents": [
-          "74c7b353cae818d3feac89c5759dc3cd25285791"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:55:16-07:00",
-        "subject": "Sprint 1: Verify tab navigation, Home AM/PM switching, and mocked analysis"
-      },
-      {
-        "sha": "74c7b353cae818d3feac89c5759dc3cd25285791",
-        "parents": [
-          "415704a35dd55e8042cc0587a8010bd35b6aa85a"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:54:51-07:00",
-        "subject": "Keep existing test formatting outside the profile integration changes"
-      },
-      {
-        "sha": "415704a35dd55e8042cc0587a8010bd35b6aa85a",
-        "parents": [
-          "bef2901ce07b50ba2c047acdc6ff252f98b3b124"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:54:39-07:00",
-        "subject": "PF-01: Adapt setup callback tests to the persisted profile store"
-      },
-      {
-        "sha": "bef2901ce07b50ba2c047acdc6ff252f98b3b124",
-        "parents": [
-          "786076a40fc31868042970d19cefdd22dfc9d5ce"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:53:42-07:00",
-        "subject": "PL-06: Run UI tests in CI"
-      },
-      {
-        "sha": "786076a40fc31868042970d19cefdd22dfc9d5ce",
-        "parents": [
-          "1ba7d5ddc7a1d1486e5649fa4e0bf08072716947",
-          "3080a5faeecd36566f69f278f3b76e36273ef764"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:53:42-07:00",
-        "subject": "Merge PF-01 persistence (#79) with shared setup, Home fix, and independent UI suites"
-      },
-      {
-        "sha": "3080a5faeecd36566f69f278f3b76e36273ef764",
-        "parents": [
-          "c2099499727767d4efd750461867088ca0f1d885"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-10-14T13:30:37-07:00",
-        "subject": "PF-01: Verify profile setup, relaunch, and rollback paths"
-      },
-      {
-        "sha": "c2099499727767d4efd750461867088ca0f1d885",
-        "parents": [
-          "21934b0bf4d80f981a26c9d32b9fb55cec61eaaa"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-10-14T13:30:37-07:00",
-        "subject": "PF-01: Connect optional setup and saved profile summaries"
-      },
-      {
-        "sha": "21934b0bf4d80f981a26c9d32b9fb55cec61eaaa",
-        "parents": [
-          "8700955763ab181c3cf5c641df694c9e0272df9e"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-10-14T13:12:27-07:00",
-        "subject": "PF-01: Persist profiles atomically through a shared store"
-      },
-      {
-        "sha": "1ba7d5ddc7a1d1486e5649fa4e0bf08072716947",
-        "parents": [
-          "0be00959ddbdad271878b9793cc27d2aeeec83b3"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:53:07-07:00",
-        "subject": "RT-01: Show an empty state on Home when the selected routine has no steps"
-      },
-      {
-        "sha": "0be00959ddbdad271878b9793cc27d2aeeec83b3",
-        "parents": [
-          "e17f81b4e4663b885716a5d75a31ae64098a11de"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:53:07-07:00",
-        "subject": "ON-01: Strengthen returning-user and repeated-tap UI tests"
-      },
-      {
-        "sha": "e17f81b4e4663b885716a5d75a31ae64098a11de",
-        "parents": [
-          "95a51ac7c4f1d1f9b1983cdc38d3479c83a6812b"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:53:07-07:00",
-        "subject": "ON-01: Match onboarding UI tests to the PF-01 setup heading"
-      },
-      {
-        "sha": "95a51ac7c4f1d1f9b1983cdc38d3479c83a6812b",
-        "parents": [
-          "e936a62accb59115b23ead83b90650363b888d5d"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:53:07-07:00",
-        "subject": "UI-01: Add accessibility identifiers to tab bar buttons"
-      },
-      {
-        "sha": "e936a62accb59115b23ead83b90650363b888d5d",
-        "parents": [
-          "5fa763b03bcb988ed80e2f842aabaf1849c7b573",
-          "734741c14ecba313382e3d002020b0014e7e27c9"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:53:07-07:00",
-        "subject": "Merge ON-01 (#75), preserving onboarding and routine test suites"
-      },
-      {
-        "sha": "734741c14ecba313382e3d002020b0014e7e27c9",
-        "parents": [
-          "bccea57d009f7db79e53e2fa7aeb0cffa003cf07"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-14T09:31:29-07:00",
-        "subject": "Added ON-01 onboarding UI tests"
-      },
-      {
-        "sha": "5fa763b03bcb988ed80e2f842aabaf1849c7b573",
-        "parents": [
-          "721d0a25f357c7f714d88efe917fe954f8885974",
-          "57c4a1c4b2391357133671b71de8ab083e0da9aa"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:52:47-07:00",
-        "subject": "Merge AN-01 mocked analysis findings (#76) for Sprint 1 integration"
-      },
-      {
-        "sha": "57c4a1c4b2391357133671b71de8ab083e0da9aa",
-        "parents": [
-          "8700955763ab181c3cf5c641df694c9e0272df9e"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T09:44:12-07:00",
-        "subject": "AN-01: Show DATA-01 sample findings on the analysis screen"
-      },
-      {
-        "sha": "721d0a25f357c7f714d88efe917fe954f8885974",
-        "parents": [
-          "90715a01a09a80272fd99fcb5cc419c602c7901c",
-          "b7bda8e8a2f2ae416d24e028ec0634aed43e50bd"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:52:47-07:00",
-        "subject": "Merge PF-01 profile setup (#74) for Sprint 1 integration"
-      },
-      {
-        "sha": "b7bda8e8a2f2ae416d24e028ec0634aed43e50bd",
-        "parents": [
-          "8700955763ab181c3cf5c641df694c9e0272df9e"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T04:10:18-07:00",
-        "subject": "PF-01: Connect skin profile setup to onboarding, profile, and settings"
-      },
-      {
-        "sha": "90715a01a09a80272fd99fcb5cc419c602c7901c",
-        "parents": [
-          "8700955763ab181c3cf5c641df694c9e0272df9e",
-          "19064b713badc0748d66ea501baf93b6fc2f9b9b"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T13:43:30-07:00",
-        "subject": "Merge pull request #78 from Aesthelity-Team/10-rt-01-sample-am-pm-routines"
-      },
-      {
-        "sha": "19064b713badc0748d66ea501baf93b6fc2f9b9b",
-        "parents": [
-          "8700955763ab181c3cf5c641df694c9e0272df9e"
-        ],
-        "author": "Mia Carter",
-        "date": "2026-10-14T12:19:06-07:00",
-        "subject": "Added RT-01 routine UI tests"
-      },
-      {
-        "sha": "8700955763ab181c3cf5c641df694c9e0272df9e",
-        "parents": [
-          "f8db5228927f8797e161f4b60bdd911619b5230c",
-          "212ccc5083adcc50058db9f0e263a5213e52e5cd"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T03:41:23-07:00",
-        "subject": "Merge pull request #70 from Aesthelity-Team/1-curated-demo-product-set"
-      },
-      {
-        "sha": "212ccc5083adcc50058db9f0e263a5213e52e5cd",
-        "parents": [
-          "ca89429bffc75d391762999bdc41464f7128dd7d",
-          "84244bfebc6ca254029fcd72e37952f262e51a1f"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T00:37:33-07:00",
-        "subject": "Merge pull request #71 from NerdNek/1-demo-catalog-fixes"
-      },
-      {
-        "sha": "84244bfebc6ca254029fcd72e37952f262e51a1f",
-        "parents": [
-          "530ebbd87e1b0dede4d99181f38594177dadbc95"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-13T23:57:41-07:00",
-        "subject": "DATA-01: Decode demo data into enums and scope dataset CI"
-      },
-      {
-        "sha": "530ebbd87e1b0dede4d99181f38594177dadbc95",
-        "parents": [
-          "ca89429bffc75d391762999bdc41464f7128dd7d"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-13T23:42:52-07:00",
-        "subject": "DATA-01: Wire demo catalog into the app and add finding text"
-      },
-      {
-        "sha": "ca89429bffc75d391762999bdc41464f7128dd7d",
-        "parents": [
-          "a032c0a48093d49fcab6cda1e9b551143ea30c7d"
-        ],
-        "author": "Belleairr",
-        "date": "2026-10-13T22:27:57-07:00",
-        "subject": "Create data01.yml"
-      },
-      {
-        "sha": "a032c0a48093d49fcab6cda1e9b551143ea30c7d",
-        "parents": [
-          "bccea57d009f7db79e53e2fa7aeb0cffa003cf07"
-        ],
-        "author": "Belleairr",
-        "date": "2026-10-13T22:22:21-07:00",
-        "subject": "DATA-01: Build curated demo product set"
-      },
-      {
-        "sha": "f8db5228927f8797e161f4b60bdd911619b5230c",
-        "parents": [
-          "bccea57d009f7db79e53e2fa7aeb0cffa003cf07",
-          "1e06164584fd01f5198129ece65fe9d93781dbe1"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-14T01:34:19-07:00",
-        "subject": "Merge pull request #72 from najihsherif/pf-01-unfinished"
-      },
-      {
-        "sha": "1e06164584fd01f5198129ece65fe9d93781dbe1",
-        "parents": [
-          "33d647976004e888b8a1f84bc367b73725cfd69d"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-10-14T01:05:43-07:00",
-        "subject": "PF-01: Trim, dedupe, and harden ingredient input validation"
-      },
-      {
-        "sha": "33d647976004e888b8a1f84bc367b73725cfd69d",
-        "parents": [
-          "9626bfe861b975fa27dbff1df69288aa983ebce5"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-10-14T00:25:03-07:00",
-        "subject": "PF-01: Add profile draft validation and submission"
       }
     ],
     "limit": 140,
