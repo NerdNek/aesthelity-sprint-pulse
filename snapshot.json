@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-27T23:46:42.734376+00:00",
+  "capturedAt": "2026-11-28T09:30:05.913163+00:00",
   "repo": "Aesthelity-Team/Aesthelity",
   "issues": [
     {
@@ -1813,6 +1813,15 @@
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/Belleairr-updated-sprint-tabel"
       },
       {
+        "name": "agent-mode",
+        "sha": "7e51febc28bdc7b8c7c4b430f3d6559637e1a17e",
+        "behind": 0,
+        "ahead": 4,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/agent-mode"
+      },
+      {
         "name": "an-02-approved-rules",
         "sha": "f2b178a202d7b929937cdca121fc1ee525fff2b2",
         "behind": 82,
@@ -1829,6 +1838,15 @@
         "kind": "branch",
         "prNumber": null,
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/an-04-plain-language"
+      },
+      {
+        "name": "anthropic-agent",
+        "sha": "6ff6c9cb3adb14d29732612f2e5640dce5d02fbe",
+        "behind": 0,
+        "ahead": 2,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/anthropic-agent"
       },
       {
         "name": "codex/simplify-ios-ci",
@@ -1912,6 +1930,15 @@
         "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/pl-04-api-data-contract"
       },
       {
+        "name": "profile-allergens",
+        "sha": "3a699c900ab4deeb6b517416ffed73c19781918f",
+        "behind": 0,
+        "ahead": 3,
+        "kind": "branch",
+        "prNumber": null,
+        "url": "https://github.com/Aesthelity-Team/Aesthelity/tree/profile-allergens"
+      },
+      {
         "name": "sprint-2",
         "sha": "5479d6ed42c0a9d9b2b6665c17801e553f7427a3",
         "behind": 124,
@@ -1922,6 +1949,42 @@
       }
     ],
     "commits": [
+      {
+        "sha": "7e51febc28bdc7b8c7c4b430f3d6559637e1a17e",
+        "parents": [
+          "3a699c900ab4deeb6b517416ffed73c19781918f"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-28T00:36:19-08:00",
+        "subject": "Add tool-using analysis agent behind AESTHELITY_AGENT_MODE"
+      },
+      {
+        "sha": "3a699c900ab4deeb6b517416ffed73c19781918f",
+        "parents": [
+          "6ff6c9cb3adb14d29732612f2e5640dce5d02fbe"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-27T21:27:16-08:00",
+        "subject": "Replace avoided ingredients with ingredient allergens in skin profile"
+      },
+      {
+        "sha": "6ff6c9cb3adb14d29732612f2e5640dce5d02fbe",
+        "parents": [
+          "7c758086e1957bbb005dbca9ba1fbebaf95877e6"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-27T20:55:56-08:00",
+        "subject": "Add allergy recording to routine analysis and tighten analysis prompt"
+      },
+      {
+        "sha": "7c758086e1957bbb005dbca9ba1fbebaf95877e6",
+        "parents": [
+          "fe6bdec47b2a90c43a7c1dce2e43bcbffc32d786"
+        ],
+        "author": "Mia Carter",
+        "date": "2026-11-27T20:05:40-08:00",
+        "subject": "Add Anthropic AI Agents and plain-language analysis prompt"
+      },
       {
         "sha": "fe6bdec47b2a90c43a7c1dce2e43bcbffc32d786",
         "parents": [
@@ -3187,42 +3250,6 @@
         "author": "Belleairr",
         "date": "2026-10-26T18:15:27-07:00",
         "subject": "Finished BE-04: Establish Firestore database and import product catalog #82"
-      },
-      {
-        "sha": "86de79f2ee313eedbbb5501e82b1b36d49a7ff71",
-        "parents": [
-          "605c09d5d5c6b51aac62fb17c19b6fb05d18448c"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-10-26T12:44:15-07:00",
-        "subject": "PD-02: Validate and prepare manual product submissions"
-      },
-      {
-        "sha": "605c09d5d5c6b51aac62fb17c19b6fb05d18448c",
-        "parents": [
-          "1984aa28faeb27b636bd88c78a7347478bc8f15c"
-        ],
-        "author": "Najih Sherif",
-        "date": "2026-10-23T22:16:49-07:00",
-        "subject": "PD-02: Add manual product and draft models"
-      },
-      {
-        "sha": "cfe26a876194e53d35ab844cb4caa2777fae6bee",
-        "parents": [
-          "9c2688fdeafa7ff6791250af3229ab561331eaee"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-19T19:14:56-07:00",
-        "subject": "Make automatic iOS CI build-only and retain manual test suites"
-      },
-      {
-        "sha": "9c2688fdeafa7ff6791250af3229ab561331eaee",
-        "parents": [
-          "b79b04be38bf8388efe05eaf3eaf7bab5a38b144"
-        ],
-        "author": "Gaurav Pandey",
-        "date": "2026-10-19T18:36:53-07:00",
-        "subject": "Boot CI simulator explicitly and run unit tests without clones"
       }
     ],
     "limit": 140,
